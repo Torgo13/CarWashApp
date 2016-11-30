@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "858B83EF18CA22B800AB12DE"
-               BuildableName = "carwashapp.app"
-               BlueprintName = "carwashapp"
-               ReferencedContainer = "container:carwashapp.xcodeproj">
+               BuildableName = "CarWashApp.app"
+               BlueprintName = "CarWashApp"
+               ReferencedContainer = "container:CarWashApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "858B83EF18CA22B800AB12DE"
-            BuildableName = "carwashapp.app"
-            BlueprintName = "carwashapp"
-            ReferencedContainer = "container:carwashapp.xcodeproj">
+            BuildableName = "CarWashApp.app"
+            BlueprintName = "CarWashApp"
+            ReferencedContainer = "container:CarWashApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "858B83EF18CA22B800AB12DE"
-            BuildableName = "carwashapp.app"
-            BlueprintName = "carwashapp"
-            ReferencedContainer = "container:carwashapp.xcodeproj">
+            BuildableName = "CarWashApp.app"
+            BlueprintName = "CarWashApp"
+            ReferencedContainer = "container:CarWashApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "858B83EF18CA22B800AB12DE"
-            BuildableName = "carwashapp.app"
-            BlueprintName = "carwashapp"
-            ReferencedContainer = "container:carwashapp.xcodeproj">
+            BuildableName = "CarWashApp.app"
+            BlueprintName = "CarWashApp"
+            ReferencedContainer = "container:CarWashApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
