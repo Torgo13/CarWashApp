@@ -8,6 +8,7 @@
     "@angular/platform-server": true,
     "parse5": true,
     "@angular/router": true,
+    "email-validator": true,
     "nativescript-angular": true,
     "nativescript-intl": true,
     "@angular/forms": true,
@@ -17,6 +18,7 @@
     "punycode": true,
     "querystring": true,
     "url": true,
+    "nativescript-social-share": true,
     "tns-core-modules": true,
     "tns-core-modules-widgets": true
 }
