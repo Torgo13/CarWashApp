@@ -29,6 +29,17 @@ var GroceryListService = (function () {
         console.log(JSON.stringify(error.json()));
         return Rx_1.Observable.throw(error);
     };
+    GroceryListService.prototype.add = function (name) {
+        var headers = new http_1.Headers();
+        headers.append("Authorization", "Bearer " + config_1.Config.token);
+        headers.append("Content-Type", "application/json");
+        return this.http.post(config_1.Config.apiUrl + "Groceries", JSON.stringify({ Name: name }), { headers: headers })
+            .map(function (res) { return res.json(); })
+            .map(function (data) {
+            return new grocery_1.Grocery(data.Result.Id, name);
+        })
+            .catch(this.handleErrors);
+    };
     GroceryListService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [http_1.Http])
