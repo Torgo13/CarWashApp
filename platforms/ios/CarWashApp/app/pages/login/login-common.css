@@ -5,8 +5,8 @@ StackLayout {
   background-color: white;
 }
 Image {
-  margin-top: 5;
-  margin-bottom: 20;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 Button, TextField {
   margin-left: 16;
@@ -16,5 +16,9 @@ Button, TextField {
 .submit-button {
   background-color: #CB1D00;
   color: white;
-  margin-top: 20;
+  margin-top: 10;
+}
+Label {
+  font: sans-serif;
+  font-size: 45;
 }

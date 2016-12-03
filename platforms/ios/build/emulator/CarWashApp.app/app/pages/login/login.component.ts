@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
     this.isLoggingIn = !this.isLoggingIn;
     let container = <View>this.container.nativeElement;
     container.animate({
-      backgroundColor: this.isLoggingIn ? new Color("white") : new Color("#301217"),
+      backgroundColor: this.isLoggingIn ? new Color("white") : new Color("#CB1D00"),
       duration: 200
     });
   }

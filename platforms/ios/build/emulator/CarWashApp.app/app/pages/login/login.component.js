@@ -45,7 +45,7 @@ var LoginComponent = (function () {
         this.isLoggingIn = !this.isLoggingIn;
         var container = this.container.nativeElement;
         container.animate({
-            backgroundColor: this.isLoggingIn ? new color_1.Color("white") : new color_1.Color("#301217"),
+            backgroundColor: this.isLoggingIn ? new color_1.Color("white") : new color_1.Color("#CB1D00"),
             duration: 200
         });
     };
