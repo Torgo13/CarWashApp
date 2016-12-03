@@ -9,12 +9,6 @@
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		3355F0EC802D42CBBCFD9E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5D817BEB9E4A95A6C8B933 /* Assets.xcassets */; };
-		B1969881744747F1A243ED2F /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE4E543018549B6BB168340 /* Icon-Small-40.png */; };
-		9655BA8BD4364BBD8BEDEC9C /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F85BB681C194A5787406469 /* Icon-Small-40@2x.png */; };
-		F0762E5C741E41C98B40FE0E /* Icon-Small-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFFECA32DA37454DABFDD427 /* Icon-Small-40@3x.png */; };
-		9AE7C5A3B5A340AD8AEB1593 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD3D47BEFB444EB82004477 /* Icon-Small-50.png */; };
-		C8C99A0944CF48CE88268A88 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C26BF33811D402E90014A6F /* Icon-Small-50@2x.png */; };
 		28F86A6929D64A17843037AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7289DBB2DBA4F9983758BAC /* LaunchScreen.storyboard */; };
 		118A5191588844C3B23E3CEA /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = E56FD7A683C1437BA497A637 /* add.png */; };
 		5CB9588FB87E4EFCB94FDB2F /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7433B46EB93E46E99491E77B /* add@2x.png */; };
@@ -43,7 +37,6 @@
 		A381B70E319248C8829A3F00 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5647B5557B03448BABB760AD /* icon-76.png */; };
 		44CB6FB10A9946F8AD847951 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8A5A4040B4553A5C3243E /* icon-76@2x.png */; };
 		F1FDB9B1BA384B7C8BF36632 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E36AD4233146E689454B85 /* icon.png */; };
-		1840F1F0F17B4369BA3D9545 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F72B8284F94E80B1875E30 /* icon@2x.png */; };
 		ECC2450F091B4927B38B99E3 /* logo_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E6F876616B4CF084E32191 /* logo_login.png */; };
 		BF96F1C66B534FDB9E68E69B /* logo_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD96A92863C4ED0974BA674 /* logo_login@2x.png */; };
 		5890FC0156A0474CAD42F289 /* logo_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9DC579F9148AABF8EAAA6 /* logo_login@3x.png */; };
@@ -124,12 +117,6 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		BD5D817BEB9E4A95A6C8B933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "CarWashApp/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
-		2FE4E543018549B6BB168340 /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40.png"; path = "CarWashApp/Resources/Icon-Small-40.png"; sourceTree = "<group>"; };
-		2F85BB681C194A5787406469 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40@2x.png"; path = "CarWashApp/Resources/Icon-Small-40@2x.png"; sourceTree = "<group>"; };
-		AFFECA32DA37454DABFDD427 /* Icon-Small-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40@3x.png"; path = "CarWashApp/Resources/Icon-Small-40@3x.png"; sourceTree = "<group>"; };
-		BBD3D47BEFB444EB82004477 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "CarWashApp/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		5C26BF33811D402E90014A6F /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "CarWashApp/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
 		C7289DBB2DBA4F9983758BAC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "CarWashApp/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
 		E56FD7A683C1437BA497A637 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "CarWashApp/Resources/add.png"; sourceTree = "<group>"; };
 		7433B46EB93E46E99491E77B /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@2x.png"; path = "CarWashApp/Resources/add@2x.png"; sourceTree = "<group>"; };
@@ -158,7 +145,6 @@
 		5647B5557B03448BABB760AD /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "CarWashApp/Resources/icon-76.png"; sourceTree = "<group>"; };
 		B2F8A5A4040B4553A5C3243E /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "CarWashApp/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
 		59E36AD4233146E689454B85 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "CarWashApp/Resources/icon.png"; sourceTree = "<group>"; };
-		C5F72B8284F94E80B1875E30 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "CarWashApp/Resources/icon@2x.png"; sourceTree = "<group>"; };
 		10E6F876616B4CF084E32191 /* logo_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_login.png; path = "CarWashApp/Resources/logo_login.png"; sourceTree = "<group>"; };
 		CCD96A92863C4ED0974BA674 /* logo_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@2x.png"; path = "CarWashApp/Resources/logo_login@2x.png"; sourceTree = "<group>"; };
 		CEC9DC579F9148AABF8EAAA6 /* logo_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@3x.png"; path = "CarWashApp/Resources/logo_login@3x.png"; sourceTree = "<group>"; };
@@ -278,12 +264,6 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BD5D817BEB9E4A95A6C8B933 /* Assets.xcassets */,
-				2FE4E543018549B6BB168340 /* Icon-Small-40.png */,
-				2F85BB681C194A5787406469 /* Icon-Small-40@2x.png */,
-				AFFECA32DA37454DABFDD427 /* Icon-Small-40@3x.png */,
-				BBD3D47BEFB444EB82004477 /* Icon-Small-50.png */,
-				5C26BF33811D402E90014A6F /* Icon-Small-50@2x.png */,
 				C7289DBB2DBA4F9983758BAC /* LaunchScreen.storyboard */,
 				E56FD7A683C1437BA497A637 /* add.png */,
 				7433B46EB93E46E99491E77B /* add@2x.png */,
@@ -312,7 +292,6 @@
 				5647B5557B03448BABB760AD /* icon-76.png */,
 				B2F8A5A4040B4553A5C3243E /* icon-76@2x.png */,
 				59E36AD4233146E689454B85 /* icon.png */,
-				C5F72B8284F94E80B1875E30 /* icon@2x.png */,
 				10E6F876616B4CF084E32191 /* logo_login.png */,
 				CCD96A92863C4ED0974BA674 /* logo_login@2x.png */,
 				CEC9DC579F9148AABF8EAAA6 /* logo_login@3x.png */,
@@ -426,12 +405,6 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				3355F0EC802D42CBBCFD9E33 /* Assets.xcassets in Resources */,
-				B1969881744747F1A243ED2F /* Icon-Small-40.png in Resources */,
-				9655BA8BD4364BBD8BEDEC9C /* Icon-Small-40@2x.png in Resources */,
-				F0762E5C741E41C98B40FE0E /* Icon-Small-40@3x.png in Resources */,
-				9AE7C5A3B5A340AD8AEB1593 /* Icon-Small-50.png in Resources */,
-				C8C99A0944CF48CE88268A88 /* Icon-Small-50@2x.png in Resources */,
 				28F86A6929D64A17843037AE /* LaunchScreen.storyboard in Resources */,
 				118A5191588844C3B23E3CEA /* add.png in Resources */,
 				5CB9588FB87E4EFCB94FDB2F /* add@2x.png in Resources */,
@@ -460,7 +433,6 @@
 				A381B70E319248C8829A3F00 /* icon-76.png in Resources */,
 				44CB6FB10A9946F8AD847951 /* icon-76@2x.png in Resources */,
 				F1FDB9B1BA384B7C8BF36632 /* icon.png in Resources */,
-				1840F1F0F17B4369BA3D9545 /* icon@2x.png in Resources */,
 				ECC2450F091B4927B38B99E3 /* logo_login.png in Resources */,
 				BF96F1C66B534FDB9E68E69B /* logo_login@2x.png in Resources */,
 				5890FC0156A0474CAD42F289 /* logo_login@3x.png in Resources */,

@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		MtV8Mt+AIXz2PFn3pDNwVbs/vhI=
+		eVZJF/TWp344HMMxLzWqBPUl+rk=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -120,29 +120,9 @@
 		<data>
 		nYcVjHTTYbUoFB+VFEZRNTWdL+A=
 		</data>
-		<key>Icon-Small-40.png</key>
-		<data>
-		Zw3kaNrLFqgviLqdKRdLO2TF4u4=
-		</data>
-		<key>Icon-Small-40@2x.png</key>
-		<data>
-		2hOUsZKeQybqcE2sglZ5oVmRxBU=
-		</data>
-		<key>Icon-Small-40@3x.png</key>
-		<data>
-		0kxGwGurizS/ZZoI4c46IdqPiVI=
-		</data>
-		<key>Icon-Small-50.png</key>
-		<data>
-		+Z2RB/2R/EaOIKowgP1YjtFuV9Q=
-		</data>
-		<key>Icon-Small-50@2x.png</key>
-		<data>
-		FM2+ykcXYAxgOPcqGnovDsFibG8=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		RpkOs5THQBc7RkdR9PlowHUqQcA=
+		S14f2cMZ1g2Sht5ZsgBtqTlc6fA=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -210,7 +190,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		bfuhx8BpEdeJ3DEvnhAiezzaPwk=
+		nmwt5+TtiLLuuvylbuh2La0zudY=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -218,7 +198,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		PPXxLGTykRCw10Bo6krIdXTdnzw=
+		eVgFWLSHgZM0xvHXdhk9JN5Iil0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -314,7 +294,7 @@
 		</data>
 		<key>app/pages/list/list.html</key>
 		<data>
-		SdbJlPyuNIzViCT20Y2K/12s/0o=
+		kENGlW2DxHuN467lEwI0bqhsu3Y=
 		</data>
 		<key>app/pages/login/login-common.css</key>
 		<data>
@@ -322,15 +302,15 @@
 		</data>
 		<key>app/pages/login/login.component.js</key>
 		<data>
-		nJQWb8+7drP9NxO/YDDsXt4hJKE=
+		BzAmI6EYX3rNCidatuieIDTqOx4=
 		</data>
 		<key>app/pages/login/login.component.js.map</key>
 		<data>
-		P+DH1ID0/jTWdCqkcQlaa/ovnKw=
+		mriy2MXXbPuxCcGu3rE0MLHv1p0=
 		</data>
 		<key>app/pages/login/login.component.ts</key>
 		<data>
-		/RVO9u1N1VVMS/IBVSOxoIhaDhc=
+		vkzmo1Ci7oWLbbIMnk9OQ99r8kc=
 		</data>
 		<key>app/pages/login/login.css</key>
 		<data>
@@ -14381,33 +14361,29 @@
 		<data>
 		NmZjUWjrpse7fSCH4guQGFXpvKA=
 		</data>
-		<key>icon@2x.png</key>
-		<data>
-		PtyN2Jv2YgydOnDJrfDA1b6M8xM=
-		</data>
 		<key>logo_login.png</key>
 		<data>
-		lPcty7w9PAetmVd6ubSeS3FqKgI=
+		mIXIhvrLOdM/f1GW/RMXHAyjpWY=
 		</data>
 		<key>logo_login@2x.png</key>
 		<data>
-		S+5R2vgLeIk+NHnvFnVLOudJPgo=
+		ptDr3tr8GCtxipzSoE/PwxuIQLI=
 		</data>
 		<key>logo_login@3x.png</key>
 		<data>
-		D6wgpxRecWpXZUGsscd8nkoY+rc=
+		G3K6y7wOKqx1xJijWd7mp3AomrI=
 		</data>
 		<key>logo_signup.png</key>
 		<data>
-		ouwgkmx27c93Tt0m/dj/hM8O7+c=
+		mIXIhvrLOdM/f1GW/RMXHAyjpWY=
 		</data>
 		<key>logo_signup@2x.png</key>
 		<data>
-		hDmT/+f8cqnpebCXDTrPR4Sndow=
+		ptDr3tr8GCtxipzSoE/PwxuIQLI=
 		</data>
 		<key>logo_signup@3x.png</key>
 		<data>
-		I3KoVknIgy9Bg/lkRsPWTHEu3l4=
+		G3K6y7wOKqx1xJijWd7mp3AomrI=
 		</data>
 		<key>menu.png</key>
 		<data>
@@ -14709,11 +14685,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MtV8Mt+AIXz2PFn3pDNwVbs/vhI=
+			eVZJF/TWp344HMMxLzWqBPUl+rk=
 			</data>
 			<key>hash2</key>
 			<data>
-			GE0YN41CQdlik+FzV5XlHTDS0KKY8vp4zZpRLXTsdYc=
+			rUhxCovY2HyKsGfVYxHv1BIlCvvtQ97FOxlneI2N+D4=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -14813,61 +14789,6 @@
 			<key>hash2</key>
 			<data>
 			Y7PzcXWjTvXD1UCc01PSgbSCdkp+qEu0R15XDxjRKP8=
-			</data>
-		</dict>
-		<key>Icon-Small-40.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Zw3kaNrLFqgviLqdKRdLO2TF4u4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ANiUDXBEdlOgDwsBwIYceCb1WJJBGAO95wRjWyNRMzw=
-			</data>
-		</dict>
-		<key>Icon-Small-40@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2hOUsZKeQybqcE2sglZ5oVmRxBU=
-			</data>
-			<key>hash2</key>
-			<data>
-			bUIfW5E2GQz7nKkBsKrrwviQRoiP0Ld9uZExZRmwxzs=
-			</data>
-		</dict>
-		<key>Icon-Small-40@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0kxGwGurizS/ZZoI4c46IdqPiVI=
-			</data>
-			<key>hash2</key>
-			<data>
-			XJttwa1BzGH45RttAoJvBEh7FaQwqXr4tHCOXAM9qyo=
-			</data>
-		</dict>
-		<key>Icon-Small-50.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+Z2RB/2R/EaOIKowgP1YjtFuV9Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			YHmsiejMPN/1GAGqQfe3IEzDYiZuct4Fou+zw6QTXuA=
-			</data>
-		</dict>
-		<key>Icon-Small-50@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FM2+ykcXYAxgOPcqGnovDsFibG8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ptF7vy9/FFjj2qB+9iB13Msbndt7KvT4I6XXNCwhfRk=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -15050,11 +14971,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bfuhx8BpEdeJ3DEvnhAiezzaPwk=
+			nmwt5+TtiLLuuvylbuh2La0zudY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3oV7vSJR6gjEVBM35tL6A0fk8x+uRhtI5NNhE02w+Bs=
+			SgRqfdYmT6g5+Q32XaXZSVe3rhIpKSMG/N81RrRDc5k=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -15072,11 +14993,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PPXxLGTykRCw10Bo6krIdXTdnzw=
+			eVgFWLSHgZM0xvHXdhk9JN5Iil0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JaIBQjXX4HAWcPR6Uta+zqMtUNQMmoInFMapo27pAyM=
+			AT56nJD27F+P8p6CniPBEPGc5PGfDD2w+d84nMJ82Rs=
 			</data>
 		</dict>
 		<key>add.png</key>
@@ -15325,11 +15246,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SdbJlPyuNIzViCT20Y2K/12s/0o=
+			kENGlW2DxHuN467lEwI0bqhsu3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			oeNgYqoKIbyEq2UH4oQZ9TCzWrMksAENF15JkGdvyXk=
+			oMvpkstNo83BPij1UPUGDkR/fXoCWL35tRuvabIYsNI=
 			</data>
 		</dict>
 		<key>app/pages/login/login-common.css</key>
@@ -15347,33 +15268,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nJQWb8+7drP9NxO/YDDsXt4hJKE=
+			BzAmI6EYX3rNCidatuieIDTqOx4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LkhF+DL/omYFZ1fOjP8LEDq+VEX8Ao46/n0LZNaXQp0=
+			9hhDpkyE6nfelNxjWZHF7vUHT+8T1E4brLdhOG50HGc=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P+DH1ID0/jTWdCqkcQlaa/ovnKw=
+			mriy2MXXbPuxCcGu3rE0MLHv1p0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RAGh1ainylQXejAgHaGxUGnGYHO5Z6w9bVDa1C5BGP4=
+			qYc7Dr8doeBeZaQR1cfk7sN+ytLgBkOJewMQKGA/NwY=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/RVO9u1N1VVMS/IBVSOxoIhaDhc=
+			vkzmo1Ci7oWLbbIMnk9OQ99r8kc=
 			</data>
 			<key>hash2</key>
 			<data>
-			XOhS1eWGpI59BiA+ta2ZUMCke3UHc7v8vAQGgmTaJEU=
+			d67tIeKUXK5xcSY2QD2S9AZauvTfHcT91xZZMhj5XRw=
 			</data>
 		</dict>
 		<key>app/pages/login/login.css</key>
@@ -53999,81 +53920,70 @@
 			PTZWLCw4L7rYloIe9JPKhdmg1x2XsGmaabUAEltdgLs=
 			</data>
 		</dict>
-		<key>icon@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PtyN2Jv2YgydOnDJrfDA1b6M8xM=
-			</data>
-			<key>hash2</key>
-			<data>
-			JdgDnzU1uNRQ+dn8BtiWGJFiGZrkvPuAzAwZsBS0TVw=
-			</data>
-		</dict>
 		<key>logo_login.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lPcty7w9PAetmVd6ubSeS3FqKgI=
+			mIXIhvrLOdM/f1GW/RMXHAyjpWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			870lNyE/n6EfhowYvl+xgcXACeSZYrOjwpa06OTRmZE=
+			paPX5kq3fNzDCMC5wyQICrGUb6U+TZCp++/dFFTJBsE=
 			</data>
 		</dict>
 		<key>logo_login@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S+5R2vgLeIk+NHnvFnVLOudJPgo=
+			ptDr3tr8GCtxipzSoE/PwxuIQLI=
 			</data>
 			<key>hash2</key>
 			<data>
-			i96gNMiOVHH6mdphACwmv2gndz4W+PvlcMFw8JLu8BQ=
+			9boEiRxidwsSOsh4vp8/G1/CSkT502OT/X9vxY4uACg=
 			</data>
 		</dict>
 		<key>logo_login@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D6wgpxRecWpXZUGsscd8nkoY+rc=
+			G3K6y7wOKqx1xJijWd7mp3AomrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			RB89H5RGkhwU+zg7ZXPzkIo3lppvyO2uXOC0ZtwYtsU=
+			dBqUckjGvDFcUsf6w+dsdL1Qal7d8D4AeaTbtBJ7MLk=
 			</data>
 		</dict>
 		<key>logo_signup.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ouwgkmx27c93Tt0m/dj/hM8O7+c=
+			mIXIhvrLOdM/f1GW/RMXHAyjpWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			bQ5STBY3ME4eaCXSZfWi+4vuG4EZTXJ7jcBNJPez1Hk=
+			paPX5kq3fNzDCMC5wyQICrGUb6U+TZCp++/dFFTJBsE=
 			</data>
 		</dict>
 		<key>logo_signup@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hDmT/+f8cqnpebCXDTrPR4Sndow=
+			ptDr3tr8GCtxipzSoE/PwxuIQLI=
 			</data>
 			<key>hash2</key>
 			<data>
-			dyNui85H9Ldtj9wfiV1SsNwrUnNxgPzok0yNDr3QFQ8=
+			9boEiRxidwsSOsh4vp8/G1/CSkT502OT/X9vxY4uACg=
 			</data>
 		</dict>
 		<key>logo_signup@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I3KoVknIgy9Bg/lkRsPWTHEu3l4=
+			G3K6y7wOKqx1xJijWd7mp3AomrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			f2YAtjJRHHU2hX9pdmebUcIw6kkRgeMmZESuiG9YXKk=
+			dBqUckjGvDFcUsf6w+dsdL1Qal7d8D4AeaTbtBJ7MLk=
 			</data>
 		</dict>
 		<key>menu.png</key>

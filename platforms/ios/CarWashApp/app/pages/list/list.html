@@ -1,10 +1,10 @@
-<ActionBar title="Groceries">
+<ActionBar title="Car Wash Appointments">
   <ActionItem text="Share" (tap)="share()" android.systemIcon="ic_menu_share_holo_dark" ios.systemIcon="9" ios.position="right"></ActionItem>
 </ActionBar>
 <GridLayout rows="auto, *">
 
   <GridLayout row="0" columns="*, auto" class="add-bar">
-    <TextField #groceryTextField [(ngModel)]="grocery" hint="Enter a grocery item" col="0"></TextField>
+    <TextField #groceryTextField [(ngModel)]="grocery" hint="Book a Car Wash Appointment" col="0"></TextField>
     <Image src="res://add" (tap)="add()" col="1"></Image>
   </GridLayout>
 

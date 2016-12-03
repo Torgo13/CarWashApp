@@ -20,8 +20,8 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router, private userService: UserService, private page: Page) {
     this.user = new User();
     // Default account credentials for faster testing
-    this.user.email = "user@nativescript.org";
-    this.user.password = "password";
+    // this.user.email = "user@nativescript.org";
+    // this.user.password = "password";
   }
   submit() {
     if (!this.user.isValidEmail()) {

@@ -13,8 +13,8 @@ var LoginComponent = (function () {
         this.isLoggingIn = true;
         this.user = new user_1.User();
         // Default account credentials for faster testing
-        this.user.email = "user@nativescript.org";
-        this.user.password = "password";
+        // this.user.email = "user@nativescript.org";
+        // this.user.password = "password";
     }
     LoginComponent.prototype.submit = function () {
         if (!this.user.isValidEmail()) {
