@@ -1,5 +1,5 @@
-import { ElementRef } from '@angular/core';
-import { BaseValueAccessor } from './base-value-accessor';
+import { ElementRef } from "@angular/core";
+import { BaseValueAccessor } from "./base-value-accessor";
 import { View } from "ui/core/view";
 export declare type TextView = {
     text: string;
@@ -10,10 +10,11 @@ export declare type TextView = {
  *
  *  ### Example
  *  ```
- *  <TextField [(ngModel)]='model.test'>
+ *  <TextField [(ngModel)]="model.test">
  *  ```
  */
 export declare class TextValueAccessor extends BaseValueAccessor<TextView> {
+    textChangeListener(event: any): void;
     onTouched: () => void;
     constructor(elementRef: ElementRef);
     writeValue(value: any): void;

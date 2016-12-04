@@ -1,5 +1,5 @@
-import { ElementRef } from '@angular/core';
-import { BaseValueAccessor } from './base-value-accessor';
+import { ElementRef } from "@angular/core";
+import { BaseValueAccessor } from "./base-value-accessor";
 import { Slider } from "ui/slider";
 /**
  * The accessor for setting a value and listening to changes that is used by the
@@ -7,10 +7,11 @@ import { Slider } from "ui/slider";
  *
  *  ### Example
  *  ```
- *  <Slider [(ngModel)]='model.test'>
+ *  <Slider [(ngModel)]="model.test">
  *  ```
  */
 export declare class NumberValueAccessor extends BaseValueAccessor<Slider> {
+    valueChangeListener(event: any): void;
     onTouched: () => void;
     constructor(elementRef: ElementRef);
     writeValue(value: any): void;

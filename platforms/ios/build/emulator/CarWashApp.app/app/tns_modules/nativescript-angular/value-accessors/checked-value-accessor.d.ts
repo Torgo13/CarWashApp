@@ -1,5 +1,5 @@
-import { ElementRef } from '@angular/core';
-import { BaseValueAccessor } from './base-value-accessor';
+import { ElementRef } from "@angular/core";
+import { BaseValueAccessor } from "./base-value-accessor";
 import { Switch } from "ui/switch";
 /**
  * The accessor for setting a checked property and listening to changes that is used by the
@@ -7,10 +7,11 @@ import { Switch } from "ui/switch";
  *
  *  ### Example
  *  ```
- *  <Switch [(ngModel)]='model.test'>
+ *  <Switch [(ngModel)]="model.test">
  *  ```
  */
 export declare class CheckedValueAccessor extends BaseValueAccessor<Switch> {
+    checkedChangeListener(event: any): void;
     onTouched: () => void;
     constructor(elementRef: ElementRef);
     writeValue(value: any): void;

@@ -1,11 +1,10 @@
 var core_1 = require("@angular/core");
 var tab_view_1 = require("ui/tab-view");
-var utils = require('../common/utils');
+var utils = require("../common/utils");
 var trace_1 = require("../trace");
 var lang_facade_1 = require("../lang-facade");
 var TabViewDirective = (function () {
     function TabViewDirective(element) {
-        this.element = element;
         this.tabView = element.nativeElement;
     }
     Object.defineProperty(TabViewDirective.prototype, "selectedIndex", {
@@ -28,10 +27,13 @@ var TabViewDirective = (function () {
             this.tabView.selectedIndex = this._selectedIndex;
         }
     };
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Number)
+    ], TabViewDirective.prototype, "selectedIndex", null);
     TabViewDirective = __decorate([
         core_1.Directive({
-            selector: 'TabView',
-            inputs: ['selectedIndex']
+            selector: "TabView",
         }), 
         __metadata('design:paramtypes', [core_1.ElementRef])
     ], TabViewDirective);
@@ -45,6 +47,9 @@ var TabViewItemDirective = (function () {
         this.viewContainer = viewContainer;
     }
     Object.defineProperty(TabViewItemDirective.prototype, "title", {
+        get: function () {
+            return this._title;
+        },
         set: function (value) {
             if (this._title !== value) {
                 this._title = value;
@@ -56,6 +61,9 @@ var TabViewItemDirective = (function () {
         configurable: true
     });
     Object.defineProperty(TabViewItemDirective.prototype, "iconSource", {
+        get: function () {
+            return this._iconSource;
+        },
         set: function (value) {
             if (this._iconSource !== value) {
                 this._iconSource = value;
@@ -78,9 +86,9 @@ var TabViewItemDirective = (function () {
             this.item.iconSource = this._iconSource || this.config.iconSource;
         }
         var viewRef = this.viewContainer.createEmbeddedView(this.templateRef);
-        //Filter out text nodes, etc
+        // Filter out text nodes, etc
         var realViews = viewRef.rootNodes.filter(function (node) {
-            return node.nodeName && node.nodeName !== '#text';
+            return node.nodeName && node.nodeName !== "#text";
         });
         if (realViews.length > 0) {
             this.item.view = realViews[0];
@@ -89,13 +97,21 @@ var TabViewItemDirective = (function () {
         }
     };
     __decorate([
-        core_1.Input('tabItem'), 
+        core_1.Input("tabItem"), 
         __metadata('design:type', Object)
     ], TabViewItemDirective.prototype, "config", void 0);
+    __decorate([
+        // tslint:disable-line:no-input-rename
+        core_1.Input(), 
+        __metadata('design:type', Object)
+    ], TabViewItemDirective.prototype, "title", null);
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Object)
+    ], TabViewItemDirective.prototype, "iconSource", null);
     TabViewItemDirective = __decorate([
         core_1.Directive({
-            selector: '[tabItem]',
-            inputs: ['title', 'iconSource']
+            selector: "[tabItem]" // tslint:disable-line:directive-selector
         }), 
         __metadata('design:paramtypes', [TabViewDirective, core_1.TemplateRef, core_1.ViewContainerRef])
     ], TabViewItemDirective);

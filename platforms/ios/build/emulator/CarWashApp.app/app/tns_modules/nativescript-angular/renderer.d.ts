@@ -1,7 +1,8 @@
-import { NgZone, Renderer, RootRenderer, RenderComponentType } from '@angular/core';
-import { AnimationPlayer, AnimationStyles, AnimationKeyframe } from "./private_import_core";
+import { NgZone, Renderer, RootRenderer, RenderComponentType } from "@angular/core";
+import { AnimationPlayer } from "@angular/core";
+import { AnimationStyles, AnimationKeyframe } from "./private_import_core";
 import { View } from "ui/core/view";
-import { Page } from 'ui/page';
+import { Page } from "ui/page";
 import { ViewUtil, NgView } from "./view-util";
 import { Device } from "platform";
 import * as nsAnimationDriver from "./animation-driver";
@@ -22,7 +23,6 @@ export declare class NativeScriptRootRenderer implements RootRenderer {
 }
 export declare class NativeScriptRenderer extends Renderer {
     private rootRenderer;
-    private componentProto;
     private animationDriver;
     private zone;
     private componentProtoId;
@@ -38,26 +38,19 @@ export declare class NativeScriptRenderer extends Renderer {
     projectNodes(parentElement: NgView, nodes: NgView[]): void;
     attachViewAfter(anchorNode: NgView, viewRootNodes: NgView[]): void;
     detachView(viewRootNodes: NgView[]): void;
-    destroyView(hostElement: NgView, viewAllNodes: NgView[]): void;
+    destroyView(_hostElement: NgView, _viewAllNodes: NgView[]): void;
     setElementProperty(renderElement: NgView, propertyName: string, propertyValue: any): void;
     setElementAttribute(renderElement: NgView, attributeName: string, attributeValue: string): void;
     setElementClass(renderElement: NgView, className: string, isAdd: boolean): void;
     setElementStyle(renderElement: NgView, styleName: string, styleValue: string): void;
-    /**
-    * Used only in debug mode to serialize property changes to comment nodes,
-    * such as <template> placeholders.
-    */
     setBindingDebugInfo(renderElement: NgView, propertyName: string, propertyValue: string): void;
-    setElementDebugInfo(renderElement: any, info: any): void;
-    /**
-    * Calls a method on an element.
-    */
-    invokeElementMethod(renderElement: NgView, methodName: string, args: Array<any>): void;
-    setText(renderNode: any, text: string): void;
+    setElementDebugInfo(renderElement: any, _info: any): void;
+    invokeElementMethod(_renderElement: NgView, methodName: string, args: Array<any>): void;
+    setText(_renderNode: any, _text: string): void;
     createTemplateAnchor(parentElement: NgView): NgView;
     createElement(parentElement: NgView, name: string): NgView;
-    createText(parentElement: NgView, value: string): NgView;
+    createText(_parentElement: NgView, _value: string): NgView;
     listen(renderElement: NgView, eventName: string, callback: Function): Function;
-    listenGlobal(target: string, eventName: string, callback: Function): Function;
+    listenGlobal(_target: string, _eventName: string, _callback: Function): Function;
     animate(element: any, startingStyles: AnimationStyles, keyframes: AnimationKeyframe[], duration: number, delay: number, easing: string): AnimationPlayer;
 }

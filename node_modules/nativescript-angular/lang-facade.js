@@ -1,3 +1,4 @@
+/* tslint:disable */
 //Copied unexported functions from @angular/core/src/facade/lang
 var globalScope = exports.global;
 exports.global = globalScope;
@@ -74,12 +75,12 @@ function setValueOnPath(global, path, value) {
     var parts = path.split('.');
     var obj = global;
     while (parts.length > 1) {
-        var name = parts.shift();
-        if (obj.hasOwnProperty(name) && isPresent(obj[name])) {
-            obj = obj[name];
+        var name_1 = parts.shift();
+        if (obj.hasOwnProperty(name_1) && isPresent(obj[name_1])) {
+            obj = obj[name_1];
         }
         else {
-            obj = obj[name] = {};
+            obj = obj[name_1] = {};
         }
     }
     if (obj === undefined || obj === null) {

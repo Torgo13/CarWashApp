@@ -9,7 +9,7 @@ function convertToInt(value) {
             normalizedValue = value;
         }
         else {
-            var parsedValue = parseInt(value.toString());
+            var parsedValue = parseInt(value.toString(), 10);
             normalizedValue = isNaN(parsedValue) ? 0 : parsedValue;
         }
     }

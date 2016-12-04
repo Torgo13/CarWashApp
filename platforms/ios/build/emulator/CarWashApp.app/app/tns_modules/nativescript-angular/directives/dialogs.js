@@ -1,6 +1,7 @@
-var core_1 = require('@angular/core');
-var page_1 = require('ui/page');
-var detached_loader_1 = require('../common/detached-loader');
+var core_1 = require("@angular/core");
+var page_1 = require("ui/page");
+var detached_loader_1 = require("../common/detached-loader");
+var platform_providers_1 = require("../platform-providers");
 var ModalDialogParams = (function () {
     function ModalDialogParams(context, closeCallback) {
         if (context === void 0) { context = {}; }
@@ -13,22 +14,20 @@ exports.ModalDialogParams = ModalDialogParams;
 var ModalDialogService = (function () {
     function ModalDialogService() {
     }
-    ModalDialogService.prototype.registerViewContainerRef = function (ref) {
-        this.containerRef = ref;
-    };
     ModalDialogService.prototype.showModal = function (type, options) {
-        var viewContainerRef = options.viewContainerRef || this.containerRef;
-        if (!viewContainerRef) {
+        if (!options.viewContainerRef) {
             throw new Error("No viewContainerRef: Make sure you pass viewContainerRef in ModalDialogOptions.");
         }
+        var viewContainerRef = options.viewContainerRef;
         var parentPage = viewContainerRef.injector.get(page_1.Page);
         var resolver = viewContainerRef.injector.get(core_1.ComponentFactoryResolver);
-        return new Promise(function (resolve, reject) {
-            setTimeout(function () { return ModalDialogService.showDialog(type, options, resolve, viewContainerRef, resolver, parentPage); }, 10);
+        var pageFactory = viewContainerRef.injector.get(platform_providers_1.PAGE_FACTORY);
+        return new Promise(function (resolve) {
+            setTimeout(function () { return ModalDialogService.showDialog(type, options, resolve, viewContainerRef, resolver, parentPage, pageFactory); }, 10);
         });
     };
-    ModalDialogService.showDialog = function (type, options, doneCallback, containerRef, resolver, parentPage) {
-        var page = new page_1.Page();
+    ModalDialogService.showDialog = function (type, options, doneCallback, containerRef, resolver, parentPage, pageFactory) {
+        var page = pageFactory({ isModal: true, componentType: type });
         var detachedLoaderRef;
         var closeCallback = function () {
             var args = [];
@@ -37,6 +36,7 @@ var ModalDialogService = (function () {
             }
             doneCallback.apply(undefined, args);
             page.closeModal();
+            detachedLoaderRef.instance.detectChanges();
             detachedLoaderRef.destroy();
         };
         var modalParams = new ModalDialogParams(options.context, closeCallback);
@@ -64,15 +64,15 @@ var ModalDialogService = (function () {
 }());
 exports.ModalDialogService = ModalDialogService;
 var ModalDialogHost = (function () {
-    function ModalDialogHost(containerRef, modalService) {
-        console.log("ModalDialogHost is deprecated. Call ModalDialogService.showModal() by passing ViewContainerRef in the options instead.");
-        modalService.registerViewContainerRef(containerRef);
+    function ModalDialogHost() {
+        throw new Error("ModalDialogHost is deprecated. Call ModalDialogService.showModal() " +
+            "by passing ViewContainerRef in the options instead.");
     }
     ModalDialogHost = __decorate([
         core_1.Directive({
-            selector: "[modal-dialog-host]"
+            selector: "[modal-dialog-host]" // tslint:disable-line:directive-selector
         }), 
-        __metadata('design:paramtypes', [core_1.ViewContainerRef, ModalDialogService])
+        __metadata('design:paramtypes', [])
     ], ModalDialogHost);
     return ModalDialogHost;
 }());

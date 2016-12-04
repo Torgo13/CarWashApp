@@ -1,4 +1,4 @@
-import { ElementRef } from '@angular/core';
+import { ElementRef, OnDestroy } from "@angular/core";
 import { Page } from "ui/page";
 export declare class ActionBarComponent {
     element: ElementRef;
@@ -13,13 +13,13 @@ export declare class ActionBarScope {
     onActionInit(item: ActionItemDirective): void;
     onActionDestroy(item: ActionItemDirective): void;
 }
-export declare class ActionItemDirective {
+export declare class ActionItemDirective implements OnDestroy {
     element: ElementRef;
     private ownerScope;
     constructor(element: ElementRef, ownerScope: ActionBarScope);
     ngOnDestroy(): void;
 }
-export declare class NavigationButtonDirective {
+export declare class NavigationButtonDirective implements OnDestroy {
     element: ElementRef;
     private ownerScope;
     constructor(element: ElementRef, ownerScope: ActionBarScope);

@@ -1,9 +1,9 @@
 var types_1 = require("utils/types");
 var view_1 = require("ui/core/view");
 var placeholder_1 = require("ui/placeholder");
-var content_view_1 = require('ui/content-view');
-var layout_base_1 = require('ui/layouts/layout-base');
-var element_registry_1 = require('./element-registry');
+var content_view_1 = require("ui/content-view");
+var layout_base_1 = require("ui/layouts/layout-base");
+var element_registry_1 = require("./element-registry");
 var special_properties_1 = require("ui/builder/special-properties");
 var style_property_1 = require("ui/styling/style-property");
 var dependency_observable_1 = require("ui/core/dependency-observable");
@@ -53,7 +53,13 @@ var ViewUtil = (function () {
             }
         }
         else if (isContentView(parent)) {
-            parent.content = child;
+            // Explicit handling of template anchors inside ContentView
+            if (child.meta.isTemplateAnchor) {
+                parent._addView(child, atIndex);
+            }
+            else {
+                parent.content = child;
+            }
         }
         else if (parent && parent._addChildFromBuilder) {
             parent._addChildFromBuilder(child.nodeName, child);
@@ -74,6 +80,10 @@ var ViewUtil = (function () {
         else if (isContentView(parent)) {
             if (parent.content === child) {
                 parent.content = null;
+            }
+            // Explicit handling of template anchors inside ContentView
+            if (child.meta.isTemplateAnchor) {
+                parent._removeView(child);
             }
         }
         else if (isView(parent)) {
@@ -110,27 +120,28 @@ var ViewUtil = (function () {
             return this.createAndAttach(name, viewClass, parent, beforeAttach);
         }
         else {
-            return this.createViewContainer(name, parent, beforeAttach);
+            return this.createViewContainer(parent, beforeAttach);
         }
     };
-    ViewUtil.prototype.createText = function (value) {
+    ViewUtil.prototype.createText = function () {
         var text = new placeholder_1.Placeholder();
         text.nodeName = "#text";
         text.visibility = "collapse";
         text.meta = element_registry_1.getViewMeta("Placeholder");
         return text;
     };
-    ViewUtil.prototype.createViewContainer = function (name, parentElement, beforeAttach) {
-        trace_1.rendererLog('Creating view container in:' + parentElement);
-        var layout = this.createView('ProxyViewContainer', parentElement, beforeAttach);
-        layout.nodeName = 'ProxyViewContainer';
+    ViewUtil.prototype.createViewContainer = function (parentElement, beforeAttach) {
+        trace_1.rendererLog("Creating view container in:" + parentElement);
+        var layout = this.createView("ProxyViewContainer", parentElement, beforeAttach);
+        layout.nodeName = "ProxyViewContainer";
         return layout;
     };
     ViewUtil.prototype.createTemplateAnchor = function (parentElement) {
-        //HACK: Using a ContentView here, so that it creates a native View object
-        var anchor = this.createAndAttach('template', content_view_1.ContentView, parentElement);
-        anchor.visibility = "collapse";
+        var viewClass = element_registry_1.getViewClass(element_registry_1.TEMPLATE);
+        var anchor = this.createAndAttach(element_registry_1.TEMPLATE, viewClass, parentElement);
         anchor.templateParent = parentElement;
+        anchor.visibility = "collapse";
+        trace_1.rendererLog("Created templateAnchor: " + anchor);
         return anchor;
     };
     ViewUtil.prototype.isXMLAttribute = function (name) {
@@ -188,7 +199,7 @@ var ViewUtil = (function () {
         }
     };
     ViewUtil.prototype.setPropertyInternal = function (view, attributeName, value) {
-        trace_1.rendererLog('Setting attribute: ' + attributeName);
+        trace_1.rendererLog("Setting attribute: " + attributeName);
         var specialSetter = special_properties_1.getSpecialPropertySetter(attributeName);
         var propMap = this.getProperties(view);
         if (attributeName === "class") {
@@ -261,7 +272,7 @@ var ViewUtil = (function () {
         this.syncClasses(view);
     };
     ViewUtil.prototype.syncClasses = function (view) {
-        var classValue = Array.from(this.cssClasses(view).keys()).join(' ');
+        var classValue = Array.from(this.cssClasses(view).keys()).join(" ");
         view.cssClass = classValue;
     };
     ViewUtil.prototype.resolveCssValue = function (styleValue) {
@@ -277,7 +288,8 @@ var ViewUtil = (function () {
             }
         }
         catch (ex) {
-            trace_1.styleError("Error setting property: " + property.name + " view: " + view + " value: " + value + " " + ex);
+            trace_1.styleError("Error setting property: " + property.name + " view: " + view +
+                " value: " + value + " " + ex);
         }
     };
     ViewUtil.prototype.setStyleProperty = function (view, styleName, styleValue) {
@@ -287,7 +299,7 @@ var ViewUtil = (function () {
         var resolvedValue = this.resolveCssValue(styleValue);
         style_property_1.withStyleProperty(name, resolvedValue, function (property, value) {
             if (types_1.isString(property)) {
-                //Fall back to resolving property by name.
+                // Fall back to resolving property by name.
                 var resolvedProperty = style_property_1.getPropertyByName(name);
                 if (resolvedProperty) {
                     _this.setStyleValue(view, resolvedProperty, resolvedValue);

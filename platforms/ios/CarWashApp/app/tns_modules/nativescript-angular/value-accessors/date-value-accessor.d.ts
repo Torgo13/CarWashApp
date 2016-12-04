@@ -1,5 +1,5 @@
-import { ElementRef } from '@angular/core';
-import { BaseValueAccessor } from './base-value-accessor';
+import { ElementRef } from "@angular/core";
+import { BaseValueAccessor } from "./base-value-accessor";
 import { DatePicker } from "ui/date-picker";
 /**
  * The accessor for setting a date and listening to changes that is used by the
@@ -7,10 +7,11 @@ import { DatePicker } from "ui/date-picker";
  *
  *  ### Example
  *  ```
- *  <DatePicker [(ngModel)]='model.test'>
+ *  <DatePicker [(ngModel)]="model.test">
  *  ```
  */
 export declare class DateValueAccessor extends BaseValueAccessor<DatePicker> {
+    dateChangeListener(event: any): void;
     onTouched: () => void;
     constructor(elementRef: ElementRef);
     writeValue(value: any): void;

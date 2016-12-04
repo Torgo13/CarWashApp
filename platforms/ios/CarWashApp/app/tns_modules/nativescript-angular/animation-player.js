@@ -1,9 +1,9 @@
-var keyframe_animation_1 = require('ui/animation/keyframe-animation');
+var keyframe_animation_1 = require("ui/animation/keyframe-animation");
 var view_1 = require("ui/core/view");
 var enums_1 = require("ui/enums");
-var dependency_observable_1 = require('ui/core/dependency-observable');
+var dependency_observable_1 = require("ui/core/dependency-observable");
 var types_1 = require("utils/types");
-var styleProperty = require('ui/styling/style-property');
+var styleProperty = require("ui/styling/style-property");
 var NativeScriptAnimationPlayer = (function () {
     function NativeScriptAnimationPlayer(element, keyframes, duration, delay, easing) {
         this._startSubscriptions = [];
@@ -22,7 +22,9 @@ var NativeScriptAnimationPlayer = (function () {
         keyframeAnimationInfo.duration = duration;
         keyframeAnimationInfo.delay = delay;
         keyframeAnimationInfo.iterations = 1;
-        keyframeAnimationInfo.curve = easing ? NativeScriptAnimationPlayer.animationTimingFunctionConverter(easing) : enums_1.AnimationCurve.ease;
+        keyframeAnimationInfo.curve = easing ?
+            NativeScriptAnimationPlayer.animationTimingFunctionConverter(easing) :
+            enums_1.AnimationCurve.ease;
         keyframeAnimationInfo.keyframes = new Array();
         keyframeAnimationInfo.isForwards = true;
         for (var _i = 0, keyframes_1 = keyframes; _i < keyframes_1.length; _i++) {
@@ -78,7 +80,7 @@ var NativeScriptAnimationPlayer = (function () {
             this._onStart();
             this.animation.play(this.target)
                 .then(function () { _this._onFinish(); })
-                .catch(function (e) { });
+                .catch(function (_e) { });
         }
     };
     NativeScriptAnimationPlayer.prototype.pause = function () {
@@ -100,7 +102,7 @@ var NativeScriptAnimationPlayer = (function () {
         this.reset();
         this._onFinish();
     };
-    NativeScriptAnimationPlayer.prototype.setPosition = function (p) {
+    NativeScriptAnimationPlayer.prototype.setPosition = function (_p) {
         throw new Error("AnimationPlayer.setPosition method is not supported!");
     };
     NativeScriptAnimationPlayer.prototype.getPosition = function () {
@@ -180,29 +182,50 @@ var NativeScriptAnimationPlayer = (function () {
         for (var transform in newTransform) {
             switch (transform) {
                 case "scaleX":
-                    animationInfo.declarations.push({ property: "scale", value: { x: parseFloat(newTransform[transform]), y: 1 } });
+                    animationInfo.declarations.push({
+                        property: "scale",
+                        value: { x: parseFloat(newTransform[transform]), y: 1 }
+                    });
                     break;
                 case "scaleY":
-                    animationInfo.declarations.push({ property: "scale", value: { x: 1, y: parseFloat(newTransform[transform]) } });
+                    animationInfo.declarations.push({
+                        property: "scale",
+                        value: { x: 1, y: parseFloat(newTransform[transform]) }
+                    });
                     break;
                 case "scale":
                 case "scale3d":
                     values = newTransform[transform].split(",");
                     if (values.length === 2 || values.length === 3) {
-                        animationInfo.declarations.push({ property: "scale", value: { x: parseFloat(values[0]), y: parseFloat(values[1]) } });
+                        animationInfo.declarations.push({
+                            property: "scale",
+                            value: { x: parseFloat(values[0]), y: parseFloat(values[1]) }
+                        });
                     }
                     break;
                 case "translateX":
-                    animationInfo.declarations.push({ property: "translate", value: { x: parseFloat(newTransform[transform]), y: 0 } });
+                    animationInfo.declarations.push({
+                        property: "translate",
+                        value: { x: parseFloat(newTransform[transform]), y: 0 }
+                    });
                     break;
                 case "translateY":
-                    animationInfo.declarations.push({ property: "translate", value: { x: 0, y: parseFloat(newTransform[transform]) } });
+                    animationInfo.declarations.push({
+                        property: "translate",
+                        value: { x: 0, y: parseFloat(newTransform[transform]) }
+                    });
                     break;
                 case "translate":
                 case "translate3d":
                     values = newTransform[transform].split(",");
                     if (values.length === 2 || values.length === 3) {
-                        animationInfo.declarations.push({ property: "translate", value: { x: parseFloat(values[0]), y: parseFloat(values[1]) } });
+                        animationInfo.declarations.push({
+                            property: "translate",
+                            value: {
+                                x: parseFloat(values[0]),
+                                y: parseFloat(values[1])
+                            }
+                        });
                     }
                     break;
                 case "rotate":
@@ -218,6 +241,8 @@ var NativeScriptAnimationPlayer = (function () {
                     animationInfo.declarations.push({ property: "translate", value: { x: 0, y: 0 } });
                     animationInfo.declarations.push({ property: "rotate", value: 0 });
                     break;
+                default:
+                    throw new Error("Unsupported transform: " + transform);
             }
         }
         return array;

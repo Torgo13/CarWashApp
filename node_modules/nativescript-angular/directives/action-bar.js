@@ -1,12 +1,12 @@
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var action_bar_1 = require("ui/action-bar");
 var lang_facade_1 = require("../lang-facade");
 var page_1 = require("ui/page");
-var view_1 = require('ui/core/view');
-var element_registry_1 = require('../element-registry');
+var view_1 = require("ui/core/view");
+var element_registry_1 = require("../element-registry");
 var actionBarMeta = {
     skipAddToDom: true,
-    insertChild: function (parent, child, atIndex) {
+    insertChild: function (parent, child, _atIndex) {
         var bar = parent;
         var childView = child;
         if (child instanceof action_bar_1.NavigationButton) {
@@ -17,7 +17,7 @@ var actionBarMeta = {
             bar.actionItems.addItem(childView);
             childView.parent = bar;
         }
-        else if (child.nodeName === "template") {
+        else if (child.nodeName === element_registry_1.TEMPLATE) {
             child.templateParent = parent;
         }
         else if (child.nodeName !== "#text" && child instanceof view_1.View) {
@@ -37,7 +37,8 @@ var actionBarMeta = {
             bar.actionItems.removeItem(childView);
             childView.parent = null;
         }
-        else if (child.nodeName !== "template" && child instanceof view_1.View && bar.titleView && bar.titleView === childView) {
+        else if (child.nodeName !== element_registry_1.TEMPLATE && child instanceof view_1.View &&
+            bar.titleView && bar.titleView === childView) {
             bar.titleView = null;
         }
     },
@@ -109,7 +110,7 @@ var ActionItemDirective = (function () {
     };
     ActionItemDirective = __decorate([
         core_1.Directive({
-            selector: "ActionItem"
+            selector: "ActionItem" // tslint:disable-line:directive-selector
         }),
         __param(1, core_1.Optional()), 
         __metadata('design:paramtypes', [core_1.ElementRef, ActionBarScope])
@@ -132,7 +133,7 @@ var NavigationButtonDirective = (function () {
     };
     NavigationButtonDirective = __decorate([
         core_1.Directive({
-            selector: "NavigationButton"
+            selector: "NavigationButton" // tslint:disable-line:directive-selector
         }),
         __param(1, core_1.Optional()), 
         __metadata('design:paramtypes', [core_1.ElementRef, ActionBarScope])

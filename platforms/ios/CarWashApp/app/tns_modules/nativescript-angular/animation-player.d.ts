@@ -1,6 +1,7 @@
-import { AnimationPlayer, AnimationKeyframe } from "./private_import_core";
-import { KeyframeInfo } from 'ui/animation/keyframe-animation';
-import * as styleProperty from 'ui/styling/style-property';
+import { AnimationPlayer } from "@angular/core";
+import { AnimationKeyframe } from "./private_import_core";
+import { KeyframeInfo } from "ui/animation/keyframe-animation";
+import * as styleProperty from "ui/styling/style-property";
 export declare class NativeScriptAnimationPlayer implements AnimationPlayer {
     parentPlayer: AnimationPlayer;
     private _startSubscriptions;
@@ -22,7 +23,7 @@ export declare class NativeScriptAnimationPlayer implements AnimationPlayer {
     reset(): void;
     restart(): void;
     destroy(): void;
-    setPosition(p: any): void;
+    setPosition(_p: any): void;
     getPosition(): number;
     static animationTimingFunctionConverter(value: any): any;
     static bezieArgumentConverter(value: any): number;

@@ -5,7 +5,7 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 exports.RenderDebugInfo = core_1.__core_private__.RenderDebugInfo;
 exports.ReflectionCapabilities = core_1.__core_private__.ReflectionCapabilities;
 exports.DebugDomRootRenderer = core_1.__core_private__.DebugDomRootRenderer;

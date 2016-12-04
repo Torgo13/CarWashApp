@@ -1,11 +1,11 @@
-import { NSLocationStrategy } from './ns-location-strategy';
-import { PlatformLocation, LocationChangeListener } from '@angular/common';
+import { NSLocationStrategy } from "./ns-location-strategy";
+import { PlatformLocation, LocationChangeListener } from "@angular/common";
 export declare class NativescriptPlatformLocation extends PlatformLocation {
     private locationStartegy;
     constructor(locationStartegy: NSLocationStrategy);
     getBaseHrefFromDOM(): string;
     onPopState(fn: LocationChangeListener): void;
-    onHashChange(fn: LocationChangeListener): void;
+    onHashChange(_fn: LocationChangeListener): void;
     readonly search: string;
     readonly hash: string;
     pathname: string;

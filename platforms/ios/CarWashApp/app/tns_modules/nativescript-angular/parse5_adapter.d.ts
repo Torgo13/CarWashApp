@@ -7,7 +7,7 @@ import { DomAdapter } from './private_import_platform-browser';
  */
 export declare class Parse5DomAdapter extends DomAdapter {
     static makeCurrent(): void;
-    hasProperty(element: any, name: string): boolean;
+    hasProperty(_element: any, name: string): boolean;
     setProperty(el: any, name: string, value: any): void;
     getProperty(el: any, name: string): any;
     logError(error: string): void;
@@ -17,7 +17,7 @@ export declare class Parse5DomAdapter extends DomAdapter {
     readonly attrToPropMap: {
         [key: string]: string;
     };
-    query(selector: any): void;
+    query(_selector: any): void;
     querySelector(el: any, selector: string): any;
     querySelectorAll(el: any, selector: string): any[];
     elementMatches(node: any, selector: string, matcher?: any): boolean;
@@ -29,11 +29,11 @@ export declare class Parse5DomAdapter extends DomAdapter {
     preventDefault(event: any): void;
     isPrevented(event: any): boolean;
     getInnerHTML(el: any): string;
-    getTemplateContent(el: any): Node;
+    getTemplateContent(_el: any): Node;
     getOuterHTML(el: any): string;
     nodeName(node: any): string;
     nodeValue(node: any): string;
-    type(node: any): string;
+    type(_node: any): string;
     content(node: any): string;
     firstChild(el: any): Node;
     nextSibling(el: any): Node;
@@ -64,10 +64,10 @@ export declare class Parse5DomAdapter extends DomAdapter {
     createShadowRoot(el: any): HTMLElement;
     getShadowRoot(el: any): Element;
     getHost(el: any): string;
-    getDistributedNodes(el: any): Node[];
+    getDistributedNodes(_el: any): Node[];
     clone(node: Node): Node;
     getElementsByClassName(element: any, name: string): HTMLElement[];
-    getElementsByTagName(element: any, name: string): HTMLElement[];
+    getElementsByTagName(_element: any, _name: string): HTMLElement[];
     classList(element: any): string[];
     addClass(element: any, className: string): void;
     removeClass(element: any, className: string): void;
@@ -83,17 +83,17 @@ export declare class Parse5DomAdapter extends DomAdapter {
     tagName(element: any): string;
     attributeMap(element: any): Map<string, string>;
     hasAttribute(element: any, attribute: string): boolean;
-    hasAttributeNS(element: any, ns: string, attribute: string): boolean;
+    hasAttributeNS(_element: any, _ns: string, _attribute: string): boolean;
     getAttribute(element: any, attribute: string): string;
-    getAttributeNS(element: any, ns: string, attribute: string): string;
+    getAttributeNS(_element: any, _ns: string, _attribute: string): string;
     setAttribute(element: any, attribute: string, value: string): void;
-    setAttributeNS(element: any, ns: string, attribute: string, value: string): void;
+    setAttributeNS(_element: any, _ns: string, _attribute: string, _value: string): void;
     removeAttribute(element: any, attribute: string): void;
-    removeAttributeNS(element: any, ns: string, name: string): void;
+    removeAttributeNS(_element: any, _ns: string, _name: string): void;
     templateAwareRoot(el: any): any;
     createHtmlDocument(): Document;
     defaultDoc(): Document;
-    getBoundingClientRect(el: any): any;
+    getBoundingClientRect(_el: any): any;
     getTitle(): string;
     setTitle(newTitle: string): void;
     isTemplateElement(el: any): boolean;
@@ -117,7 +117,7 @@ export declare class Parse5DomAdapter extends DomAdapter {
     getLocation(): Location;
     getUserAgent(): string;
     getData(el: any, name: string): string;
-    getComputedStyle(el: any): any;
+    getComputedStyle(_el: any): any;
     setData(el: any, name: string, value: string): void;
     setGlobalVar(path: string, value: any): void;
     supportsWebAnimation(): boolean;
@@ -125,12 +125,12 @@ export declare class Parse5DomAdapter extends DomAdapter {
     getAnimationPrefix(): string;
     getTransitionEnd(): string;
     supportsAnimation(): boolean;
-    replaceChild(el: any, newNode: any, oldNode: any): void;
-    parse(templateHtml: string): void;
-    invoke(el: Element, methodName: string, args: any[]): any;
-    getEventKey(event: any): string;
+    replaceChild(_el: any, _newNode: any, _oldNode: any): void;
+    parse(_templateHtml: string): void;
+    invoke(_el: Element, _methodName: string, _args: any[]): any;
+    getEventKey(_event: any): string;
     supportsCookies(): boolean;
-    getCookie(name: string): string;
-    setCookie(name: string, value: string): void;
-    animate(element: any, keyframes: any[], options: any): any;
+    getCookie(_name: string): string;
+    setCookie(_name: string, _value: string): void;
+    animate(_element: any, _keyframes: any[], _options: any): any;
 }

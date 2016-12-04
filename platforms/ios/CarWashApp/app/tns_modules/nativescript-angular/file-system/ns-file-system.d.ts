@@ -1,4 +1,4 @@
-import { Folder } from 'file-system';
+import { Folder } from "file-system";
 export declare class NSFileSystem {
     currentApp(): Folder;
 }

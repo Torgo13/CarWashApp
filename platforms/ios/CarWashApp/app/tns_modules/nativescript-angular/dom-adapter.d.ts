@@ -1,5 +1,5 @@
-import { ElementSchemaRegistry } from '@angular/compiler';
-import { Sanitizer, SchemaMetadata } from '@angular/core';
+import { ElementSchemaRegistry } from "@angular/compiler";
+import { SchemaMetadata } from "@angular/core";
 import { Parse5DomAdapter } from "./parse5_adapter";
 export declare enum SecurityContext {
     NONE = 0,
@@ -10,27 +10,29 @@ export declare enum SecurityContext {
     RESOURCE_URL = 5,
 }
 export declare class NativeScriptElementSchemaRegistry extends ElementSchemaRegistry {
-    hasProperty(tagName: string, propName: string): boolean;
-    hasElement(tagName: string, schemaMetas: SchemaMetadata[]): boolean;
+    hasProperty(_tagName: string, _propName: string): boolean;
+    hasElement(_tagName: string, _schemaMetas: SchemaMetadata[]): boolean;
     getMappedPropName(propName: string): string;
     getDefaultComponentElementName(): string;
-    securityContext(tagName: string, propName: string): any;
-    validateProperty(name: string): {
+    securityContext(_tagName: string, _propName: string): any;
+    validateProperty(_name: string): {
         error: boolean;
         msg?: string;
     };
-    validateAttribute(name: string): {
+    validateAttribute(_name: string): {
         error: boolean;
         msg?: string;
     };
     allKnownElementNames(): string[];
-}
-export declare class NativeScriptSanitizer extends Sanitizer {
-    sanitize(context: SecurityContext, value: string): string;
+    normalizeAnimationStyleProperty(propName: string): string;
+    normalizeAnimationStyleValue(_camelCaseProp: string, _userProvidedProp: string, val: string | number): {
+        error: string;
+        value: string;
+    };
 }
 export declare class NativeScriptDomAdapter extends Parse5DomAdapter {
     static makeCurrent(): void;
-    hasProperty(element: any, name: string): boolean;
+    hasProperty(_element: any, _name: string): boolean;
     log(arg: any): void;
     logError(arg: any): void;
     logGroup(arg: any): void;

@@ -1,9 +1,9 @@
-import { Http, ConnectionBackend, RequestOptionsArgs, Response } from '@angular/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/fromPromise';
-import { NSFileSystem } from '../file-system/ns-file-system';
+import { Http, ConnectionBackend, RequestOptionsArgs, Response } from "@angular/http";
+import { Observable } from "rxjs/Observable";
+import "rxjs/add/observable/fromPromise";
+import { NSFileSystem } from "../file-system/ns-file-system";
 export declare class NSXSRFStrategy {
-    configureRequest(req: any): void;
+    configureRequest(_req: any): void;
 }
 export declare class NSHttp extends Http {
     private nsFileSystem;

@@ -1,9 +1,9 @@
-var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
+var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var router_url_tree_1 = require("../router-url-tree");
-var ns_router_link_1 = require('./ns-router-link');
+var ns_router_link_1 = require("./ns-router-link");
 /**
- * The NSRouterLinkActive directive lets you add a CSS class to an element when the link's route
+ * The NSRouterLinkActive directive lets you add a CSS class to an element when the link"s route
  * becomes active.
  *
  * Consider the following example:
@@ -12,22 +12,22 @@ var ns_router_link_1 = require('./ns-router-link');
  * <a [nsRouterLink]="/user/bob" [nsRouterLinkActive]="active-link">Bob</a>
  * ```
  *
- * When the url is either '/user' or '/user/bob', the active-link class will
+ * When the url is either "/user" or "/user/bob", the active-link class will
  * be added to the component. If the url changes, the class will be removed.
  *
  * You can set more than one class, as follows:
  *
  * ```
  * <a [nsRouterLink]="/user/bob" [nsRouterLinkActive]="class1 class2">Bob</a>
- * <a [nsRouterLink]="/user/bob" [nsRouterLinkActive]="['class1', 'class2']">Bob</a>
+ * <a [nsRouterLink]="/user/bob" [nsRouterLinkActive]="["class1", "class2"]">Bob</a>
  * ```
  *
- * You can configure NSRouterLinkActive by passing `exact: true`. This will add the classes
- * only when the url matches the link exactly.
+ * You can configure NSRouterLinkActive by passing `exact: true`. This will add the
+ * classes only when the url matches the link exactly.
  *
  * ```
- * <a [nsRouterLink]="/user/bob" [nsRouterLinkActive]="active-link" [nsRouterLinkActiveOptions]="{exact:
- * true}">Bob</a>
+ * <a [nsRouterLink]="/user/bob" [nsRouterLinkActive]="active-link"
+ * [nsRouterLinkActiveOptions]="{exact: true}">Bob</a>
  * ```
  *
  * Finally, you can apply the NSRouterLinkActive directive to an ancestor of a RouterLink.
@@ -39,8 +39,8 @@ var ns_router_link_1 = require('./ns-router-link');
  * </div>
  * ```
  *
- * This will set the active-link class on the div tag if the url is either '/user/jim' or
- * '/user/bob'.
+ * This will set the active-link class on the div tag if the url is either "/user/jim" or
+ * "/user/bob".
  *
  * @stable
  */
@@ -60,7 +60,7 @@ var NSRouterLinkActive = (function () {
     }
     NSRouterLinkActive.prototype.ngAfterContentInit = function () {
         var _this = this;
-        this.links.changes.subscribe(function (s) { return _this.update(); });
+        this.links.changes.subscribe(function () { return _this.update(); });
         this.update();
     };
     Object.defineProperty(NSRouterLinkActive.prototype, "nsRouterLinkActive", {
@@ -69,18 +69,19 @@ var NSRouterLinkActive = (function () {
                 this.classes = data;
             }
             else {
-                this.classes = data.split(' ');
+                this.classes = data.split(" ");
             }
         },
         enumerable: true,
         configurable: true
     });
-    NSRouterLinkActive.prototype.ngOnChanges = function (changes) { this.update(); };
+    NSRouterLinkActive.prototype.ngOnChanges = function (_) { this.update(); };
     NSRouterLinkActive.prototype.ngOnDestroy = function () { this.subscription.unsubscribe(); };
     NSRouterLinkActive.prototype.update = function () {
         var _this = this;
-        if (!this.links)
+        if (!this.links) {
             return;
+        }
         var currentUrlTree = this.router.parseUrl(this.router.url);
         var isActiveLinks = this.reduceList(currentUrlTree, this.links);
         this.classes.forEach(function (c) { return _this.renderer.setElementClass(_this.element.nativeElement, c, isActiveLinks); });
@@ -92,6 +93,7 @@ var NSRouterLinkActive = (function () {
         }, false);
     };
     __decorate([
+        // tslint:disable-line:max-line-length directive-class-suffix
         core_1.ContentChildren(ns_router_link_1.NSRouterLink), 
         __metadata('design:type', core_1.QueryList)
     ], NSRouterLinkActive.prototype, "links", void 0);
@@ -105,7 +107,7 @@ var NSRouterLinkActive = (function () {
         __metadata('design:paramtypes', [Object])
     ], NSRouterLinkActive.prototype, "nsRouterLinkActive", null);
     NSRouterLinkActive = __decorate([
-        core_1.Directive({ selector: '[nsRouterLinkActive]' }), 
+        core_1.Directive({ selector: "[nsRouterLinkActive]" }), 
         __metadata('design:paramtypes', [router_1.Router, core_1.ElementRef, core_1.Renderer])
     ], NSRouterLinkActive);
     return NSRouterLinkActive;

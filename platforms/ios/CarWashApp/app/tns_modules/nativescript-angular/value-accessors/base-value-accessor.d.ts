@@ -5,6 +5,6 @@ export declare class BaseValueAccessor<TView> implements ControlValueAccessor {
     onChange: (_: any) => void;
     private pendingChangeNotification;
     registerOnChange(fn: (_: any) => void): void;
-    writeValue(value: any): void;
-    registerOnTouched(fn: () => void): void;
+    writeValue(_: any): void;
+    registerOnTouched(_: () => void): void;
 }

@@ -10,7 +10,7 @@ if (!Array.prototype.fill) {
         var end = arguments[2];
         var relativeEnd = end === undefined
             ? len
-            : (parseInt(end) || 0);
+            : (parseInt(end, 10) || 0);
         var final = relativeEnd < 0
             ? Math.max(len + relativeEnd, 0)
             : Math.min(relativeEnd, len);
@@ -24,17 +24,18 @@ if (!Array.from) {
     Array.from = function (iterable, mapFn, thisArg) {
         var results = [];
         if (iterable.next) {
-            //Iterator objects
-            var step = null;
-            while (step = iterable.next()) {
-                if (step.done)
+            // Iterator objects
+            for (var step = null;; step = iterable.next()) {
+                if (step.done) {
                     break;
-                else
+                }
+                else {
                     results.push(step.value);
+                }
             }
         }
         else {
-            //Array-like objects
+            // Array-like objects
             results = [].slice.call(iterable);
         }
         if (mapFn) {

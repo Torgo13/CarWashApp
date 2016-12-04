@@ -1,5 +1,5 @@
-var core_1 = require('@angular/core');
-var common_1 = require('@angular/common');
+var core_1 = require("@angular/core");
+var common_1 = require("@angular/common");
 var trace_1 = require("../trace");
 var frame_1 = require("ui/frame");
 var lang_facade_1 = require("../lang-facade");
@@ -28,7 +28,8 @@ var NSLocationStrategy = (function (_super) {
         return internal;
     };
     NSLocationStrategy.prototype.pushState = function (state, title, url, queryParams) {
-        trace_1.routerLog("NSLocationStrategy.pushState state: " + state + ", title: " + title + ", url: " + url + ", queryParams: " + queryParams);
+        trace_1.routerLog("NSLocationStrategy.pushState state: " +
+            (state + ", title: " + title + ", url: " + url + ", queryParams: " + queryParams));
         this.pushStateInternal(state, title, url, queryParams);
     };
     NSLocationStrategy.prototype.pushStateInternal = function (state, title, url, queryParams) {
@@ -43,7 +44,8 @@ var NSLocationStrategy = (function (_super) {
     };
     NSLocationStrategy.prototype.replaceState = function (state, title, url, queryParams) {
         if (this.states.length > 0) {
-            trace_1.routerLog("NSLocationStrategy.replaceState changing exisitng state: " + state + ", title: " + title + ", url: " + url + ", queryParams: " + queryParams);
+            trace_1.routerLog("NSLocationStrategy.replaceState changing exisitng state: " +
+                (state + ", title: " + title + ", url: " + url + ", queryParams: " + queryParams));
             var topState = this.peekState();
             topState.state = state;
             topState.title = title;
@@ -51,7 +53,8 @@ var NSLocationStrategy = (function (_super) {
             topState.queryParams = queryParams;
         }
         else {
-            trace_1.routerLog("NSLocationStrategy.replaceState pushing new state: " + state + ", title: " + title + ", url: " + url + ", queryParams: " + queryParams);
+            trace_1.routerLog("NSLocationStrategy.replaceState pushing new state: " +
+                (state + ", title: " + title + ", url: " + url + ", queryParams: " + queryParams));
             this.pushStateInternal(state, title, url, queryParams);
         }
     };
@@ -75,12 +78,14 @@ var NSLocationStrategy = (function (_super) {
             var state = this.peekState();
             if (state.isPageNavigation) {
                 // This was a page navigation - so navigate through frame.
-                trace_1.routerLog("NSLocationStrategy.back() while not navigating back but top state is page - will call frame.goback()");
+                trace_1.routerLog("NSLocationStrategy.back() while not navigating back but top" +
+                    " state is page - will call frame.goback()");
                 this.frame.goBack();
             }
             else {
                 // Nested navigation - just pop the state
-                trace_1.routerLog("NSLocationStrategy.back() while not navigating back but top state is not page - just pop");
+                trace_1.routerLog("NSLocationStrategy.back() while not navigating back but top" +
+                    " state is not page - just pop");
                 this.callPopState(this.states.pop(), true);
             }
         }
@@ -154,7 +159,8 @@ var NSLocationStrategy = (function (_super) {
             animated: lang_facade_1.isPresent(options.animated) ? options.animated : true,
             transition: options.transition
         };
-        trace_1.routerLog("NSLocationStrategy._setNavigationOptions(" + JSON.stringify(this._currentNavigationOptions) + ")");
+        trace_1.routerLog("NSLocationStrategy._setNavigationOptions(" +
+            (JSON.stringify(this._currentNavigationOptions) + ")"));
     };
     NSLocationStrategy.prototype._getSatates = function () {
         return this.states.slice();

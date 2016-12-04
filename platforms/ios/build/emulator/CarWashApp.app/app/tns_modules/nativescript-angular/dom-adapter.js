@@ -1,7 +1,6 @@
-var compiler_1 = require('@angular/compiler');
-var core_1 = require('@angular/core');
+var compiler_1 = require("@angular/compiler");
 var parse5_adapter_1 = require("./parse5_adapter");
-var private_import_platform_browser_1 = require('./private_import_platform-browser');
+var private_import_platform_browser_1 = require("./private_import_platform-browser");
 var trace_1 = require("./trace");
 var lang_facade_1 = require("./lang-facade");
 (function (SecurityContext) {
@@ -18,44 +17,39 @@ var NativeScriptElementSchemaRegistry = (function (_super) {
     function NativeScriptElementSchemaRegistry() {
         _super.apply(this, arguments);
     }
-    NativeScriptElementSchemaRegistry.prototype.hasProperty = function (tagName, propName) {
+    NativeScriptElementSchemaRegistry.prototype.hasProperty = function (_tagName, _propName) {
         return true;
     };
-    NativeScriptElementSchemaRegistry.prototype.hasElement = function (tagName, schemaMetas) {
+    NativeScriptElementSchemaRegistry.prototype.hasElement = function (_tagName, _schemaMetas) {
         return true;
     };
     NativeScriptElementSchemaRegistry.prototype.getMappedPropName = function (propName) {
         return propName;
     };
     NativeScriptElementSchemaRegistry.prototype.getDefaultComponentElementName = function () {
-        return 'ng-component';
+        return "ng-component";
     };
-    NativeScriptElementSchemaRegistry.prototype.securityContext = function (tagName, propName) {
+    NativeScriptElementSchemaRegistry.prototype.securityContext = function (_tagName, _propName) {
         return SecurityContext.NONE;
     };
-    NativeScriptElementSchemaRegistry.prototype.validateProperty = function (name) {
+    NativeScriptElementSchemaRegistry.prototype.validateProperty = function (_name) {
         return { error: false };
     };
-    NativeScriptElementSchemaRegistry.prototype.validateAttribute = function (name) {
+    NativeScriptElementSchemaRegistry.prototype.validateAttribute = function (_name) {
         return { error: false };
     };
     NativeScriptElementSchemaRegistry.prototype.allKnownElementNames = function () {
         return [];
     };
+    NativeScriptElementSchemaRegistry.prototype.normalizeAnimationStyleProperty = function (propName) {
+        return propName;
+    };
+    NativeScriptElementSchemaRegistry.prototype.normalizeAnimationStyleValue = function (_camelCaseProp, _userProvidedProp, val) {
+        return { error: null, value: val.toString() };
+    };
     return NativeScriptElementSchemaRegistry;
 }(compiler_1.ElementSchemaRegistry));
 exports.NativeScriptElementSchemaRegistry = NativeScriptElementSchemaRegistry;
-var NativeScriptSanitizer = (function (_super) {
-    __extends(NativeScriptSanitizer, _super);
-    function NativeScriptSanitizer() {
-        _super.apply(this, arguments);
-    }
-    NativeScriptSanitizer.prototype.sanitize = function (context, value) {
-        return value;
-    };
-    return NativeScriptSanitizer;
-}(core_1.Sanitizer));
-exports.NativeScriptSanitizer = NativeScriptSanitizer;
 var NativeScriptDomAdapter = (function (_super) {
     __extends(NativeScriptDomAdapter, _super);
     function NativeScriptDomAdapter() {
@@ -65,8 +59,8 @@ var NativeScriptDomAdapter = (function (_super) {
         trace_1.rendererLog("Setting DOM");
         private_import_platform_browser_1.setRootDomAdapter(new NativeScriptDomAdapter());
     };
-    NativeScriptDomAdapter.prototype.hasProperty = function (element, name) {
-        //TODO: actually check if the property exists.
+    NativeScriptDomAdapter.prototype.hasProperty = function (_element, _name) {
+        // TODO: actually check if the property exists.
         return true;
     };
     NativeScriptDomAdapter.prototype.log = function (arg) {

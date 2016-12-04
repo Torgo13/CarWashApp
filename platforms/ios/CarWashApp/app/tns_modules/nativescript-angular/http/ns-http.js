@@ -1,12 +1,12 @@
-var core_1 = require('@angular/core');
-var http_1 = require('@angular/http');
-var Observable_1 = require('rxjs/Observable');
-require('rxjs/add/observable/fromPromise');
-var ns_file_system_1 = require('../file-system/ns-file-system');
+var core_1 = require("@angular/core");
+var http_1 = require("@angular/http");
+var Observable_1 = require("rxjs/Observable");
+require("rxjs/add/observable/fromPromise");
+var ns_file_system_1 = require("../file-system/ns-file-system");
 var NSXSRFStrategy = (function () {
     function NSXSRFStrategy() {
     }
-    NSXSRFStrategy.prototype.configureRequest = function (req) {
+    NSXSRFStrategy.prototype.configureRequest = function (_req) {
         // noop
     };
     return NSXSRFStrategy;
@@ -24,9 +24,9 @@ var NSHttp = (function (_super) {
      */
     NSHttp.prototype.get = function (url, options) {
         var _this = this;
-        if (url.indexOf('~') === 0 || url.indexOf('/') === 0) {
+        if (url.indexOf("~") === 0 || url.indexOf("/") === 0) {
             // normalize url
-            url = url.replace('~', '').replace('/', '');
+            url = url.replace("~", "").replace("/", "");
             // request from local app resources
             return Observable_1.Observable.fromPromise(new Promise(function (resolve, reject) {
                 var app = _this.nsFileSystem.currentApp();
@@ -39,7 +39,7 @@ var NSHttp = (function (_super) {
                     });
                 }
                 else {
-                    reject(responseOptions('Not Found', 404, url));
+                    reject(responseOptions("Not Found", 404, url));
                 }
             }));
         }
@@ -58,7 +58,7 @@ function responseOptions(body, status, url) {
     return new http_1.Response(new http_1.ResponseOptions({
         body: body,
         status: status,
-        statusText: 'OK',
+        statusText: "OK",
         type: status === 200 ? http_1.ResponseType.Default : http_1.ResponseType.Error,
         url: url
     }));

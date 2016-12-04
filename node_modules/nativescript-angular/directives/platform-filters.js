@@ -1,4 +1,4 @@
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var platform_1 = require("platform");
 var platform_providers_1 = require("../platform-providers");
 var AndroidFilterComponent = (function () {

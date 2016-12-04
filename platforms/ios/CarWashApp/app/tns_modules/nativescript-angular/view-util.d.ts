@@ -1,7 +1,7 @@
 import { View } from "ui/core/view";
-import { ContentView } from 'ui/content-view';
-import { LayoutBase } from 'ui/layouts/layout-base';
-import { ViewExtensions, NgView } from './element-registry';
+import { ContentView } from "ui/content-view";
+import { LayoutBase } from "ui/layouts/layout-base";
+import { ViewExtensions, NgView } from "./element-registry";
 import { Device } from "platform";
 export declare type ViewExtensions = ViewExtensions;
 export declare type NgView = NgView;
@@ -20,8 +20,8 @@ export declare class ViewUtil {
     getChildIndex(parent: any, child: NgView): number;
     private createAndAttach(name, viewClass, parent, beforeAttach?);
     createView(name: string, parent: NgView, beforeAttach?: BeforeAttachAction): NgView;
-    createText(value: string): NgView;
-    createViewContainer(name: string, parentElement: NgView, beforeAttach: BeforeAttachAction): NgView;
+    createText(): NgView;
+    createViewContainer(parentElement: NgView, beforeAttach: BeforeAttachAction): NgView;
     createTemplateAnchor(parentElement: NgView): NgView;
     private isXMLAttribute(name);
     private platformFilter(attribute);

@@ -1,6 +1,6 @@
-var ns_location_strategy_1 = require('./ns-location-strategy');
-var common_1 = require('@angular/common');
-var core_1 = require('@angular/core');
+var ns_location_strategy_1 = require("./ns-location-strategy");
+var common_1 = require("@angular/common");
+var core_1 = require("@angular/core");
 var trace_1 = require("../trace");
 var NativescriptPlatformLocation = (function (_super) {
     __extends(NativescriptPlatformLocation, _super);
@@ -15,7 +15,7 @@ var NativescriptPlatformLocation = (function (_super) {
     NativescriptPlatformLocation.prototype.onPopState = function (fn) {
         this.locationStartegy.onPopState(fn);
     };
-    NativescriptPlatformLocation.prototype.onHashChange = function (fn) {
+    NativescriptPlatformLocation.prototype.onHashChange = function (_fn) {
     };
     Object.defineProperty(NativescriptPlatformLocation.prototype, "search", {
         get: function () {
@@ -35,7 +35,7 @@ var NativescriptPlatformLocation = (function (_super) {
         get: function () {
             return this.locationStartegy.path();
         },
-        set: function (newPath) {
+        set: function (_newPath) {
             throw new Error("NativescriptPlatformLocation set pathname - not implemented");
         },
         enumerable: true,

@@ -1,7 +1,6 @@
-import { ElementRef, TemplateRef, ViewContainerRef } from "@angular/core";
+import { ElementRef, TemplateRef, ViewContainerRef, OnInit, AfterViewInit } from "@angular/core";
 import { TabView } from "ui/tab-view";
-export declare class TabViewDirective {
-    private element;
+export declare class TabViewDirective implements AfterViewInit {
     tabView: TabView;
     private _selectedIndex;
     private viewInitialized;
@@ -9,7 +8,7 @@ export declare class TabViewDirective {
     constructor(element: ElementRef);
     ngAfterViewInit(): void;
 }
-export declare class TabViewItemDirective {
+export declare class TabViewItemDirective implements OnInit {
     private owner;
     private templateRef;
     private viewContainer;

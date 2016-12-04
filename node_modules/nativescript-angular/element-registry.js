@@ -1,3 +1,5 @@
+var view_1 = require("ui/core/view");
+exports.TEMPLATE = "template";
 var defaultViewMeta = {
     skipAddToDom: false,
 };
@@ -43,8 +45,18 @@ function isKnownView(elementName) {
         elementMap.has(elementName.toLowerCase());
 }
 exports.isKnownView = isKnownView;
-//Register default NativeScript components
-//Note: ActionBar related components are registerd together with action-bar directives.
+// Empty view used for template anchors
+var TemplateView = (function (_super) {
+    __extends(TemplateView, _super);
+    function TemplateView() {
+        _super.apply(this, arguments);
+    }
+    return TemplateView;
+}(view_1.View));
+exports.TemplateView = TemplateView;
+registerElement(exports.TEMPLATE, function () { return TemplateView; }, { isTemplateAnchor: true });
+// Register default NativeScript components
+// Note: ActionBar related components are registerd together with action-bar directives.
 registerElement("AbsoluteLayout", function () { return require("ui/layouts/absolute-layout").AbsoluteLayout; });
 registerElement("ActivityIndicator", function () { return require("ui/activity-indicator").ActivityIndicator; });
 registerElement("Border", function () { return require("ui/border").Border; });

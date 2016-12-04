@@ -1,4 +1,4 @@
-import { LocationStrategy } from '@angular/common';
+import { LocationStrategy } from "@angular/common";
 import { Frame, NavigationTransition } from "ui/frame";
 export interface NavigationOptions {
     clearHistory?: boolean;

@@ -6,9 +6,9 @@ var FileSystemResourceLoader = (function (_super) {
         _super.apply(this, arguments);
     }
     FileSystemResourceLoader.prototype.resolve = function (url, baseUrl) {
-        //Angular assembles absolute URL's and prefixes them with //
+        // Angular assembles absolute URL's and prefixes them with //
         if (url.indexOf("/") !== 0) {
-            //Resolve relative URL's based on the app root.
+            // Resolve relative URL's based on the app root.
             return file_system_1.path.join(baseUrl, url);
         }
         else {

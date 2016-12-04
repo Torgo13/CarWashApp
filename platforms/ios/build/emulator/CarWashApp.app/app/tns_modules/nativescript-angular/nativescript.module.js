@@ -1,18 +1,15 @@
-require('globals');
-require('./zone.js/dist/zone-nativescript');
-require('reflect-metadata');
-require('./polyfills/array');
-require('./polyfills/console');
-var common_1 = require('@angular/common');
-var renderer_1 = require('./renderer');
+require("globals");
+require("./zone.js/dist/zone-nativescript");
+require("reflect-metadata");
+require("./polyfills/array");
+require("./polyfills/console");
+var common_1 = require("@angular/common");
+var renderer_1 = require("./renderer");
 var detached_loader_1 = require("./common/detached-loader");
 var dialogs_1 = require("./directives/dialogs");
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var platform_providers_1 = require("./platform-providers");
-var dom_adapter_1 = require('./dom-adapter');
-var directives_1 = require('./directives');
-var nativescriptIntl = require("nativescript-intl");
-global.Intl = nativescriptIntl;
+var directives_1 = require("./directives");
 function errorHandlerFactory() {
     return new core_1.ErrorHandler(true);
 }
@@ -36,7 +33,6 @@ var NativeScriptModule = (function () {
                 { provide: core_1.RootRenderer, useClass: renderer_1.NativeScriptRootRenderer },
                 renderer_1.NativeScriptRenderer,
                 { provide: core_1.Renderer, useClass: renderer_1.NativeScriptRenderer },
-                { provide: core_1.Sanitizer, useClass: dom_adapter_1.NativeScriptSanitizer },
                 dialogs_1.ModalDialogService
             ],
             entryComponents: [

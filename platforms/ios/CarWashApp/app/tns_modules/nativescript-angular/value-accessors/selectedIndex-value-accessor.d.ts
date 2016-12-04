@@ -1,5 +1,5 @@
-import { ElementRef } from '@angular/core';
-import { BaseValueAccessor } from './base-value-accessor';
+import { ElementRef, AfterViewInit } from "@angular/core";
+import { BaseValueAccessor } from "./base-value-accessor";
 import { View } from "ui/core/view";
 export declare type SelectableView = {
     selectedIndex: number;
@@ -10,10 +10,11 @@ export declare type SelectableView = {
  *
  *  ### Example
  *  ```
- *  <SegmentedBar [(ngModel)]='model.test'>
+ *  <SegmentedBar [(ngModel)]="model.test">
  *  ```
  */
-export declare class SelectedIndexValueAccessor extends BaseValueAccessor<SelectableView> {
+export declare class SelectedIndexValueAccessor extends BaseValueAccessor<SelectableView> implements AfterViewInit {
+    selectedIndexChangeListener(event: any): void;
     onTouched: () => void;
     constructor(elementRef: ElementRef);
     private _normalizedValue;

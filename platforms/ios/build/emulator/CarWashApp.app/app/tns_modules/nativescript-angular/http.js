@@ -1,4 +1,4 @@
-var http_1 = require('@angular/http');
+var http_1 = require("@angular/http");
 var ns_http_1 = require("./http/ns-http");
 var ns_file_system_1 = require("./file-system/ns-file-system");
 var core_1 = require("@angular/core");
@@ -21,7 +21,8 @@ var NativeScriptHttpModule = (function () {
             providers: [
                 { provide: http_2.XSRFStrategy, useFactory: nsXSRFStrategyFactory },
                 ns_file_system_1.NSFileSystem,
-                { provide: http_1.Http, useFactory: nsHttpFactory, deps: [http_1.XHRBackend, http_1.RequestOptions, ns_file_system_1.NSFileSystem] }
+                { provide: http_1.Http, useFactory: nsHttpFactory,
+                    deps: [http_1.XHRBackend, http_1.RequestOptions, ns_file_system_1.NSFileSystem] }
             ],
             imports: [
                 http_2.HttpModule,

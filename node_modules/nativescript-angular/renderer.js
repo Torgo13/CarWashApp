@@ -1,9 +1,9 @@
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var platform_providers_1 = require("./platform-providers");
 var lang_facade_1 = require("./lang-facade");
 var view_1 = require("ui/core/view");
 var application = require("application");
-var frame_1 = require('ui/frame');
+var frame_1 = require("ui/frame");
 var view_util_1 = require("./view-util");
 var trace_1 = require("./trace");
 var utils_1 = require("utils/utils");
@@ -14,8 +14,8 @@ function ensureAnimationDriverModule() {
         nsAnimationDriverModule = require("./animation-driver");
     }
 }
-//CONTENT_ATTR not exported from dom_renderer - we need it for styles application.
-exports.COMPONENT_VARIABLE = '%COMP%';
+// CONTENT_ATTR not exported from dom_renderer - we need it for styles application.
+exports.COMPONENT_VARIABLE = "%COMP%";
 exports.CONTENT_ATTR = "_ngcontent-" + exports.COMPONENT_VARIABLE;
 var NativeScriptRootRenderer = (function () {
     function NativeScriptRootRenderer(_rootView, device, _zone) {
@@ -82,7 +82,6 @@ var NativeScriptRenderer = (function (_super) {
     function NativeScriptRenderer(rootRenderer, componentProto, animationDriver, zone) {
         _super.call(this);
         this.rootRenderer = rootRenderer;
-        this.componentProto = componentProto;
         this.animationDriver = animationDriver;
         this.zone = zone;
         this.attrReplacer = new RegExp(utils_1.escapeRegexSymbols(exports.CONTENT_ATTR), "g");
@@ -95,7 +94,7 @@ var NativeScriptRenderer = (function (_super) {
             var realCSS = this.replaceNgAttribute(cssString, this.componentProtoId);
             application.addCss(realCSS);
         }
-        trace_1.rendererLog('NativeScriptRenderer created');
+        trace_1.rendererLog("NativeScriptRenderer created");
     }
     Object.defineProperty(NativeScriptRenderer.prototype, "viewUtil", {
         get: function () {
@@ -111,25 +110,25 @@ var NativeScriptRenderer = (function (_super) {
         return this.rootRenderer.renderComponent(componentProto);
     };
     NativeScriptRenderer.prototype.selectRootElement = function (selector) {
-        trace_1.rendererLog('selectRootElement: ' + selector);
+        trace_1.rendererLog("selectRootElement: " + selector);
         var rootView = this.rootRenderer.rootView;
-        rootView.nodeName = 'ROOT';
+        rootView.nodeName = "ROOT";
         return rootView;
     };
     NativeScriptRenderer.prototype.createViewRoot = function (hostElement) {
-        trace_1.rendererLog('CREATE VIEW ROOT: ' + hostElement.nodeName);
+        trace_1.rendererLog("CREATE VIEW ROOT: " + hostElement.nodeName);
         return hostElement;
     };
     NativeScriptRenderer.prototype.projectNodes = function (parentElement, nodes) {
         var _this = this;
-        trace_1.rendererLog('NativeScriptRenderer.projectNodes');
+        trace_1.rendererLog("NativeScriptRenderer.projectNodes");
         nodes.forEach(function (node) {
             _this.viewUtil.insertChild(parentElement, node);
         });
     };
     NativeScriptRenderer.prototype.attachViewAfter = function (anchorNode, viewRootNodes) {
         var _this = this;
-        trace_1.rendererLog('NativeScriptRenderer.attachViewAfter: ' + anchorNode.nodeName + ' ' + anchorNode);
+        trace_1.rendererLog("NativeScriptRenderer.attachViewAfter: " + anchorNode.nodeName + " " + anchorNode);
         var parent = (anchorNode.parent || anchorNode.templateParent);
         var insertPosition = this.viewUtil.getChildIndex(parent, anchorNode);
         viewRootNodes.forEach(function (node, index) {
@@ -138,23 +137,25 @@ var NativeScriptRenderer = (function (_super) {
         });
     };
     NativeScriptRenderer.prototype.detachView = function (viewRootNodes) {
-        trace_1.rendererLog('NativeScriptRenderer.detachView');
+        trace_1.rendererLog("NativeScriptRenderer.detachView");
         for (var i = 0; i < viewRootNodes.length; i++) {
             var node = viewRootNodes[i];
             this.viewUtil.removeChild(node.parent, node);
         }
     };
-    NativeScriptRenderer.prototype.destroyView = function (hostElement, viewAllNodes) {
+    NativeScriptRenderer.prototype.destroyView = function (_hostElement, _viewAllNodes) {
         trace_1.rendererLog("NativeScriptRenderer.destroyView");
         // Seems to be called on component dispose only (router outlet)
-        //TODO: handle this when we resolve routing and navigation.
+        // TODO: handle this when we resolve routing and navigation.
     };
     NativeScriptRenderer.prototype.setElementProperty = function (renderElement, propertyName, propertyValue) {
-        trace_1.rendererLog("NativeScriptRenderer.setElementProperty " + renderElement + ': ' + propertyName + " = " + propertyValue);
+        trace_1.rendererLog("NativeScriptRenderer.setElementProperty " + renderElement + ": " +
+            propertyName + " = " + propertyValue);
         this.viewUtil.setProperty(renderElement, propertyName, propertyValue);
     };
     NativeScriptRenderer.prototype.setElementAttribute = function (renderElement, attributeName, attributeValue) {
-        trace_1.rendererLog("NativeScriptRenderer.setElementAttribute " + renderElement + ': ' + attributeName + " = " + attributeValue);
+        trace_1.rendererLog("NativeScriptRenderer.setElementAttribute " + renderElement + ": " +
+            attributeName + " = " + attributeValue);
         return this.setElementProperty(renderElement, attributeName, attributeValue);
     };
     NativeScriptRenderer.prototype.setElementClass = function (renderElement, className, isAdd) {
@@ -169,32 +170,29 @@ var NativeScriptRenderer = (function (_super) {
     NativeScriptRenderer.prototype.setElementStyle = function (renderElement, styleName, styleValue) {
         this.viewUtil.setStyleProperty(renderElement, styleName, styleValue);
     };
-    /**
-    * Used only in debug mode to serialize property changes to comment nodes,
-    * such as <template> placeholders.
-    */
+    // Used only in debug mode to serialize property changes to comment nodes,
+    // such as <template> placeholders.
     NativeScriptRenderer.prototype.setBindingDebugInfo = function (renderElement, propertyName, propertyValue) {
-        trace_1.rendererLog('NativeScriptRenderer.setBindingDebugInfo: ' + renderElement + ', ' + propertyName + ' = ' + propertyValue);
+        trace_1.rendererLog("NativeScriptRenderer.setBindingDebugInfo: " + renderElement + ", " +
+            propertyName + " = " + propertyValue);
     };
-    NativeScriptRenderer.prototype.setElementDebugInfo = function (renderElement, info /*RenderDebugInfo*/) {
-        trace_1.rendererLog('NativeScriptRenderer.setElementDebugInfo: ' + renderElement);
+    NativeScriptRenderer.prototype.setElementDebugInfo = function (renderElement, _info /*RenderDebugInfo*/) {
+        trace_1.rendererLog("NativeScriptRenderer.setElementDebugInfo: " + renderElement);
     };
-    /**
-    * Calls a method on an element.
-    */
-    NativeScriptRenderer.prototype.invokeElementMethod = function (renderElement, methodName, args) {
+    NativeScriptRenderer.prototype.invokeElementMethod = function (_renderElement, methodName, args) {
         trace_1.rendererLog("NativeScriptRenderer.invokeElementMethod " + methodName + " " + args);
     };
-    NativeScriptRenderer.prototype.setText = function (renderNode, text) {
+    NativeScriptRenderer.prototype.setText = function (_renderNode, _text) {
         trace_1.rendererLog("NativeScriptRenderer.setText");
     };
     NativeScriptRenderer.prototype.createTemplateAnchor = function (parentElement) {
-        trace_1.rendererLog('NativeScriptRenderer.createTemplateAnchor');
+        trace_1.rendererLog("NativeScriptRenderer.createTemplateAnchor");
         return this.viewUtil.createTemplateAnchor(parentElement);
     };
     NativeScriptRenderer.prototype.createElement = function (parentElement, name) {
         var _this = this;
-        trace_1.rendererLog('NativeScriptRenderer.createElement: ' + name + ' parent: ' + parentElement + ', ' + (parentElement ? parentElement.nodeName : 'null'));
+        trace_1.rendererLog("NativeScriptRenderer.createElement: " + name + " parent: " +
+            parentElement + ", " + (parentElement ? parentElement.nodeName : "null"));
         return this.viewUtil.createView(name, parentElement, function (view) {
             // Set an attribute to the view to scope component-specific css.
             // The property name is pre-generated by Angular.
@@ -204,13 +202,13 @@ var NativeScriptRenderer = (function (_super) {
             }
         });
     };
-    NativeScriptRenderer.prototype.createText = function (parentElement, value) {
-        trace_1.rendererLog('NativeScriptRenderer.createText');
-        return this.viewUtil.createText(value);
+    NativeScriptRenderer.prototype.createText = function (_parentElement, _value) {
+        trace_1.rendererLog("NativeScriptRenderer.createText");
+        return this.viewUtil.createText();
     };
     NativeScriptRenderer.prototype.listen = function (renderElement, eventName, callback) {
         var _this = this;
-        trace_1.rendererLog('NativeScriptRenderer.listen: ' + eventName);
+        trace_1.rendererLog("NativeScriptRenderer.listen: " + eventName);
         // Explicitly wrap in zone
         var zonedCallback = function () {
             var args = [];
@@ -228,8 +226,8 @@ var NativeScriptRenderer = (function (_super) {
         }
         return function () { return renderElement.off(eventName, zonedCallback); };
     };
-    NativeScriptRenderer.prototype.listenGlobal = function (target, eventName, callback) {
-        throw new Error('NativeScriptRenderer.listenGlobal() - Not implemented.');
+    NativeScriptRenderer.prototype.listenGlobal = function (_target, _eventName, _callback) {
+        throw new Error("NativeScriptRenderer.listenGlobal() - Not implemented.");
     };
     NativeScriptRenderer.prototype.animate = function (element, startingStyles, keyframes, duration, delay, easing) {
         var player = this.animationDriver.animate(element, startingStyles, keyframes, duration, delay, easing);

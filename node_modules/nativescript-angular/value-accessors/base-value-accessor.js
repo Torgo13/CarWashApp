@@ -16,11 +16,11 @@ var BaseValueAccessor = (function () {
             }, 20);
         };
     };
-    BaseValueAccessor.prototype.writeValue = function (value) {
+    BaseValueAccessor.prototype.writeValue = function (_) {
         //
     };
-    BaseValueAccessor.prototype.registerOnTouched = function (fn) {
-        // 
+    BaseValueAccessor.prototype.registerOnTouched = function (_) {
+        //
     };
     return BaseValueAccessor;
 }());
