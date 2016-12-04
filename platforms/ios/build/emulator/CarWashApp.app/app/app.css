@@ -1,7 +1,18 @@
-/* In NativeScript, the app.css file is where you place CSS rules that
-you would like to apply to your entire application. Check out
-http://docs.nativescript.org/ui/styling for a full list of the CSS
-selectors and properties you can use to style UI components. */
+/* In NativeScript, the app.css file is where you place CSS rules that you would like to apply to your entire application.
+Check out http://docs.nativescript.org/ui/styling for a full list of the CSS selectors and properties you can use to style UI components.
+
+NativeScript uses a subset of CSS to change the visual appearance of the app.
+This is because some CSS properties either aren’t possible to replicate with native iOS and Android APIs,
+or would incur too great of a performance penalty.
+
+The full list of supported CSS properties are here: http://docs.nativescript.org/ui/styling#supported-css-properties */
+
+/* Import a platform-specific CSS for iOS */
+@import url("~/platform.css");
+
+/* In NativeScript, a single <Page> UI element wraps the template of every page-level Angular component.
+A <Page> element exists as the parent of the AppComponent’s template,
+and it is possible to target that <Page> with CSS like any other UI element. */
 Page {
   background-color: white;
   font-size: 15;
@@ -11,9 +22,6 @@ TextField {
   font-size: 13;
 }
 
-/*
-In many cases you may want to use the NativeScript core theme instead
-of writing your own CSS rules. For a full list of class names in the theme
-refer to http://docs.nativescript.org/ui/theme.
-*/
+/* In many cases you may want to use the NativeScript core theme instead of writing your own CSS rules.
+For a full list of class names in the theme, refer to http://docs.nativescript.org/ui/theme. */
 @import 'nativescript-theme-core/css/core.light.css';

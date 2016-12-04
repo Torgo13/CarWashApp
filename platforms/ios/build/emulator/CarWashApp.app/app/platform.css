@@ -1,0 +1,5 @@
+/* Add a thin black border around text fields, only on iOS */
+TextField {
+  border-width: 1;
+  border-color: black;
+}
