@@ -1,5 +1,17 @@
 # CarWashApp
 
+# Running the app in the iOS or Android emulator
+
+1. Navigate to the CarWashApp (or CarWashApp-master) folder, and run one of the following terminal commands:
+
+  tns run ios --emulator
+  tns run android --emulator
+
+2. To have the emulator automatically recompile and restart whenever one of the source files is saved with changes, press Ctrl and C in the terminal window to gain back control. Then, enter one of the following commands into the terminal:
+
+  tns livesync ios --emulator --watch
+  tns livesync android --emulator --watch
+
 # Setting up NativeScript on OS X and running the app in the iOS emulator
 
 1. Homebrew must be installed in the terminal in order to run certain commands. Open a terminal window, and run:
