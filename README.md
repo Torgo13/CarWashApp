@@ -44,3 +44,34 @@ tns doctor
 
 # Optional: Installing the Android development environment
 
+1. Install the Android SDK by running this terminal command:
+
+brew install android-sdk
+
+2. Set the ANDROID_HOME system environment variable by running this terminal command:
+
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+3. Select the packages for Android 22 SDK, Android SDK Build-tools 23.0.3 or later, and Local Maven repository for Support Libraries by running this terminal command:
+
+android update sdk --filter tools,platform-tools,android-23,build-tools-23.0.3,extra-android-m2repository,extra-google-m2repository,extra-android-support --all --no-ui
+
+4. Create a Google Nexus 5 device with the default settings.
+
+# Optional: Installing the Genymotion Android virtual machine
+
+1. Download VirtualBox from this link:
+
+https://www.virtualbox.org/wiki/Downloads
+
+2. Download and install Genymotion from this link, after setting up an account:
+
+https://www.genymotion.com/#!/download
+
+3. Add Genymotion and Genymotion Shell to the PATH system variable by running this terminal command:
+
+PATH=$PATH:/Applications/Genymotion\ Shell.app/Contents/MacOS/:/Applications/Genymotion.app/Contents/MacOS/
+
+4. In the settings tab in Genymotion, go to ADB and change the "ADB tool connection" settings to "custom". Enter the path of the Android SDK:
+
+/usr/local/opt/android-sdk
