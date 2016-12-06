@@ -6,6 +6,9 @@ var core_1 = require("@angular/core");
 var user_1 = require("../../shared/user/user");
 var user_service_1 = require("../../shared/user/user.service");
 var router_1 = require("@angular/router");
+var page_1 = require("ui/page");
+/* Used for the animations */
+var color_1 = require("color");
 /* Data Binding
 
 Attribute Binding is displaying an output to the screen.
@@ -32,15 +35,22 @@ var LoginComponent = (function () {
     Because UserService was registered as a provider in this component’s providers array,
     when Angular sees this syntax it creates an instance of the UserService class,
     and passes that instance into the component’s constructor. */
-    function LoginComponent(router, userService) {
+    function LoginComponent(router, userService, page) {
         this.router = router;
         this.userService = userService;
+        this.page = page;
         this.isLoggingIn = true;
         this.user = new user_1.User();
         /* Default credentials */
         this.user.email = "user@nativescript.org";
         this.user.password = "password";
     }
+    /* ngOnInit is one of several component lifecycle hooks that Angular 2 provides.
+    As its name implies, ngOnInit gets invoked when Angular initializes this component. */
+    LoginComponent.prototype.ngOnInit = function () {
+        this.page.actionBarHidden = true;
+        this.page.backgroundImage = "res://bg_login";
+    };
     LoginComponent.prototype.submit = function () {
         if (this.isLoggingIn) {
             this.login();
@@ -64,9 +74,22 @@ var LoginComponent = (function () {
             _this.toggleDisplay();
         }, function () { return alert("Unfortunately we were unable to create your account."); });
     };
+    /* All NativeScript UI elements inherit from a base View class.
+    Once there is a reference to a UI element, it is possible to call any of the methods that element inherits from View.
+    The <StackLayout #container> element’s animate() method is called to change its background color over a duration of 200 ms, or 0.2 seconds.
+    Examples of animations can be found at: https://docs.nativescript.org/ui/animation#examples */
     LoginComponent.prototype.toggleDisplay = function () {
         this.isLoggingIn = !this.isLoggingIn;
+        var container = this.container.nativeElement;
+        container.animate({
+            backgroundColor: this.isLoggingIn ? new color_1.Color("white") : new color_1.Color("#301217"),
+            duration: 200
+        });
     };
+    __decorate([
+        core_1.ViewChild("container"), 
+        __metadata('design:type', core_1.ElementRef)
+    ], LoginComponent.prototype, "container", void 0);
     LoginComponent = __decorate([
         core_1.Component({
             selector: "my-app",
@@ -74,7 +97,7 @@ var LoginComponent = (function () {
             templateUrl: "pages/login/login.html",
             styleUrls: ["pages/login/login-common.css", "pages/login/login.css"]
         }), 
-        __metadata('design:paramtypes', [router_1.Router, user_service_1.UserService])
+        __metadata('design:paramtypes', [router_1.Router, user_service_1.UserService, page_1.Page])
     ], LoginComponent);
     return LoginComponent;
 }());

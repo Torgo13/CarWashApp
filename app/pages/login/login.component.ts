@@ -1,13 +1,17 @@
 /* In Angular 2, a component manages a view, or a piece of the user interface that the user sees.
 A component can be used to define an individual UI element, or an entire page. */
-import {Component} from "@angular/core";
+import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 
 /* The reason the User class is available to import is because it was explicitly exported. */
 import { User } from "../../shared/user/user";
 
 import { UserService } from "../../shared/user/user.service";
-
 import { Router } from "@angular/router";
+import { Page } from "ui/page";
+
+/* Used for the animations */
+import { Color } from "color";
+import { View } from "ui/core/view";
 
 /* Data Binding
 
@@ -39,19 +43,33 @@ In this case, it would be accessed with <my-app></my-app> */
   templateUrl: "pages/login/login.html",
   styleUrls: ["pages/login/login-common.css", "pages/login/login.css"]
 })
-export class LoginComponent {
+/* OnInit is a TypeScript class interface, so it must be imported from "@angular/core" and implemented in the class.
+This requires all of the methods that interface requires to be implemented, including ngOnInit(). */
+export class LoginComponent implements OnInit {
   user: User;
   isLoggingIn = true;
+  /* In login.html, the <StackLayout> element has a local template variable called #container.
+  This local variable is used to get a reference to the <StackLayout> element in TypeScript code in order to create the animation.
+  This code uses Angular’s @ViewChild decorator to create a new property that points at the <StackLayout> element.
+  That property is used in the LoginComponent’s toggleDisplay() function. */
+  @ViewChild("container") container: ElementRef;
 
   /* This is Angular 2’s dependency injection implementation.
   Because UserService was registered as a provider in this component’s providers array,
   when Angular sees this syntax it creates an instance of the UserService class,
   and passes that instance into the component’s constructor. */
-  constructor(private router: Router, private userService: UserService) {
+  constructor(private router: Router, private userService: UserService, private page: Page) {
     this.user = new User();
     /* Default credentials */
     this.user.email = "user@nativescript.org";
     this.user.password = "password";
+  }
+
+  /* ngOnInit is one of several component lifecycle hooks that Angular 2 provides.
+  As its name implies, ngOnInit gets invoked when Angular initializes this component. */
+  ngOnInit() {
+    this.page.actionBarHidden = true;
+    this.page.backgroundImage = "res://bg_login";
   }
 
   submit() {
@@ -81,7 +99,16 @@ export class LoginComponent {
       );
   }
 
+  /* All NativeScript UI elements inherit from a base View class.
+  Once there is a reference to a UI element, it is possible to call any of the methods that element inherits from View.
+  The <StackLayout #container> element’s animate() method is called to change its background color over a duration of 200 ms, or 0.2 seconds.
+  Examples of animations can be found at: https://docs.nativescript.org/ui/animation#examples */
   toggleDisplay() {
     this.isLoggingIn = !this.isLoggingIn;
+    let container = <View>this.container.nativeElement;
+    container.animate({
+      backgroundColor: this.isLoggingIn ? new Color("white") : new Color("#301217"),
+      duration: 200
+    });
   }
 }
