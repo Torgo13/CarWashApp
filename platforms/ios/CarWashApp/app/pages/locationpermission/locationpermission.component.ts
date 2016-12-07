@@ -20,6 +20,6 @@ export class LocationPermissionComponent {
     }
 
     continue() {
-        this.router.navigate(["/list"]);
+        this.router.navigate(["/login"]);
     }
 }

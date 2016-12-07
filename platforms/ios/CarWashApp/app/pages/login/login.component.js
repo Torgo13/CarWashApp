@@ -68,7 +68,7 @@ var LoginComponent = (function () {
     LoginComponent.prototype.login = function () {
         var _this = this;
         this.userService.login(this.user)
-            .subscribe(function () { return _this.router.navigate(["/start"]); }, function (error) { return alert("Unfortunately we could not find your account."); });
+            .subscribe(function () { return _this.router.navigate(["/list"]); }, function (error) { return alert("Unfortunately we could not find your account."); });
     };
     /* The two functions passed to subscribe() are success and failure handlers.
     If the call to register() succeeds, the first alert will fire, and if the call to register() fails, the second alert will fire. */

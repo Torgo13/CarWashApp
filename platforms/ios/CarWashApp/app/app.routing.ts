@@ -8,10 +8,10 @@ there needs to be a routes array that includes a list of all components the user
 When new routes need to be added, import the appropriate component in app.routing.ts, and then include that component in the routes array. */
 
 export const routes = [
-  { path: "", component: LoginComponent },
+  { path: "login", component: LoginComponent },
   { path: "list", component: ListComponent },
   { path: "locationpermission", component: LocationPermissionComponent },
-  { path: "start", component: StartComponent }
+  { path: "", component: StartComponent }
 ];
 
 export const navigatableComponents = [

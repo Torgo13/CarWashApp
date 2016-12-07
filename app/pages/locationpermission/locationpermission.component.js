@@ -8,7 +8,7 @@ var LocationPermissionComponent = (function () {
         this.page = page;
     }
     LocationPermissionComponent.prototype.continue = function () {
-        this.router.navigate(["/list"]);
+        this.router.navigate(["/login"]);
     };
     LocationPermissionComponent = __decorate([
         core_1.Component({
