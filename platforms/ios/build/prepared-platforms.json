@@ -7,6 +7,7 @@
     "@angular/platform-browser": true,
     "@angular/platform-browser-dynamic": true,
     "@angular/router": true,
+    "email-validator": true,
     "nativescript-angular": true,
     "nativescript-intl": true,
     "rxjs": true,
@@ -16,6 +17,7 @@
     "punycode": true,
     "querystring": true,
     "url": true,
+    "nativescript-social-share": true,
     "nativescript-theme-core": true,
     "tns-core-modules": true,
     "tns-core-modules-widgets": true

@@ -1,8 +1,10 @@
-import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
+import { Component, ElementRef, NgZone, OnInit, ViewChild } from "@angular/core";
 import { TextField } from "ui/text-field";
 
 import { Grocery } from "../../shared/grocery/grocery";
 import { GroceryListService } from "../../shared/grocery/grocery-list.service";
+
+import * as SocialShare from "nativescript-social-share";
 
 /* In list.html, the <ListView> UI element requires an items property that points to an array of data.
 This is the the groceryList array defined in the ListComponent class.
@@ -35,10 +37,25 @@ export class ListComponent implements OnInit {
   grocery = "";
   isLoading = false;
   listLoaded = false;
+
   @ViewChild("groceryTextField") groceryTextField: ElementRef;
 
   /* Because a service is being injected into the constructor, it must also be included as a provider within the component decorator, @Component. */
-  constructor(private groceryListService: GroceryListService) {}
+  constructor(
+    private groceryListService: GroceryListService,
+    private zone: NgZone) {}
+
+  ngOnInit() {
+    this.isLoading = true;
+    this.groceryListService.load()
+      .subscribe(loadedGroceries => {
+        loadedGroceries.forEach((groceryObject) => {
+          this.groceryList.unshift(groceryObject);
+        });
+        this.isLoading = false;
+        this.listLoaded = true;
+      });
+  }
 
   add() {
     if (this.grocery.trim() === "") {
@@ -66,15 +83,26 @@ export class ListComponent implements OnInit {
       )
   }
 
-  ngOnInit() {
-    this.isLoading = true;
-    this.groceryListService.load()
-      .subscribe(loadedGroceries => {
-        loadedGroceries.forEach((groceryObject) => {
-          this.groceryList.unshift(groceryObject);
+  delete(grocery: Grocery) {
+    this.groceryListService.delete(grocery.id)
+      .subscribe(() => {
+        // Running the array splice in a zone ensures that change detection gets triggered.
+        this.zone.run(() => {
+          let index = this.groceryList.indexOf(grocery);
+          this.groceryList.splice(index, 1);
         });
-        this.isLoading = false;
-        this.listLoaded = true;
       });
+  }
+
+  /* This code takes the grocery data from the grocery list array, converts the data into a comma-separated string,
+  and passes that string to the social share plugin’s shareText() method.
+  The native iOS or Android sharing widget will allow the list to be posted on social networks, or sent via and email or message. */
+  share() {
+    let list = [];
+    for (let i = 0, size = this.groceryList.length; i < size ; i++) {
+      list.push(this.groceryList[i].name);
+    }
+    let listString = list.join(", ").trim();
+    SocialShare.shareText(listString);
   }
 }

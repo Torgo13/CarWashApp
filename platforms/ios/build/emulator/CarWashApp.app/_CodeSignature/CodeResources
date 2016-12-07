@@ -1194,7 +1194,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		Lf+9pw6iYNsU2NZ8yUoeANBkAHc=
+		ee2gz/zu0mk0lkEFz9KXnWAWApU=
 		</data>
 		<key>app/app.module.js</key>
 		<data>
@@ -1226,15 +1226,15 @@
 		</data>
 		<key>app/main.js</key>
 		<data>
-		7DD/U6RKDjHTTmyYlgGPTqIWsfY=
+		YlrH/lso8Q7oVntPQE00abMBNV4=
 		</data>
 		<key>app/main.js.map</key>
 		<data>
-		eoazMpNogxX6yIPCNC18pg0Q05U=
+		5O+cnUrbtPu1pbMlSAVc88v+7Ns=
 		</data>
 		<key>app/main.ts</key>
 		<data>
-		Y+8Bo1nhh1hf+jfn0ST2GPOyPkE=
+		Tw+TVQqAcV28EjwlA4OoMvLiZt0=
 		</data>
 		<key>app/package.json</key>
 		<data>
@@ -1242,27 +1242,27 @@
 		</data>
 		<key>app/pages/list/list-common.css</key>
 		<data>
-		tIbuaWfR7UKES3PKJk5WwJ2W6Pw=
+		Q3+H3s+/TgdP383g5rNV9vUyhSg=
 		</data>
 		<key>app/pages/list/list.component.js</key>
 		<data>
-		I7Q0lluWlBpp054ro5E0xR48Mdw=
+		FB4ppU/NgLVKwrKntZlPjLTAyig=
 		</data>
 		<key>app/pages/list/list.component.js.map</key>
 		<data>
-		PHzBJABA59GlGkWXob0s4aFfcmw=
+		KLLc09MNlCUywqXuJ+AD6RJAykY=
 		</data>
 		<key>app/pages/list/list.component.ts</key>
 		<data>
-		Ilhm43PH4tiXQ1k/TBUn7OKgr7A=
+		dRxnD7pKRf+nkx+wUGpN0bpMx/0=
 		</data>
 		<key>app/pages/list/list.css</key>
 		<data>
-		D/otyoJOA2y6f2Q7eEmsCFNlJ9I=
+		G0xYSVYk1q9wK1gaV67dOJgicPw=
 		</data>
 		<key>app/pages/list/list.html</key>
 		<data>
-		kDQAg9HGH9k4zWV5/UV1OpaW05I=
+		nTDEtRr+W0taofODFDIQiGvPocs=
 		</data>
 		<key>app/pages/login/login-common.css</key>
 		<data>
@@ -1270,15 +1270,15 @@
 		</data>
 		<key>app/pages/login/login.component.js</key>
 		<data>
-		7XXq9nbld7Ocntq0K2dqiRQzdIs=
+		bN/2Ncwk9CX7hp3gr0zWm+yOWRE=
 		</data>
 		<key>app/pages/login/login.component.js.map</key>
 		<data>
-		8RAk7RpvjMtMylWUKORmodzr23k=
+		I9vj/LXM4d0uqHJrq+KolazXIEA=
 		</data>
 		<key>app/pages/login/login.component.ts</key>
 		<data>
-		HKmNOCQ8ezHir3qi7oXlMgoarhQ=
+		eMRgnw0rTs6OPQc5Z/UiI1RMli0=
 		</data>
 		<key>app/pages/login/login.css</key>
 		<data>
@@ -1286,11 +1286,11 @@
 		</data>
 		<key>app/pages/login/login.html</key>
 		<data>
-		1aNwyUZGtcHxRxKOJu5MKiE/y4s=
+		9UZiV1MHXGQ63b2aGuBWl0Jh+Lo=
 		</data>
 		<key>app/platform.css</key>
 		<data>
-		eJoaWHQpTl3h3S1Zm2+iPty2yWs=
+		Y8B08gy2NA1w17OWmXRaTe/+UeU=
 		</data>
 		<key>app/shared/config.js</key>
 		<data>
@@ -1306,35 +1306,35 @@
 		</data>
 		<key>app/shared/grocery/grocery-list.service.js</key>
 		<data>
-		UDgxLs14GbEKtTHK/2wjwh5Wa2s=
+		mQ/UD6JUHHBfIElGbYhZjIQRG/k=
 		</data>
 		<key>app/shared/grocery/grocery-list.service.js.map</key>
 		<data>
-		e2Q9Gyl6LhWjFtXnW7l6Sf1lkjY=
+		2yZbro/YHaQBz5I1R+p33JJA2NY=
 		</data>
 		<key>app/shared/grocery/grocery-list.service.ts</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		9P6qSDWEKJCjtHGjsYG8FfJokvo=
 		</data>
 		<key>app/shared/grocery/grocery.js</key>
 		<data>
-		oCuUEpRCLOyr8b3NSHWkBXrqK3s=
+		exv0HVblVENkUOdM4H37Fa+zLNM=
 		</data>
 		<key>app/shared/grocery/grocery.js.map</key>
 		<data>
-		zf7dCYtufAWHXH6/HSYZbJpEcrk=
+		t2ywlsJU9vOc+XTijxoUGS1qrYA=
 		</data>
 		<key>app/shared/grocery/grocery.ts</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		EcJ1Jg1zdiihxT/bUN737CJbc+E=
 		</data>
 		<key>app/shared/user/user.js</key>
 		<data>
-		X0LxrlbxtXdFWBrL/fC10hXwIbo=
+		1w9NCdP5D3xAKbm2XOr8keuYSQ0=
 		</data>
 		<key>app/shared/user/user.js.map</key>
 		<data>
-		RhgXIji+lKJy3CGJeg2yxhVQKDE=
+		C/Jit6eblywdbjgK3P0QlDXkzhM=
 		</data>
 		<key>app/shared/user/user.service.js</key>
 		<data>
@@ -1350,7 +1350,7 @@
 		</data>
 		<key>app/shared/user/user.ts</key>
 		<data>
-		rIXZhIdxkAwA+dH8TAZH2UkwKVk=
+		3fbakKI6/3oUnO3L6XHTTq4WytM=
 		</data>
 		<key>app/tns_modules/@angular/common/README.md</key>
 		<data>
@@ -7264,6 +7264,38 @@
 		<data>
 		DO2D43UqhC4l7xjUz22dlWVgG5k=
 		</data>
+		<key>app/tns_modules/email-validator/.npmignore</key>
+		<data>
+		0E11xvfu1jZ0ogLefaASZkmbZKY=
+		</data>
+		<key>app/tns_modules/email-validator/CHANGELOG.md</key>
+		<data>
+		tD94gohRqhupRog6o2lBBrixvfY=
+		</data>
+		<key>app/tns_modules/email-validator/LICENSE</key>
+		<data>
+		j9rbAcjVpnvC8r4XQ39OKm5YmwQ=
+		</data>
+		<key>app/tns_modules/email-validator/README.md</key>
+		<data>
+		SgU/McMmyvWcldcvaTQIryTkHwg=
+		</data>
+		<key>app/tns_modules/email-validator/index.d.ts</key>
+		<data>
+		DlviWQCTxhj2UFtfbXNCV+jrMtY=
+		</data>
+		<key>app/tns_modules/email-validator/index.js</key>
+		<data>
+		B0iUUoPDR1aY5dH5w8gGVXSJm0g=
+		</data>
+		<key>app/tns_modules/email-validator/package.json</key>
+		<data>
+		MoI56HE4udh0OeDoYnNQJ361DfA=
+		</data>
+		<key>app/tns_modules/email-validator/test.js</key>
+		<data>
+		jzIb/7sE3tKHVVwcHM84IaPlaGI=
+		</data>
 		<key>app/tns_modules/fetch/fetch.js</key>
 		<data>
 		nk0GpowrGIYRbFxT2/Fv59gtwqg=
@@ -8195,6 +8227,30 @@
 		<key>app/tns_modules/nativescript-angular/zone.js/dist/zone-nativescript.js</key>
 		<data>
 		skwBeAd0ZbVFH+t5yYUq7d2R0FI=
+		</data>
+		<key>app/tns_modules/nativescript-social-share/.npmignore</key>
+		<data>
+		f4imN+GAeyy7dqUdNjyK9ZoX4Tg=
+		</data>
+		<key>app/tns_modules/nativescript-social-share/LICENSE</key>
+		<data>
+		o04jwQu5p6hhxqR5/iFcFkeBKWo=
+		</data>
+		<key>app/tns_modules/nativescript-social-share/README.md</key>
+		<data>
+		x0V44YFY41Son71bKo0QfPNH37k=
+		</data>
+		<key>app/tns_modules/nativescript-social-share/index.d.ts</key>
+		<data>
+		GkeL9wCquJ85g+6aD53+vDvlPbY=
+		</data>
+		<key>app/tns_modules/nativescript-social-share/package.json</key>
+		<data>
+		uYSJpZWs9zMejOYGFoAJxpYJCZU=
+		</data>
+		<key>app/tns_modules/nativescript-social-share/social-share.js</key>
+		<data>
+		pcS0q5HpZxXvj8o9a4fDT//S/0U=
 		</data>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
 		<data>
@@ -15218,15 +15274,15 @@
 		</data>
 		<key>app/utils/hint-util.js</key>
 		<data>
-		9cHdn+XSrKzF7iB9efUU50teqfw=
+		5lBKDdn66Asiwd6gUF7V0rQqZhE=
 		</data>
 		<key>app/utils/hint-util.js.map</key>
 		<data>
-		FkxzkGOyjvimadiVAjWYaHPB0i0=
+		1xEQGYrH6dWmCfIR8dNan7MbCBs=
 		</data>
 		<key>app/utils/hint-util.ts</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		fjl4dKcxQ8oZoV/xMex5z5JOTDA=
 		</data>
 		<key>app/utils/status-bar-util.js</key>
 		<data>
@@ -18805,11 +18861,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lf+9pw6iYNsU2NZ8yUoeANBkAHc=
+			ee2gz/zu0mk0lkEFz9KXnWAWApU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wA7zv7GwvK2EKfOwGDGIR06u0OiQshm0cR5JqQwTtMo=
+			jnoq3/9fW8zXuMg82QyBX44+EUHLR8cLwuKOha3aj7k=
 			</data>
 		</dict>
 		<key>app/app.module.js</key>
@@ -18893,33 +18949,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7DD/U6RKDjHTTmyYlgGPTqIWsfY=
+			YlrH/lso8Q7oVntPQE00abMBNV4=
 			</data>
 			<key>hash2</key>
 			<data>
-			WlgoBVj7DKoToVDyzLNIGWcUZioBvtRGtDHH8NlJT94=
+			LmqM7zhqXBRFwaGKbX0DTGQ35RZO02BLbOlZ9VMnCZg=
 			</data>
 		</dict>
 		<key>app/main.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eoazMpNogxX6yIPCNC18pg0Q05U=
+			5O+cnUrbtPu1pbMlSAVc88v+7Ns=
 			</data>
 			<key>hash2</key>
 			<data>
-			U3H6rFLhCX8ou39586UtlSka/A8R8ue31zmwMs3vtv8=
+			95MObRhvqN4Yds/3AQBic12vvR75+NaoBJMS95ZQPiQ=
 			</data>
 		</dict>
 		<key>app/main.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y+8Bo1nhh1hf+jfn0ST2GPOyPkE=
+			Tw+TVQqAcV28EjwlA4OoMvLiZt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1HEIBT7sK9jajf62kuXOdywIXhif/Cfo1LMLP/cA7JE=
+			Cj7Z17De2j/VOTJ9sOHFzWKbyNxxLwCHt13Ui28X2Mo=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -18937,66 +18993,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tIbuaWfR7UKES3PKJk5WwJ2W6Pw=
+			Q3+H3s+/TgdP383g5rNV9vUyhSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z7hEVJFqdUIu0D4tjESQ3yFFLMeXY7qDA2YjD0PvpGM=
+			PlX+ruLx7ZNs1TXLwCo/PL4NB0gSSVZO9kq6j8Op5t8=
 			</data>
 		</dict>
 		<key>app/pages/list/list.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I7Q0lluWlBpp054ro5E0xR48Mdw=
+			FB4ppU/NgLVKwrKntZlPjLTAyig=
 			</data>
 			<key>hash2</key>
 			<data>
-			FJNkuVrT47onTDIuUhXu+Y476k2dtv3vJGG+ijmlX6s=
+			xO9qW5H33OaLBlhcT8iMaWOjUg2FnbMZXClcb6pTc7U=
 			</data>
 		</dict>
 		<key>app/pages/list/list.component.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PHzBJABA59GlGkWXob0s4aFfcmw=
+			KLLc09MNlCUywqXuJ+AD6RJAykY=
 			</data>
 			<key>hash2</key>
 			<data>
-			cC+x52ZewJcFg9uQuvsvZGjVUus0fxWpP5sYckiIrvo=
+			2MCLmEBq1olucumN/p3SP4SB0cNdtCYdrJfHxJvnaFo=
 			</data>
 		</dict>
 		<key>app/pages/list/list.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ilhm43PH4tiXQ1k/TBUn7OKgr7A=
+			dRxnD7pKRf+nkx+wUGpN0bpMx/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			aYwLv6Hp4PhLVgZMWuX7jDyU3edl0f1xN4LZnzIp3x0=
+			tCgZMhc/p3C6xLPsOwc9h0Fj3fPRUsxfR7Yow5SJH6g=
 			</data>
 		</dict>
 		<key>app/pages/list/list.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D/otyoJOA2y6f2Q7eEmsCFNlJ9I=
+			G0xYSVYk1q9wK1gaV67dOJgicPw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+iLRk5qVvPl1tBPzIs918ZfzQ5+JL95SkPA6ISzkzY=
+			nqzisPfH0C8fOintbyKmtPB7rtivs7TwYa73GuGC4eI=
 			</data>
 		</dict>
 		<key>app/pages/list/list.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kDQAg9HGH9k4zWV5/UV1OpaW05I=
+			nTDEtRr+W0taofODFDIQiGvPocs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DH2QgSBuxKD+C6J3adgmb8/ONylj3Ku8E23YdB6xvQo=
+			PT9BnduCsC0xY7GmBXT7wRkjfBWYj9sgWPcKn7whSsc=
 			</data>
 		</dict>
 		<key>app/pages/login/login-common.css</key>
@@ -19014,33 +19070,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7XXq9nbld7Ocntq0K2dqiRQzdIs=
+			bN/2Ncwk9CX7hp3gr0zWm+yOWRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ho7qCTRcDAQSPi74hEnHZowvYF4E6YzzUTDz41HFjf4=
+			Rz04TFDGPxbmmKBbpnbaQiAcekn7Femz5vDxmMN12bg=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8RAk7RpvjMtMylWUKORmodzr23k=
+			I9vj/LXM4d0uqHJrq+KolazXIEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			BgXBN2T1Tqf5CgY1MLWBuoCQ/oqRfC+iqbnKsZLXNAo=
+			ZsPPHAIRH5XrJ3M1Ifck/QtvPEafIYqhv2sdxcBN1PU=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HKmNOCQ8ezHir3qi7oXlMgoarhQ=
+			eMRgnw0rTs6OPQc5Z/UiI1RMli0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+sUYwnUmJjhpqR5DFv4MpsRf4QZ+cGbiYn9+WaDkug0=
+			uV2OB6hqq9hAveX7g3B28ppoAYEEHXRKYmLLSrBUcuw=
 			</data>
 		</dict>
 		<key>app/pages/login/login.css</key>
@@ -19058,22 +19114,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1aNwyUZGtcHxRxKOJu5MKiE/y4s=
+			9UZiV1MHXGQ63b2aGuBWl0Jh+Lo=
 			</data>
 			<key>hash2</key>
 			<data>
-			YuRDd1QNsak61QUq/cQvBYcYk/+aGgngpXXMFRU5N1I=
+			Ytf4+JXeBZS51KruWbvbfgtvce1J+gZXktHvvd2hP34=
 			</data>
 		</dict>
 		<key>app/platform.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eJoaWHQpTl3h3S1Zm2+iPty2yWs=
+			Y8B08gy2NA1w17OWmXRaTe/+UeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			F7CyY1cxlJ6xLjzyS4NrT6NFLRGuArlrv77vQu5S0g8=
+			vqNW9r7esN94psKtP2NhfQrPFu8lxVKb/dbvGqNm3Fc=
 			</data>
 		</dict>
 		<key>app/shared/config.js</key>
@@ -19113,88 +19169,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UDgxLs14GbEKtTHK/2wjwh5Wa2s=
+			mQ/UD6JUHHBfIElGbYhZjIQRG/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			O62xtpQ8p4GoeoszmyEGIgSdTomTh24UFj7+2QhI7+o=
+			sjWRJ3DMUPBQwda6zEmSQYi+thnc105S0T2lz2q8ebc=
 			</data>
 		</dict>
 		<key>app/shared/grocery/grocery-list.service.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e2Q9Gyl6LhWjFtXnW7l6Sf1lkjY=
+			2yZbro/YHaQBz5I1R+p33JJA2NY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lWPC4FH6qtihIkYMZmgI4BnXP6RKS2Zawrw3PJkkVc=
+			uzaN8X2Qpmk6+uaHvVXvVkBvLeIFk/xr5v3wrtbt57U=
 			</data>
 		</dict>
 		<key>app/shared/grocery/grocery-list.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			9P6qSDWEKJCjtHGjsYG8FfJokvo=
 			</data>
 			<key>hash2</key>
 			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			8EzikjU9eDSovgS6WUFTKb+xYfvXjj0EGQice2aroQU=
 			</data>
 		</dict>
 		<key>app/shared/grocery/grocery.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oCuUEpRCLOyr8b3NSHWkBXrqK3s=
+			exv0HVblVENkUOdM4H37Fa+zLNM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BCzQ9PAKXDyeEki/993tDKlBuATJGXHXRNWXvbDVEYk=
+			jUTyXXSLbTPXP+MA9AiEw4bdjC1bwXcNFUVhJshLt3g=
 			</data>
 		</dict>
 		<key>app/shared/grocery/grocery.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zf7dCYtufAWHXH6/HSYZbJpEcrk=
+			t2ywlsJU9vOc+XTijxoUGS1qrYA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TGy/diFL3yv4Gz7SVtzpWrpE2yBjy8zw2pyIv9yhZzA=
+			Z+aiftM+tPUXvck0G2OxLnECOKUXbJj/VKtjw3pqK0A=
 			</data>
 		</dict>
 		<key>app/shared/grocery/grocery.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			EcJ1Jg1zdiihxT/bUN737CJbc+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			hi9gG7vBPruH/739aENWSPKDtar3QnZzrxR21Z/mwrw=
 			</data>
 		</dict>
 		<key>app/shared/user/user.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X0LxrlbxtXdFWBrL/fC10hXwIbo=
+			1w9NCdP5D3xAKbm2XOr8keuYSQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			yDi8P351e1IxgWx/Dwsr5mpIZG+qvURiC7fIdz7NUCw=
+			QQ9jQ7SJv3geGDqJ0kTI2s+YXpXqZJ7RPvt9Qq7L/lA=
 			</data>
 		</dict>
 		<key>app/shared/user/user.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RhgXIji+lKJy3CGJeg2yxhVQKDE=
+			C/Jit6eblywdbjgK3P0QlDXkzhM=
 			</data>
 			<key>hash2</key>
 			<data>
-			AjmY69dF4j9zfezHhoZDADEYV3+MK4EPdMOSqpzXp+E=
+			6kwXPJwGF9wtDFmDdoCnk9pAIEPYzbusC2rtWyTzsD0=
 			</data>
 		</dict>
 		<key>app/shared/user/user.service.js</key>
@@ -19234,11 +19290,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rIXZhIdxkAwA+dH8TAZH2UkwKVk=
+			3fbakKI6/3oUnO3L6XHTTq4WytM=
 			</data>
 			<key>hash2</key>
 			<data>
-			l92MgIXtHPwKq2uVm2Ala8YNap9M0a7+P+X6H9BMScc=
+			ZalRx2bFEc9dMglOfduQ7eh7UBmSjCDIsp1sWdCIOic=
 			</data>
 		</dict>
 		<key>app/tns_modules/@angular/common/README.md</key>
@@ -35499,6 +35555,94 @@
 			bnwlSxT6Tkoir80FZuU6VIA168Gw27YyZkldhz8Htig=
 			</data>
 		</dict>
+		<key>app/tns_modules/email-validator/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0E11xvfu1jZ0ogLefaASZkmbZKY=
+			</data>
+			<key>hash2</key>
+			<data>
+			2SOASPYufvwRqTtldwtnKabGxW1eMmovGA2c7Fvs+zg=
+			</data>
+		</dict>
+		<key>app/tns_modules/email-validator/CHANGELOG.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tD94gohRqhupRog6o2lBBrixvfY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6Juc2WBt6MekhjbFUb1aoBjmj/CSsTYmVSCv4lAow9M=
+			</data>
+		</dict>
+		<key>app/tns_modules/email-validator/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j9rbAcjVpnvC8r4XQ39OKm5YmwQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			edD8RHFgB93cN1YBvKiHmtRbwRZb+TQrehZXK09Bq+g=
+			</data>
+		</dict>
+		<key>app/tns_modules/email-validator/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SgU/McMmyvWcldcvaTQIryTkHwg=
+			</data>
+			<key>hash2</key>
+			<data>
+			RhBlow/2CjFhteKM0U3GWdBG4C0up/bjDRWGl6iB+/M=
+			</data>
+		</dict>
+		<key>app/tns_modules/email-validator/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DlviWQCTxhj2UFtfbXNCV+jrMtY=
+			</data>
+			<key>hash2</key>
+			<data>
+			N72ZnCHFh7A3O6feLjpwFdgH6MZ7u899ePgNWbs4BxE=
+			</data>
+		</dict>
+		<key>app/tns_modules/email-validator/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B0iUUoPDR1aY5dH5w8gGVXSJm0g=
+			</data>
+			<key>hash2</key>
+			<data>
+			zmS1R5S0kLSLfDoDaJmC+XuZlCb30Dehe5nCfqW7ByE=
+			</data>
+		</dict>
+		<key>app/tns_modules/email-validator/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MoI56HE4udh0OeDoYnNQJ361DfA=
+			</data>
+			<key>hash2</key>
+			<data>
+			vHwoEzW3AM69A05N5LqBCVqADJcBP631qnuWpXVm4Hw=
+			</data>
+		</dict>
+		<key>app/tns_modules/email-validator/test.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jzIb/7sE3tKHVVwcHM84IaPlaGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			z/u0amyXgUFb/dWKNM/sFmp3eJkWj1CeByXGEofkrHY=
+			</data>
+		</dict>
 		<key>app/tns_modules/fetch/fetch.js</key>
 		<dict>
 			<key>hash</key>
@@ -38060,6 +38204,72 @@
 			<key>hash2</key>
 			<data>
 			gxBIxFjf8/07c6/mZI4E1B0vxXsBlVcDuZwCOv78iwk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-social-share/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f4imN+GAeyy7dqUdNjyK9ZoX4Tg=
+			</data>
+			<key>hash2</key>
+			<data>
+			1IbGITFT/Aze9VCVATh3RYQ3QkdL3i3D7WAiL6Keo9o=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-social-share/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o04jwQu5p6hhxqR5/iFcFkeBKWo=
+			</data>
+			<key>hash2</key>
+			<data>
+			H6niC1PvNpgkjWUHyOJ69hp/GsKNKgHh2ax9Ept8xxM=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-social-share/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x0V44YFY41Son71bKo0QfPNH37k=
+			</data>
+			<key>hash2</key>
+			<data>
+			coETglUonjdFC2zSVHzzHmxqbh/T8GaiVLMm4mmXo10=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-social-share/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GkeL9wCquJ85g+6aD53+vDvlPbY=
+			</data>
+			<key>hash2</key>
+			<data>
+			TmBhlB2ah+35CYOvPt63BVWQhsc2dkJpEbobi1cmsHs=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-social-share/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uYSJpZWs9zMejOYGFoAJxpYJCZU=
+			</data>
+			<key>hash2</key>
+			<data>
+			wrGjToxA15zT+IzcY3qcppSKMfy6+9dePS4z/qPVaR4=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-social-share/social-share.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pcS0q5HpZxXvj8o9a4fDT//S/0U=
+			</data>
+			<key>hash2</key>
+			<data>
+			6xfSx2zUc9A3an7Quc2rv7KcvJqjiGWqr1MhIKuCDEY=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
@@ -57371,33 +57581,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9cHdn+XSrKzF7iB9efUU50teqfw=
+			5lBKDdn66Asiwd6gUF7V0rQqZhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3OdbzYracrbsAwesjjq196N4hsXlqf6HmHRVUBYjIw4=
+			5VXU1IzH4MqrAcKyIo3XJAUCsJkt4/jm/IeG5u5bI3A=
 			</data>
 		</dict>
 		<key>app/utils/hint-util.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FkxzkGOyjvimadiVAjWYaHPB0i0=
+			1xEQGYrH6dWmCfIR8dNan7MbCBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			/S5l8Et8ibnD2HKcpxfR2/v3UV3mR2evJe3A+oKEvNM=
+			tdJbMo/vPCMqotptINSuqQIL4dvq2dzf/V7V2Wel/GU=
 			</data>
 		</dict>
 		<key>app/utils/hint-util.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			fjl4dKcxQ8oZoV/xMex5z5JOTDA=
 			</data>
 			<key>hash2</key>
 			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			N9LU/VaB3HmpGvV1RHgFubNEqpvVgKF7M3Kocp+6P/E=
 			</data>
 		</dict>
 		<key>app/utils/status-bar-util.js</key>

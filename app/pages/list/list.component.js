@@ -1,6 +1,7 @@
 "use strict";
 var core_1 = require("@angular/core");
 var grocery_list_service_1 = require("../../shared/grocery/grocery-list.service");
+var SocialShare = require("nativescript-social-share");
 /* In list.html, the <ListView> UI element requires an items property that points to an array of data.
 This is the the groceryList array defined in the ListComponent class.
 The list view element requires a child <template> element that specifies how to render each item in the items array.
@@ -22,13 +23,26 @@ Here the columns attribute divides the top of the screen into two columns.
 The col="0" attribute puts the text field in the first column, and the col="1" attribute puts the “+” image in the last column. */
 var ListComponent = (function () {
     /* Because a service is being injected into the constructor, it must also be included as a provider within the component decorator, @Component. */
-    function ListComponent(groceryListService) {
+    function ListComponent(groceryListService, zone) {
         this.groceryListService = groceryListService;
+        this.zone = zone;
         this.groceryList = [];
         this.grocery = "";
         this.isLoading = false;
         this.listLoaded = false;
     }
+    ListComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.isLoading = true;
+        this.groceryListService.load()
+            .subscribe(function (loadedGroceries) {
+            loadedGroceries.forEach(function (groceryObject) {
+                _this.groceryList.unshift(groceryObject);
+            });
+            _this.isLoading = false;
+            _this.listLoaded = true;
+        });
+    };
     ListComponent.prototype.add = function () {
         var _this = this;
         if (this.grocery.trim() === "") {
@@ -50,17 +64,27 @@ var ListComponent = (function () {
             _this.grocery = "";
         });
     };
-    ListComponent.prototype.ngOnInit = function () {
+    ListComponent.prototype.delete = function (grocery) {
         var _this = this;
-        this.isLoading = true;
-        this.groceryListService.load()
-            .subscribe(function (loadedGroceries) {
-            loadedGroceries.forEach(function (groceryObject) {
-                _this.groceryList.unshift(groceryObject);
+        this.groceryListService.delete(grocery.id)
+            .subscribe(function () {
+            // Running the array splice in a zone ensures that change detection gets triggered.
+            _this.zone.run(function () {
+                var index = _this.groceryList.indexOf(grocery);
+                _this.groceryList.splice(index, 1);
             });
-            _this.isLoading = false;
-            _this.listLoaded = true;
         });
+    };
+    /* This code takes the grocery data from the grocery list array, converts the data into a comma-separated string,
+    and passes that string to the social share plugin’s shareText() method.
+    The native iOS or Android sharing widget will allow the list to be posted on social networks, or sent via and email or message. */
+    ListComponent.prototype.share = function () {
+        var list = [];
+        for (var i = 0, size = this.groceryList.length; i < size; i++) {
+            list.push(this.groceryList[i].name);
+        }
+        var listString = list.join(", ").trim();
+        SocialShare.shareText(listString);
     };
     __decorate([
         core_1.ViewChild("groceryTextField"), 
@@ -73,7 +97,7 @@ var ListComponent = (function () {
             styleUrls: ["pages/list/list-common.css", "pages/list/list.css"],
             providers: [grocery_list_service_1.GroceryListService]
         }), 
-        __metadata('design:paramtypes', [grocery_list_service_1.GroceryListService])
+        __metadata('design:paramtypes', [grocery_list_service_1.GroceryListService, core_1.NgZone])
     ], ListComponent);
     return ListComponent;
 }());

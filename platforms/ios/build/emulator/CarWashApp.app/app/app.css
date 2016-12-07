@@ -17,9 +17,19 @@ Page {
   background-color: white;
   font-size: 15;
 }
+ActionBar {
+  background-color: black;
+  color: white;
+}
 TextField {
   padding: 10;
   font-size: 13;
+}
+.small-spacing {
+  margin: 5;
+}
+.medium-spacing {
+  margin: 10;
 }
 
 /* In many cases you may want to use the NativeScript core theme instead of writing your own CSS rules.

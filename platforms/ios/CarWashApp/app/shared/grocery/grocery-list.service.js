@@ -44,6 +44,14 @@ var GroceryListService = (function () {
         })
             .catch(this.handleErrors);
     };
+    GroceryListService.prototype.delete = function (id) {
+        var headers = new http_1.Headers();
+        headers.append("Authorization", "Bearer " + config_1.Config.token);
+        headers.append("Content-Type", "application/json");
+        return this.http.delete(config_1.Config.apiUrl + "Groceries/" + id, { headers: headers })
+            .map(function (res) { return res.json(); })
+            .catch(this.handleErrors);
+    };
     GroceryListService.prototype.handleErrors = function (error) {
         console.log(JSON.stringify(error.json()));
         return Rx_1.Observable.throw(error);

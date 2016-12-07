@@ -13,6 +13,10 @@ import { Page } from "ui/page";
 import { Color } from "color";
 import { View } from "ui/core/view";
 
+/* Used to change the hint colours on iOS */
+import { setHintColor } from "../../utils/hint-util";
+import { TextField } from "ui/text-field";
+
 /* Data Binding
 
 Attribute Binding is displaying an output to the screen.
@@ -53,6 +57,8 @@ export class LoginComponent implements OnInit {
   This code uses Angular’s @ViewChild decorator to create a new property that points at the <StackLayout> element.
   That property is used in the LoginComponent’s toggleDisplay() function. */
   @ViewChild("container") container: ElementRef;
+  @ViewChild("email") email: ElementRef;
+  @ViewChild("password") password: ElementRef;
 
   /* This is Angular 2’s dependency injection implementation.
   Because UserService was registered as a provider in this component’s providers array,
@@ -73,6 +79,10 @@ export class LoginComponent implements OnInit {
   }
 
   submit() {
+    if (!this.user.isValidEmail()) {
+      alert("Enter a valid email address.");
+      return;
+    }
     if (this.isLoggingIn) {
       this.login();
     } else {
@@ -105,10 +115,24 @@ export class LoginComponent implements OnInit {
   Examples of animations can be found at: https://docs.nativescript.org/ui/animation#examples */
   toggleDisplay() {
     this.isLoggingIn = !this.isLoggingIn;
+    this.setTextFieldColors();
     let container = <View>this.container.nativeElement;
     container.animate({
       backgroundColor: this.isLoggingIn ? new Color("white") : new Color("#301217"),
       duration: 200
     });
+  }
+
+  setTextFieldColors() {
+    let emailTextField = <TextField>this.email.nativeElement;
+    let passwordTextField = <TextField>this.password.nativeElement;
+
+    let mainTextColor = new Color(this.isLoggingIn ? "black" : "#C4AFB4");
+    emailTextField.color = mainTextColor;
+    passwordTextField.color = mainTextColor;
+
+    let hintColor = new Color(this.isLoggingIn ? "#ACA6A7" : "#C4AFB4");
+    setHintColor({ view: emailTextField, color: hintColor });
+    setHintColor({ view: passwordTextField, color: hintColor });
   }
 }

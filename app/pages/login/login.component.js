@@ -9,6 +9,8 @@ var router_1 = require("@angular/router");
 var page_1 = require("ui/page");
 /* Used for the animations */
 var color_1 = require("color");
+/* Used to change the hint colours on iOS */
+var hint_util_1 = require("../../utils/hint-util");
 /* Data Binding
 
 Attribute Binding is displaying an output to the screen.
@@ -52,6 +54,10 @@ var LoginComponent = (function () {
         this.page.backgroundImage = "res://bg_login";
     };
     LoginComponent.prototype.submit = function () {
+        if (!this.user.isValidEmail()) {
+            alert("Enter a valid email address.");
+            return;
+        }
         if (this.isLoggingIn) {
             this.login();
         }
@@ -80,16 +86,35 @@ var LoginComponent = (function () {
     Examples of animations can be found at: https://docs.nativescript.org/ui/animation#examples */
     LoginComponent.prototype.toggleDisplay = function () {
         this.isLoggingIn = !this.isLoggingIn;
+        this.setTextFieldColors();
         var container = this.container.nativeElement;
         container.animate({
             backgroundColor: this.isLoggingIn ? new color_1.Color("white") : new color_1.Color("#301217"),
             duration: 200
         });
     };
+    LoginComponent.prototype.setTextFieldColors = function () {
+        var emailTextField = this.email.nativeElement;
+        var passwordTextField = this.password.nativeElement;
+        var mainTextColor = new color_1.Color(this.isLoggingIn ? "black" : "#C4AFB4");
+        emailTextField.color = mainTextColor;
+        passwordTextField.color = mainTextColor;
+        var hintColor = new color_1.Color(this.isLoggingIn ? "#ACA6A7" : "#C4AFB4");
+        hint_util_1.setHintColor({ view: emailTextField, color: hintColor });
+        hint_util_1.setHintColor({ view: passwordTextField, color: hintColor });
+    };
     __decorate([
         core_1.ViewChild("container"), 
         __metadata('design:type', core_1.ElementRef)
     ], LoginComponent.prototype, "container", void 0);
+    __decorate([
+        core_1.ViewChild("email"), 
+        __metadata('design:type', core_1.ElementRef)
+    ], LoginComponent.prototype, "email", void 0);
+    __decorate([
+        core_1.ViewChild("password"), 
+        __metadata('design:type', core_1.ElementRef)
+    ], LoginComponent.prototype, "password", void 0);
     LoginComponent = __decorate([
         core_1.Component({
             selector: "my-app",
