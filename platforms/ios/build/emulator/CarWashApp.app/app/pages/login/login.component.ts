@@ -92,7 +92,7 @@ export class LoginComponent implements OnInit {
   login() {
     this.userService.login(this.user)
       .subscribe(
-        () => this.router.navigate(["/list"]),
+        () => this.router.navigate(["/start"]),
         (error) => alert("Unfortunately we could not find your account.")
       );
   }

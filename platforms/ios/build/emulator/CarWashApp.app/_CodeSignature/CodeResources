@@ -1210,15 +1210,15 @@
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
-		3CRRqea4NpZKGXtvi+sr2bGxKlk=
+		oY6lpiXE87fhwIaniocka0mLH9c=
 		</data>
 		<key>app/app.routing.js.map</key>
 		<data>
-		N+KZzYnP/y4Bao/W3/Pnig7Tp20=
+		HCx3xa5K0LsQbmIntwib2W4QeTs=
 		</data>
 		<key>app/app.routing.ts</key>
 		<data>
-		iyWD7SEi/sMBKDGp7Zqm4PgxVi4=
+		1FY61H8L1RcW3soKDNEeA2wkEI0=
 		</data>
 		<key>app/main.aot.ts</key>
 		<data>
@@ -1264,21 +1264,45 @@
 		<data>
 		nTDEtRr+W0taofODFDIQiGvPocs=
 		</data>
+		<key>app/pages/locationpermission/locationpermission-common.css</key>
+		<data>
+		Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+		</data>
+		<key>app/pages/locationpermission/locationpermission.component.js</key>
+		<data>
+		mgq5rUlcTvUpsCjj0rRhxE8F5BM=
+		</data>
+		<key>app/pages/locationpermission/locationpermission.component.js.map</key>
+		<data>
+		4TjX4WW0eMcg3X936e+QEi+w9Eo=
+		</data>
+		<key>app/pages/locationpermission/locationpermission.component.ts</key>
+		<data>
+		eFKq5sfPV87ej5YDMeciOpEOR7I=
+		</data>
+		<key>app/pages/locationpermission/locationpermission.css</key>
+		<data>
+		Ylsj6quZyKA3R4dPtK51vD31PA0=
+		</data>
+		<key>app/pages/locationpermission/locationpermission.html</key>
+		<data>
+		35iLHbNaxdXKdScCWeA812sq6i0=
+		</data>
 		<key>app/pages/login/login-common.css</key>
 		<data>
 		Osd7e+DEE9uKCcolsj5+8n3CZ6c=
 		</data>
 		<key>app/pages/login/login.component.js</key>
 		<data>
-		bN/2Ncwk9CX7hp3gr0zWm+yOWRE=
+		VjSzxMQNx+eqMrKuMfQylZY2Pa0=
 		</data>
 		<key>app/pages/login/login.component.js.map</key>
 		<data>
-		I9vj/LXM4d0uqHJrq+KolazXIEA=
+		ydoP748w5N2sFL2ZP3ElGOcqeRs=
 		</data>
 		<key>app/pages/login/login.component.ts</key>
 		<data>
-		eMRgnw0rTs6OPQc5Z/UiI1RMli0=
+		coDgwaRGJ1V+rbOXCpe+HRjS6NQ=
 		</data>
 		<key>app/pages/login/login.css</key>
 		<data>
@@ -1287,6 +1311,30 @@
 		<key>app/pages/login/login.html</key>
 		<data>
 		9UZiV1MHXGQ63b2aGuBWl0Jh+Lo=
+		</data>
+		<key>app/pages/start/start-common.css</key>
+		<data>
+		Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+		</data>
+		<key>app/pages/start/start.component.js</key>
+		<data>
+		rnOen24/RrW745waioJOz76uVfo=
+		</data>
+		<key>app/pages/start/start.component.js.map</key>
+		<data>
+		9Rd2w5FCm73EvrOtiN4hQWxFLnw=
+		</data>
+		<key>app/pages/start/start.component.ts</key>
+		<data>
+		Zl5NNt16fzOlJHXIJ06chCw8rek=
+		</data>
+		<key>app/pages/start/start.css</key>
+		<data>
+		Ylsj6quZyKA3R4dPtK51vD31PA0=
+		</data>
+		<key>app/pages/start/start.html</key>
+		<data>
+		HUkOWNBPuZvH4uJM5dJDsRp4O4g=
 		</data>
 		<key>app/platform.css</key>
 		<data>
@@ -18905,33 +18953,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3CRRqea4NpZKGXtvi+sr2bGxKlk=
+			oY6lpiXE87fhwIaniocka0mLH9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			vSSqAm+SnnG7sKer96mIXw3tf9Svu9vW452FWJ2sJTc=
+			G6XfQV9nO2kQY9DPaDOhuhZi8+7nccH5IQ0bq0rIEDo=
 			</data>
 		</dict>
 		<key>app/app.routing.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N+KZzYnP/y4Bao/W3/Pnig7Tp20=
+			HCx3xa5K0LsQbmIntwib2W4QeTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			qmEL/q0wk/CgFUYKKGxd+MREL4CSV3wZGClc1jmVX44=
+			sKGjGV7mgxCS5SQWvR+CytmODXxwtdm/aBRvi1lx5Rs=
 			</data>
 		</dict>
 		<key>app/app.routing.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iyWD7SEi/sMBKDGp7Zqm4PgxVi4=
+			1FY61H8L1RcW3soKDNEeA2wkEI0=
 			</data>
 			<key>hash2</key>
 			<data>
-			iGJaSENpiBx4ObKmGS25m4ugQuLQ6fq5DdpJvdUK24U=
+			Yw4WKwDvyCVxQs3aMVJpPIdtKkEKc5o5dXogG0+71NA=
 			</data>
 		</dict>
 		<key>app/main.aot.ts</key>
@@ -19055,6 +19103,72 @@
 			PT9BnduCsC0xY7GmBXT7wRkjfBWYj9sgWPcKn7whSsc=
 			</data>
 		</dict>
+		<key>app/pages/locationpermission/locationpermission-common.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+			</data>
+			<key>hash2</key>
+			<data>
+			GQIDLkKxbpo/kwJZJlLfaluR5EJR9W0dwCJZqjrZC60=
+			</data>
+		</dict>
+		<key>app/pages/locationpermission/locationpermission.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mgq5rUlcTvUpsCjj0rRhxE8F5BM=
+			</data>
+			<key>hash2</key>
+			<data>
+			+M5GTCyQ4tL3j50AyuArrlgfwx1v8fJbS4XW9/YTP3M=
+			</data>
+		</dict>
+		<key>app/pages/locationpermission/locationpermission.component.js.map</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4TjX4WW0eMcg3X936e+QEi+w9Eo=
+			</data>
+			<key>hash2</key>
+			<data>
+			HKqBCqfIkCFuYZO9CSlTjsF/DA+OQ4seTNgj6Mtgggs=
+			</data>
+		</dict>
+		<key>app/pages/locationpermission/locationpermission.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eFKq5sfPV87ej5YDMeciOpEOR7I=
+			</data>
+			<key>hash2</key>
+			<data>
+			NxcmzySbJCQegh64Jkkk49S5aeB8wAh5wTxmb5vyUU8=
+			</data>
+		</dict>
+		<key>app/pages/locationpermission/locationpermission.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ylsj6quZyKA3R4dPtK51vD31PA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			wB3mrJo/aUGqMHHw3213Fm3zeTOVF5Z4gyWPtsua3QE=
+			</data>
+		</dict>
+		<key>app/pages/locationpermission/locationpermission.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			35iLHbNaxdXKdScCWeA812sq6i0=
+			</data>
+			<key>hash2</key>
+			<data>
+			FOdx3rrLYIMgxjzMyvpw6f2lP3s0e3c1KIhKUkj5va4=
+			</data>
+		</dict>
 		<key>app/pages/login/login-common.css</key>
 		<dict>
 			<key>hash</key>
@@ -19070,33 +19184,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bN/2Ncwk9CX7hp3gr0zWm+yOWRE=
+			VjSzxMQNx+eqMrKuMfQylZY2Pa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rz04TFDGPxbmmKBbpnbaQiAcekn7Femz5vDxmMN12bg=
+			UMJvmMiQwMqZ1oBn3mUcqR74ydpMIxwX2tfuy73WcOk=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I9vj/LXM4d0uqHJrq+KolazXIEA=
+			ydoP748w5N2sFL2ZP3ElGOcqeRs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZsPPHAIRH5XrJ3M1Ifck/QtvPEafIYqhv2sdxcBN1PU=
+			HGC5lAbQmCRT5mlRUfqS7AEfKAEaieZLP+yrZN6DW8U=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eMRgnw0rTs6OPQc5Z/UiI1RMli0=
+			coDgwaRGJ1V+rbOXCpe+HRjS6NQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			uV2OB6hqq9hAveX7g3B28ppoAYEEHXRKYmLLSrBUcuw=
+			0p6UGQIKSy6kxxu7/cotf8XlOTo4VC7qvLxgwvCdD9g=
 			</data>
 		</dict>
 		<key>app/pages/login/login.css</key>
@@ -19119,6 +19233,72 @@
 			<key>hash2</key>
 			<data>
 			Ytf4+JXeBZS51KruWbvbfgtvce1J+gZXktHvvd2hP34=
+			</data>
+		</dict>
+		<key>app/pages/start/start-common.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+			</data>
+			<key>hash2</key>
+			<data>
+			GQIDLkKxbpo/kwJZJlLfaluR5EJR9W0dwCJZqjrZC60=
+			</data>
+		</dict>
+		<key>app/pages/start/start.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rnOen24/RrW745waioJOz76uVfo=
+			</data>
+			<key>hash2</key>
+			<data>
+			56xc6JOUEUozYOD+Vwetgppq9dItI5biY4GYTMjU+es=
+			</data>
+		</dict>
+		<key>app/pages/start/start.component.js.map</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9Rd2w5FCm73EvrOtiN4hQWxFLnw=
+			</data>
+			<key>hash2</key>
+			<data>
+			SFo7NVH3CltTW0tiS5XUi9erE6Ci0VlFLlAfBMHytc8=
+			</data>
+		</dict>
+		<key>app/pages/start/start.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zl5NNt16fzOlJHXIJ06chCw8rek=
+			</data>
+			<key>hash2</key>
+			<data>
+			HMfHfuR7TaZIhDYVUpTOKnHLQ378A8pw46C6cpTOjyg=
+			</data>
+		</dict>
+		<key>app/pages/start/start.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ylsj6quZyKA3R4dPtK51vD31PA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			wB3mrJo/aUGqMHHw3213Fm3zeTOVF5Z4gyWPtsua3QE=
+			</data>
+		</dict>
+		<key>app/pages/start/start.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HUkOWNBPuZvH4uJM5dJDsRp4O4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			M7yn/8rMTzNjg4g4vf4NumYdvOmcM2qXjvVv4F2aGmk=
 			</data>
 		</dict>
 		<key>app/platform.css</key>

@@ -1,5 +1,7 @@
 import { LoginComponent } from "./pages/login/login.component";
 import { ListComponent } from "./pages/list/list.component";
+import { LocationPermissionComponent } from "./pages/locationpermission/locationpermission.component";
+import { StartComponent } from "./pages/start/start.component";
 
 /* The app.routing.ts file is where the list of all the app’s routes is declared.
 there needs to be a routes array that includes a list of all components the user can navigate to, as well as their paths.
@@ -7,10 +9,14 @@ When new routes need to be added, import the appropriate component in app.routin
 
 export const routes = [
   { path: "", component: LoginComponent },
-  { path: "list", component: ListComponent }
+  { path: "list", component: ListComponent },
+  { path: "location-permission", component: LocationPermissionComponent },
+  { path: "start", component: StartComponent }
 ];
 
 export const navigatableComponents = [
   LoginComponent,
-  ListComponent
+  ListComponent,
+  LocationPermissionComponent,
+  StartComponent
 ];
