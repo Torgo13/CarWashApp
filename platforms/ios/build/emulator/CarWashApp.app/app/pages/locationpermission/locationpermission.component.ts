@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from "@angular/core";
+import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 
 import { Router } from "@angular/router";
 import { Page } from "ui/page";
@@ -11,15 +11,30 @@ import { View } from "ui/core/view";
 import { setHintColor } from "../../utils/hint-util";
 import { TextField } from "ui/text-field";
 
+import geolocation = require("nativescript-geolocation");
+
 @Component({
   selector: "location-permission",
-  templateUrl: "pages/locationpermission/locationpermission.html"
+  templateUrl: "pages/locationpermission/locationpermission.html",
+  styleUrls: ["pages/locationpermission/locationpermission-common.css", "pages/locationpermission/locationpermission.css"]
 })
-export class LocationPermissionComponent {
+export class LocationPermissionComponent implements OnInit {
     constructor(private router: Router, private page: Page) {
     }
 
-    submit() {
-        this.router.navigate(["/list"]);
+    ngOnInit() {
+        this.page.actionBarHidden = true;
+        this.page.backgroundImage = "res://bg_login";
     }
+
+    continue() {
+        if (!geolocation.isEnabled()) {
+        geolocation.enableLocationRequest();
+        this.router.navigate(["/selectwashlocation"]);
+        }
+    }
+
+    public enableLocationTap() { 
+    
+}
 }

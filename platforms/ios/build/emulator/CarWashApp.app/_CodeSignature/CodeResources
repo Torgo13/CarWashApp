@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xD0eJG7qksGDraj2eqmz8QU1RlI=
+		rcmaqNuxUwZFArwDV1VsoG29Ie4=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -1210,15 +1210,15 @@
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
-		oY6lpiXE87fhwIaniocka0mLH9c=
+		xhQldlU4NGhBiCMMtWnWbo60R7k=
 		</data>
 		<key>app/app.routing.js.map</key>
 		<data>
-		HCx3xa5K0LsQbmIntwib2W4QeTs=
+		ulIz0UC5FnoMDdK1Xf3vbbXRsQs=
 		</data>
 		<key>app/app.routing.ts</key>
 		<data>
-		1FY61H8L1RcW3soKDNEeA2wkEI0=
+		iwBiMICEoFlMmNk7rTwZYYp0wSI=
 		</data>
 		<key>app/main.aot.ts</key>
 		<data>
@@ -1266,27 +1266,27 @@
 		</data>
 		<key>app/pages/locationpermission/locationpermission-common.css</key>
 		<data>
-		Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>app/pages/locationpermission/locationpermission.component.js</key>
 		<data>
-		mgq5rUlcTvUpsCjj0rRhxE8F5BM=
+		B2IckLiFNLhz83Hf4b1gyBRSmFs=
 		</data>
 		<key>app/pages/locationpermission/locationpermission.component.js.map</key>
 		<data>
-		4TjX4WW0eMcg3X936e+QEi+w9Eo=
+		ZtZJ+Z8QVc58sxFRK+JGRR3Ulwc=
 		</data>
 		<key>app/pages/locationpermission/locationpermission.component.ts</key>
 		<data>
-		eFKq5sfPV87ej5YDMeciOpEOR7I=
+		dSCNo09DQ97N5DhjtMmXYdrJzpo=
 		</data>
 		<key>app/pages/locationpermission/locationpermission.css</key>
 		<data>
-		Ylsj6quZyKA3R4dPtK51vD31PA0=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>app/pages/locationpermission/locationpermission.html</key>
 		<data>
-		35iLHbNaxdXKdScCWeA812sq6i0=
+		4ILfXMoFWZmMFvJ0bt8/wDYJ0bk=
 		</data>
 		<key>app/pages/login/login-common.css</key>
 		<data>
@@ -1294,15 +1294,15 @@
 		</data>
 		<key>app/pages/login/login.component.js</key>
 		<data>
-		VjSzxMQNx+eqMrKuMfQylZY2Pa0=
+		bN/2Ncwk9CX7hp3gr0zWm+yOWRE=
 		</data>
 		<key>app/pages/login/login.component.js.map</key>
 		<data>
-		ydoP748w5N2sFL2ZP3ElGOcqeRs=
+		I9vj/LXM4d0uqHJrq+KolazXIEA=
 		</data>
 		<key>app/pages/login/login.component.ts</key>
 		<data>
-		coDgwaRGJ1V+rbOXCpe+HRjS6NQ=
+		eMRgnw0rTs6OPQc5Z/UiI1RMli0=
 		</data>
 		<key>app/pages/login/login.css</key>
 		<data>
@@ -1312,21 +1312,45 @@
 		<data>
 		9UZiV1MHXGQ63b2aGuBWl0Jh+Lo=
 		</data>
+		<key>app/pages/selectwashlocation/selectwashlocation-common.css</key>
+		<data>
+		rcg7GeeTSRscbqD9i0bNnzLlkvw=
+		</data>
+		<key>app/pages/selectwashlocation/selectwashlocation.component.js</key>
+		<data>
+		Ko9jsUDK7NxwJENmAusYqNZ7fPE=
+		</data>
+		<key>app/pages/selectwashlocation/selectwashlocation.component.js.map</key>
+		<data>
+		tnzRK8jiohOKnY3cdfDCwpJT/s4=
+		</data>
+		<key>app/pages/selectwashlocation/selectwashlocation.component.ts</key>
+		<data>
+		CkTi4yjN3opugZWmEypNAv7MGQA=
+		</data>
+		<key>app/pages/selectwashlocation/selectwashlocation.css</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>app/pages/selectwashlocation/selectwashlocation.html</key>
+		<data>
+		+axfbHEE31kMmEeZPZoBIDnLl/s=
+		</data>
 		<key>app/pages/start/start-common.css</key>
 		<data>
-		Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+		VsyGLzaUf2Gk9IVoiTUK91rxL3E=
 		</data>
 		<key>app/pages/start/start.component.js</key>
 		<data>
-		rnOen24/RrW745waioJOz76uVfo=
+		lYjWIS1eQSfkrcqzpaBITjlhJ9A=
 		</data>
 		<key>app/pages/start/start.component.js.map</key>
 		<data>
-		9Rd2w5FCm73EvrOtiN4hQWxFLnw=
+		fResU6/58n9KZaWw5617Aag64ak=
 		</data>
 		<key>app/pages/start/start.component.ts</key>
 		<data>
-		Zl5NNt16fzOlJHXIJ06chCw8rek=
+		u0jwhIhfIwIGzeCzyWbYymHM67g=
 		</data>
 		<key>app/pages/start/start.css</key>
 		<data>
@@ -1334,7 +1358,7 @@
 		</data>
 		<key>app/pages/start/start.html</key>
 		<data>
-		HUkOWNBPuZvH4uJM5dJDsRp4O4g=
+		vwV+jvBTJrMzv0ZgMLQOM5JpUP0=
 		</data>
 		<key>app/platform.css</key>
 		<data>
@@ -8275,6 +8299,34 @@
 		<key>app/tns_modules/nativescript-angular/zone.js/dist/zone-nativescript.js</key>
 		<data>
 		skwBeAd0ZbVFH+t5yYUq7d2R0FI=
+		</data>
+		<key>app/tns_modules/nativescript-geolocation/README.md</key>
+		<data>
+		8XFhl12b1FQMXT99sq2ZOPPPcDE=
+		</data>
+		<key>app/tns_modules/nativescript-geolocation/index.d.ts</key>
+		<data>
+		L0ciostJeV4NH2TmhVb4iGT9YNU=
+		</data>
+		<key>app/tns_modules/nativescript-geolocation/location-monitor.d.ts</key>
+		<data>
+		WOKA/yGPYW6PuR6RWMWwlz8RCKA=
+		</data>
+		<key>app/tns_modules/nativescript-geolocation/location.d.ts</key>
+		<data>
+		PuoLizu9Vkuq1XIVc/p1isfmsFk=
+		</data>
+		<key>app/tns_modules/nativescript-geolocation/nativescript-geolocation-common.js</key>
+		<data>
+		BpbVIA5o2IETGzeqA1hM2ainMF4=
+		</data>
+		<key>app/tns_modules/nativescript-geolocation/nativescript-geolocation.js</key>
+		<data>
+		nbAYerh+YI3dtdWq73ImeU5Ukq4=
+		</data>
+		<key>app/tns_modules/nativescript-geolocation/package.json</key>
+		<data>
+		lPm9h9hYY/lt5hvT7npEeotcmk4=
 		</data>
 		<key>app/tns_modules/nativescript-social-share/.npmignore</key>
 		<data>
@@ -18953,33 +19005,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oY6lpiXE87fhwIaniocka0mLH9c=
+			xhQldlU4NGhBiCMMtWnWbo60R7k=
 			</data>
 			<key>hash2</key>
 			<data>
-			G6XfQV9nO2kQY9DPaDOhuhZi8+7nccH5IQ0bq0rIEDo=
+			XMGGQADTk5FyZnOD4LniDFDV52HrfSik4VHutm6RCdU=
 			</data>
 		</dict>
 		<key>app/app.routing.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HCx3xa5K0LsQbmIntwib2W4QeTs=
+			ulIz0UC5FnoMDdK1Xf3vbbXRsQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sKGjGV7mgxCS5SQWvR+CytmODXxwtdm/aBRvi1lx5Rs=
+			eS31Gn7ycW98WNJsvAZ+o5+RAaIiXLWY+uHXuutbOiE=
 			</data>
 		</dict>
 		<key>app/app.routing.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1FY61H8L1RcW3soKDNEeA2wkEI0=
+			iwBiMICEoFlMmNk7rTwZYYp0wSI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yw4WKwDvyCVxQs3aMVJpPIdtKkEKc5o5dXogG0+71NA=
+			ubXTBfnTWSvqrLENlWBJvEjhXri1R10kkG9KaGZ/gbE=
 			</data>
 		</dict>
 		<key>app/main.aot.ts</key>
@@ -19107,66 +19159,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			GQIDLkKxbpo/kwJZJlLfaluR5EJR9W0dwCJZqjrZC60=
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>app/pages/locationpermission/locationpermission.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mgq5rUlcTvUpsCjj0rRhxE8F5BM=
+			B2IckLiFNLhz83Hf4b1gyBRSmFs=
 			</data>
 			<key>hash2</key>
 			<data>
-			+M5GTCyQ4tL3j50AyuArrlgfwx1v8fJbS4XW9/YTP3M=
+			5kw6KgXIpX0k6l42njAtNlaq8Rn4V1A6CzqKN0z16gU=
 			</data>
 		</dict>
 		<key>app/pages/locationpermission/locationpermission.component.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4TjX4WW0eMcg3X936e+QEi+w9Eo=
+			ZtZJ+Z8QVc58sxFRK+JGRR3Ulwc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HKqBCqfIkCFuYZO9CSlTjsF/DA+OQ4seTNgj6Mtgggs=
+			hS9bUfKXWyTy0SZ60oGwzY+3h2PDFsi8+V7H1iz4dyw=
 			</data>
 		</dict>
 		<key>app/pages/locationpermission/locationpermission.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eFKq5sfPV87ej5YDMeciOpEOR7I=
+			dSCNo09DQ97N5DhjtMmXYdrJzpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			NxcmzySbJCQegh64Jkkk49S5aeB8wAh5wTxmb5vyUU8=
+			plM/0Ec3rHhDIzIcrn4fR3IVVFbPWzY+J8KM2e3XSKI=
 			</data>
 		</dict>
 		<key>app/pages/locationpermission/locationpermission.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ylsj6quZyKA3R4dPtK51vD31PA0=
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			wB3mrJo/aUGqMHHw3213Fm3zeTOVF5Z4gyWPtsua3QE=
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>app/pages/locationpermission/locationpermission.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			35iLHbNaxdXKdScCWeA812sq6i0=
+			4ILfXMoFWZmMFvJ0bt8/wDYJ0bk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FOdx3rrLYIMgxjzMyvpw6f2lP3s0e3c1KIhKUkj5va4=
+			XxNMJUq8MMpFe72oK3fTE6cQgp0kTeth1UYNsPcfpRc=
 			</data>
 		</dict>
 		<key>app/pages/login/login-common.css</key>
@@ -19184,33 +19236,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VjSzxMQNx+eqMrKuMfQylZY2Pa0=
+			bN/2Ncwk9CX7hp3gr0zWm+yOWRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			UMJvmMiQwMqZ1oBn3mUcqR74ydpMIxwX2tfuy73WcOk=
+			Rz04TFDGPxbmmKBbpnbaQiAcekn7Femz5vDxmMN12bg=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ydoP748w5N2sFL2ZP3ElGOcqeRs=
+			I9vj/LXM4d0uqHJrq+KolazXIEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HGC5lAbQmCRT5mlRUfqS7AEfKAEaieZLP+yrZN6DW8U=
+			ZsPPHAIRH5XrJ3M1Ifck/QtvPEafIYqhv2sdxcBN1PU=
 			</data>
 		</dict>
 		<key>app/pages/login/login.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			coDgwaRGJ1V+rbOXCpe+HRjS6NQ=
+			eMRgnw0rTs6OPQc5Z/UiI1RMli0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0p6UGQIKSy6kxxu7/cotf8XlOTo4VC7qvLxgwvCdD9g=
+			uV2OB6hqq9hAveX7g3B28ppoAYEEHXRKYmLLSrBUcuw=
 			</data>
 		</dict>
 		<key>app/pages/login/login.css</key>
@@ -19235,48 +19287,114 @@
 			Ytf4+JXeBZS51KruWbvbfgtvce1J+gZXktHvvd2hP34=
 			</data>
 		</dict>
+		<key>app/pages/selectwashlocation/selectwashlocation-common.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rcg7GeeTSRscbqD9i0bNnzLlkvw=
+			</data>
+			<key>hash2</key>
+			<data>
+			AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=
+			</data>
+		</dict>
+		<key>app/pages/selectwashlocation/selectwashlocation.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ko9jsUDK7NxwJENmAusYqNZ7fPE=
+			</data>
+			<key>hash2</key>
+			<data>
+			wOhVOeVmnJ7CzKruhh3w/m5WHVcJcxWBwQT+9aYuuF4=
+			</data>
+		</dict>
+		<key>app/pages/selectwashlocation/selectwashlocation.component.js.map</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tnzRK8jiohOKnY3cdfDCwpJT/s4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ql0wzzfp5ENO7+5xyxtMtyQT0CpOPg7pPGObrLuNLeI=
+			</data>
+		</dict>
+		<key>app/pages/selectwashlocation/selectwashlocation.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CkTi4yjN3opugZWmEypNAv7MGQA=
+			</data>
+			<key>hash2</key>
+			<data>
+			SE4F3xGJ5uE7+iGeK1cegDuKX6nWFiYc9XZe28o4vsM=
+			</data>
+		</dict>
+		<key>app/pages/selectwashlocation/selectwashlocation.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>app/pages/selectwashlocation/selectwashlocation.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+axfbHEE31kMmEeZPZoBIDnLl/s=
+			</data>
+			<key>hash2</key>
+			<data>
+			yBwIEanuArqyMtY0zKVpTNIr0Bgdv2YCTI9We+18O04=
+			</data>
+		</dict>
 		<key>app/pages/start/start-common.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Osd7e+DEE9uKCcolsj5+8n3CZ6c=
+			VsyGLzaUf2Gk9IVoiTUK91rxL3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			GQIDLkKxbpo/kwJZJlLfaluR5EJR9W0dwCJZqjrZC60=
+			Be6keP+N6qJrH+HulvNjJdYP3nERvbsCVw2ih+ocQnI=
 			</data>
 		</dict>
 		<key>app/pages/start/start.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rnOen24/RrW745waioJOz76uVfo=
+			lYjWIS1eQSfkrcqzpaBITjlhJ9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			56xc6JOUEUozYOD+Vwetgppq9dItI5biY4GYTMjU+es=
+			75CNwID7dJPqRFSIh3FiZMfMxqwBCl2rKPB0fVISRuo=
 			</data>
 		</dict>
 		<key>app/pages/start/start.component.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Rd2w5FCm73EvrOtiN4hQWxFLnw=
+			fResU6/58n9KZaWw5617Aag64ak=
 			</data>
 			<key>hash2</key>
 			<data>
-			SFo7NVH3CltTW0tiS5XUi9erE6Ci0VlFLlAfBMHytc8=
+			9yvEao5ek2hq0WM2aSvx0S+xhA38/Xn1yCvjvJxAzVE=
 			</data>
 		</dict>
 		<key>app/pages/start/start.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zl5NNt16fzOlJHXIJ06chCw8rek=
+			u0jwhIhfIwIGzeCzyWbYymHM67g=
 			</data>
 			<key>hash2</key>
 			<data>
-			HMfHfuR7TaZIhDYVUpTOKnHLQ378A8pw46C6cpTOjyg=
+			8Jfry6evVKvEcWAOP5HjebTRqhBB0ANSTY7YEj2+5yg=
 			</data>
 		</dict>
 		<key>app/pages/start/start.css</key>
@@ -19294,11 +19412,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HUkOWNBPuZvH4uJM5dJDsRp4O4g=
+			vwV+jvBTJrMzv0ZgMLQOM5JpUP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			M7yn/8rMTzNjg4g4vf4NumYdvOmcM2qXjvVv4F2aGmk=
+			mFwgzKGMplOZW88E43tfLgBfApZsAR/ro1Y+MTyy6mA=
 			</data>
 		</dict>
 		<key>app/platform.css</key>
@@ -38384,6 +38502,83 @@
 			<key>hash2</key>
 			<data>
 			gxBIxFjf8/07c6/mZI4E1B0vxXsBlVcDuZwCOv78iwk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-geolocation/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8XFhl12b1FQMXT99sq2ZOPPPcDE=
+			</data>
+			<key>hash2</key>
+			<data>
+			6MGYQtpyY9fHPLPheQ6R7GW93RkafivrFOiNy7qSDd4=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-geolocation/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			L0ciostJeV4NH2TmhVb4iGT9YNU=
+			</data>
+			<key>hash2</key>
+			<data>
+			xpTqDRYWM2MWn24DAJUogB8E6jMWuEr4kUU+uD4BGq8=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-geolocation/location-monitor.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WOKA/yGPYW6PuR6RWMWwlz8RCKA=
+			</data>
+			<key>hash2</key>
+			<data>
+			QDE38PFuB6cTLAEuo/lbMc0oCzEqvRkpo3qI3NLAVdo=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-geolocation/location.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PuoLizu9Vkuq1XIVc/p1isfmsFk=
+			</data>
+			<key>hash2</key>
+			<data>
+			J1m1gnbOxF1UWH98Kb3sGfSOqyoe8esrBZ3kIwhgeI8=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-geolocation/nativescript-geolocation-common.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BpbVIA5o2IETGzeqA1hM2ainMF4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+xWuP/czId08zoTYg4mPhc9V3OF4ciODfD2FOs2lVhU=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-geolocation/nativescript-geolocation.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nbAYerh+YI3dtdWq73ImeU5Ukq4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qr4uOvd7GT6cMBGKtoQTgZwNVgR06C646d5AUbFHdhA=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-geolocation/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lPm9h9hYY/lt5hvT7npEeotcmk4=
+			</data>
+			<key>hash2</key>
+			<data>
+			dn8r6BsJLfj/MBTPgB17QfGiUGkIvV8JwfdjslAfmFo=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-social-share/.npmignore</key>

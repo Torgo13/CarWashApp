@@ -17,6 +17,7 @@
     "punycode": true,
     "querystring": true,
     "url": true,
+    "nativescript-geolocation": true,
     "nativescript-social-share": true,
     "nativescript-theme-core": true,
     "tns-core-modules": true,
