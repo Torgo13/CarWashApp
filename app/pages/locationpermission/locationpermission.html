@@ -1,7 +1,9 @@
 <ActionBar title="Location Permission"></ActionBar>
 
 <StackLayout #container>
-  <Label class="h3 p-15" text="'For the best possible experience, please allow us permission to use your location.'" textWrap="true"></Label>
+  <Label class="h3 p-15" text="For the best possible experience, please allow us permission to use your location." textWrap="true"></Label>
+
+  <Button class="btn btn-primary" text="Check if location services are availabe" (tap)="isLocationEnabled()"></Button>
 
   <Button text="Continue" class="continue-button" (tap)="continue()"></Button>
 </StackLayout>

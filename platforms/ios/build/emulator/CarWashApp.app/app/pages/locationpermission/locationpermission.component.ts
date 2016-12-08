@@ -11,6 +11,8 @@ import { View } from "ui/core/view";
 import { setHintColor } from "../../utils/hint-util";
 import { TextField } from "ui/text-field";
 
+/* Import the geolocation plugin */
+import { Location, getCurrentLocation, isEnabled, distance, enableLocationRequest } from "nativescript-geolocation";
 import geolocation = require("nativescript-geolocation");
 
 @Component({
@@ -23,18 +25,25 @@ export class LocationPermissionComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.page.actionBarHidden = true;
+        // this.page.actionBarHidden = true;
         this.page.backgroundImage = "res://bg_login";
-    }
 
-    continue() {
         if (!geolocation.isEnabled()) {
-        geolocation.enableLocationRequest();
-        this.router.navigate(["/selectwashlocation"]);
+            geolocation.enableLocationRequest();
         }
     }
 
-    public enableLocationTap() { 
-    
-}
+    /* Check if the geolocation service is enabled. */
+    public isLocationEnabled() {
+        let isEnabledProperty = isEnabled();
+        let message = "Location services are not available";
+        if (isEnabledProperty) {
+            message = "Location services are available";
+        }
+        alert(message);
+    }
+
+    continue() {
+        this.router.navigate(["/selectwashlocation"]);
+    }
 }

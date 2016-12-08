@@ -50,7 +50,7 @@ var LoginComponent = (function () {
     /* ngOnInit is one of several component lifecycle hooks that Angular 2 provides.
     As its name implies, ngOnInit gets invoked when Angular initializes this component. */
     LoginComponent.prototype.ngOnInit = function () {
-        this.page.actionBarHidden = true;
+        // this.page.actionBarHidden = true;
         this.page.backgroundImage = "res://bg_login";
     };
     LoginComponent.prototype.submit = function () {
