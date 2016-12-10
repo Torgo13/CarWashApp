@@ -15,12 +15,19 @@ import { TextField } from "ui/text-field";
 import { Location, getCurrentLocation, isEnabled, distance, enableLocationRequest } from "nativescript-geolocation";
 import geolocation = require("nativescript-geolocation");
 
+/* Used for Google Maps support */
+import { registerElement } from "nativescript-angular/element-registry";
+/* It is necessary to register the MapView plugin in order to use in Angular templates */
+registerElement("MapView", () => require("nativescript-google-maps-sdk").MapView);
+
 @Component({
   selector: "selectwashlocation",
   templateUrl: "pages/selectwashlocation/selectwashlocation.html",
   styleUrls: ["pages/selectwashlocation/selectwashlocation-common.css", "pages/selectwashlocation/selectwashlocation.css"]
 })
 export class SelectWashLocationComponent implements OnInit {
+
+    @ViewChild("MapView") mapView: ElementRef;
 
     public distanceResult: string = "0";
     public distance: number = 0;
@@ -38,15 +45,22 @@ export class SelectWashLocationComponent implements OnInit {
         this.page.backgroundImage = "res://bg_login";
     }
 
+    /* Map events */
+    onMapReady = (event) => {
+        console.log("Map Ready");
+    };
+
+
+
     /* Check if the geolocation service is enabled. */
-    public isLocationEnabled() {
+    /* public isLocationEnabled() {
         let isEnabledProperty = isEnabled();
         let message = "Location services are not available";
         if (isEnabledProperty) {
             message = "Location services are available";
         }
         alert(message);
-    }
+    } */
 
     /* Get the current location. */
     public getLocationOnce() {

@@ -12,6 +12,14 @@ import { setStatusBarColors } from "./utils/status-bar-util";
 
 setStatusBarColors();
 
+import * as platform from "platform";
+declare var GMSServices: any;
+
+// before calling .boostrap
+if( platform.isIOS ) {
+    GMSServices.provideAPIKey("AIzaSyAHWJmU2pvrTLbN2WL3kRo-Erihwj10ynI");
+}
+
 /* The bootstrapModule() function is what actually gets the app up and running.
 The bootstrapModule() function expects an Angular module that contains the main configuration for the application.
 In this case, it's being passed a reference to a AppModule module defined in app.module.ts. */

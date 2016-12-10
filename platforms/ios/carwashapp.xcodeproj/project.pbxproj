@@ -6,82 +6,83 @@
 	objectVersion = 46;
 	objects = {
 /* Begin PBXBuildFile section */
-		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
-		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
-		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		6901A8565A3141268CBA2C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F387EF27884D06827248C1 /* Assets.xcassets */; };
-		6AE2763C24D64AFA94251F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E843F8E05DAD43F48636262E /* LaunchScreen.storyboard */; };
-		A76ADD2B575146249BB298DF /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D49856A1B8C24339B1FAAC78 /* build.xcconfig */; };
-		975D4789358C458E81CF8B38 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BCD54AA0424026A69689D5 /* TNSWidgets.framework */; };
-		83501BED44CF4545B22FB477 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29BCD54AA0424026A69689D5 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		267585114C5C4F9A8F31A9AE /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9521DB33660C41018B33D449 /* add.png */; };
-		FD10AE10EBE34F5B8C9FFEF8 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FAA7EDC1284A93B508C133 /* add@2x.png */; };
-		234D88C6BD2448C8A3E99E36 /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC05EE154E014CED8E318655 /* add@3x.png */; };
-		63444F6406544C049DA7C86C /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = EACCEF8EBA964DF08C284A8C /* checked.png */; };
-		45FF07E504B140D08FABB993 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A445A0E984014127A9BE0D1E /* checked@2x.png */; };
-		112783BD3E21400799C297E3 /* checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DADFB65843C842C4B9C2854E /* checked@3x.png */; };
-		B38D2EA7A38642B9A2CBDD67 /* checked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD6C8203FD14E6F92DD9DCD /* checked_white.png */; };
-		5C3F106466DD42CCBE01ECF3 /* checked_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C65ED0107384ADE8BFF6A17 /* checked_white@2x.png */; };
-		442543C1730E43969C9CC627 /* checked_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BD4478DB9143859B935A6F /* checked_white@3x.png */; };
-		F36AE50B20984B03B19B3F2F /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9DC1FDA5914CA09B503C2A /* delete.png */; };
-		5B7E03068D514E80932F3993 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A255B3D01C4B81BA8E2B4F /* delete@2x.png */; };
-		B535BC9994E94B12A1ADE4AC /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CC60D0D7394EE590E1A262 /* delete@3x.png */; };
 		014A90A0113D42688C3F3403 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AB8DB66811427B83321714 /* iTunesArtwork@2x.png */; };
-		30551C7E479B437BA7342662 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FFBE7D18844EF08A02CB38 /* icon-60.png */; };
-		AA4B8CB6EBE24C448ED75A43 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD3D908F78247F2A6A0EE4F /* icon-60@2x.png */; };
-		154CEDC6D1324121A0154981 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1684B19BF85C47B09F401671 /* icon-72.png */; };
-		5DAFF7D261F045A2A4DA4F3C /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8FCE18CC04BD3B251EE24 /* icon-72@2x.png */; };
-		412D8978F1AE4AD995364787 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = CD985E318C01493085FBC0A3 /* icon-76.png */; };
-		C6D2AF449E354DDE92569995 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6264163F749CF928F2905 /* icon-76@2x.png */; };
-		1572676E820E4D5B8C0F95D8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A064E4C3E467469C8C8C5262 /* icon.png */; };
-		C9B08F0B4615407D881732B2 /* logo_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2E9C470C204B679495BA73 /* logo_login.png */; };
-		8453FE5410C946DB834EFC54 /* logo_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D86276FB552425A8FE0FCA3 /* logo_login@2x.png */; };
-		3360DC3ACEB249F5B3E7BD3C /* logo_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB26F5D70D6D4AA78A46F9E5 /* logo_login@3x.png */; };
+		07BA4791D63C4953B4F6F62C /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B35AD47691A442781636A84 /* icon-40@3x.png */; };
+		090D1DA325D647398636E78F /* icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AAEF55B024DB0AB3A6F8F /* icon-57@2x.png */; };
+		0A2448D6612D41899FBCDB01 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6035F199914894B7BF474E /* icon-40.png */; };
+		0FB2319F51CA47D7A9E3EE15 /* icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2978EC0C9CA84BA184EA113C /* icon-29@3x.png */; };
+		112783BD3E21400799C297E3 /* checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DADFB65843C842C4B9C2854E /* checked@3x.png */; };
 		13FA9300EB644D33851605C5 /* logo_signup.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E26ED8BA144CBF94873749 /* logo_signup.png */; };
-		524D5B18F4964659A0F9E0CE /* logo_signup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD498EAD250464BBA290CA9 /* logo_signup@2x.png */; };
-		2A4D523547EE41B094718DB0 /* logo_signup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A92C64D30DC47B7B309F928 /* logo_signup@3x.png */; };
-		252947D4A3DC40169C9464D0 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A7880354274C49879E90FF /* menu.png */; };
-		85F79F1BD7474AF0836023A5 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5B41CE385C471EB15188EA /* menu@2x.png */; };
-		CE56D1689A074132AFC68A5F /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A90E34ACCED41DBA1D41157 /* menu@3x.png */; };
-		1E7957A198FD42CD94C0EC5E /* nonselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B432B16AD64288B7A41D1D /* nonselected.png */; };
-		9839197671EA48AF837A3EFF /* nonselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EBC86081EA247999CC1CAE6 /* nonselected@2x.png */; };
-		D6B5729359F749E8B9F9CFBF /* nonselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CA38D8729449D6A853CE5C /* nonselected@3x.png */; };
-		EA03B00889F6478E93B02871 /* recent.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C067A55A3EE4F4BA8C21C0D /* recent.png */; };
-		533E9958604B4C99A59B711D /* recent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFC22A8D934489AAC3F664E /* recent@2x.png */; };
-		F594D9FC96AA4045B0A4CC6D /* recent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9206231215E407E86A6C8D9 /* recent@3x.png */; };
-		EB6687771F0F474093AE8D73 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C1C6CF2A7A4758A9262ED5 /* selected.png */; };
+		154CEDC6D1324121A0154981 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1684B19BF85C47B09F401671 /* icon-72.png */; };
+		1572676E820E4D5B8C0F95D8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A064E4C3E467469C8C8C5262 /* icon.png */; };
 		1D52AC1C76FC497582711984 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8CED5DD743464ABFEC9D94 /* selected@2x.png */; };
-		3149420B89CA42AE8A7AAE47 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 245FC0035E8A46C5A474E7DD /* selected@3x.png */; };
-		B66DC7ACD2664235AE73DBDA /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FBB960F7341C4BDDCAE75 /* unchecked.png */; };
-		9C354A05BE9D45D489F13439 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF7915B20E14909BA76433D /* unchecked@2x.png */; };
-		443E3E890C854FC284E54A7E /* unchecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9294B5430E4E18B7E9460C /* unchecked@3x.png */; };
-		9E7E2D32E1A44087A770ADC4 /* unchecked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A31A1D5AFFB74A6DAD7056FC /* unchecked_white.png */; };
-		B6745903A63444078E3C5A63 /* unchecked_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C591C2F8A1324D7D97325641 /* unchecked_white@2x.png */; };
-		EF3C8C0426C14FDBB0386691 /* unchecked_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5240A5BC37214CA9AC316F4B /* unchecked_white@3x.png */; };
-		B2597C75AE364A009AEBD57E /* bg_inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C798942F39749A4ACE9703F /* bg_inner.png */; };
+		1E7957A198FD42CD94C0EC5E /* nonselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B432B16AD64288B7A41D1D /* nonselected.png */; };
+		234D88C6BD2448C8A3E99E36 /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC05EE154E014CED8E318655 /* add@3x.png */; };
+		252947D4A3DC40169C9464D0 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A7880354274C49879E90FF /* menu.png */; };
+		25E677E55FBB4BCEBC8B48A9 /* icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B01CA8B10DB456AB6A42001 /* icon-Small@3x.png */; };
+		267585114C5C4F9A8F31A9AE /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9521DB33660C41018B33D449 /* add.png */; };
+		26B774BECBCE461DA7DF3E52 /* icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B01279C3DCD14C49A17F0EDC /* icon-Small.png */; };
 		2705FD9F71254D599E05265F /* bg_inner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A5C82EC0CF422FBB734C06 /* bg_inner@2x.png */; };
 		28858EF886E747EAA447BC96 /* bg_inner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49014BAF7B74DC08C9F9B9B /* bg_inner@3x.png */; };
-		BFAF9A2C356C40A2B7F26EA9 /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B5BD252138407A835F0796 /* bg_login.png */; };
-		48E3FEB3FF074341A9789932 /* bg_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6B93C9FBEA4D54BF05A259 /* bg_login@2x.png */; };
-		B1FAB2F935A242C085C1F846 /* bg_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFFED83072D4AC2BFAFF28B /* bg_login@3x.png */; };
-		F5CAA593429D4C9F8DF4904C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = ED50836415364D4A98016E87 /* iTunesArtwork.png */; };
-		59183A5AEF5746C4AEE56DDA /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9A978956FB49AEA05D9D22 /* icon-120.png */; };
-		46A7CB03711147A5BD59C4BE /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E27CF37C84B47BA248919 /* icon-29.png */; };
+		2A4D523547EE41B094718DB0 /* logo_signup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A92C64D30DC47B7B309F928 /* logo_signup@3x.png */; };
+		30551C7E479B437BA7342662 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FFBE7D18844EF08A02CB38 /* icon-60.png */; };
+		3149420B89CA42AE8A7AAE47 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 245FC0035E8A46C5A474E7DD /* selected@3x.png */; };
+		3360DC3ACEB249F5B3E7BD3C /* logo_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB26F5D70D6D4AA78A46F9E5 /* logo_login@3x.png */; };
 		37E0EFBC9960433299BDDE06 /* icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B79DC42071334B2CA92A2367 /* icon-29@2x.png */; };
-		0FB2319F51CA47D7A9E3EE15 /* icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2978EC0C9CA84BA184EA113C /* icon-29@3x.png */; };
-		0A2448D6612D41899FBCDB01 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6035F199914894B7BF474E /* icon-40.png */; };
-		B5B4E71A165C41AEA5CFC1C9 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE8AC5DF3A34CA4BD7C3B7B /* icon-40@2x.png */; };
-		07BA4791D63C4953B4F6F62C /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B35AD47691A442781636A84 /* icon-40@3x.png */; };
-		8207427C19174B34800CFB06 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0658A2A51E42559D664745 /* icon-57.png */; };
-		090D1DA325D647398636E78F /* icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AAEF55B024DB0AB3A6F8F /* icon-57@2x.png */; };
-		8390A47F009A4DF684F1FB91 /* icon-57@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A67E1F639549498F159553 /* icon-57@3x.png */; };
-		87AB66B80EA34735B817DD3D /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB6F2819A224FF2A07E65B1 /* icon-60@3x.png */; };
 		3F07ACB0A4F041D6996AACFE /* icon-72@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8822B08480634A27BEC8D4A5 /* icon-72@3x.png */; };
+		412D8978F1AE4AD995364787 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = CD985E318C01493085FBC0A3 /* icon-76.png */; };
+		442543C1730E43969C9CC627 /* checked_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BD4478DB9143859B935A6F /* checked_white@3x.png */; };
+		443E3E890C854FC284E54A7E /* unchecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9294B5430E4E18B7E9460C /* unchecked@3x.png */; };
+		45FF07E504B140D08FABB993 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A445A0E984014127A9BE0D1E /* checked@2x.png */; };
+		46A7CB03711147A5BD59C4BE /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E27CF37C84B47BA248919 /* icon-29.png */; };
+		48E3FEB3FF074341A9789932 /* bg_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6B93C9FBEA4D54BF05A259 /* bg_login@2x.png */; };
+		524D5B18F4964659A0F9E0CE /* logo_signup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD498EAD250464BBA290CA9 /* logo_signup@2x.png */; };
+		533E9958604B4C99A59B711D /* recent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFC22A8D934489AAC3F664E /* recent@2x.png */; };
+		59183A5AEF5746C4AEE56DDA /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9A978956FB49AEA05D9D22 /* icon-120.png */; };
+		5B7E03068D514E80932F3993 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A255B3D01C4B81BA8E2B4F /* delete@2x.png */; };
+		5C3F106466DD42CCBE01ECF3 /* checked_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C65ED0107384ADE8BFF6A17 /* checked_white@2x.png */; };
+		5DAFF7D261F045A2A4DA4F3C /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8FCE18CC04BD3B251EE24 /* icon-72@2x.png */; };
+		63444F6406544C049DA7C86C /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = EACCEF8EBA964DF08C284A8C /* checked.png */; };
+		6901A8565A3141268CBA2C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F387EF27884D06827248C1 /* Assets.xcassets */; };
+		6AE2763C24D64AFA94251F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E843F8E05DAD43F48636262E /* LaunchScreen.storyboard */; };
+		8207427C19174B34800CFB06 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0658A2A51E42559D664745 /* icon-57.png */; };
+		83501BED44CF4545B22FB477 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29BCD54AA0424026A69689D5 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8390A47F009A4DF684F1FB91 /* icon-57@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A67E1F639549498F159553 /* icon-57@3x.png */; };
+		8453FE5410C946DB834EFC54 /* logo_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D86276FB552425A8FE0FCA3 /* logo_login@2x.png */; };
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		85F79F1BD7474AF0836023A5 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5B41CE385C471EB15188EA /* menu@2x.png */; };
+		87AB66B80EA34735B817DD3D /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB6F2819A224FF2A07E65B1 /* icon-60@3x.png */; };
+		975D4789358C458E81CF8B38 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BCD54AA0424026A69689D5 /* TNSWidgets.framework */; };
+		9839197671EA48AF837A3EFF /* nonselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EBC86081EA247999CC1CAE6 /* nonselected@2x.png */; };
+		9C354A05BE9D45D489F13439 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF7915B20E14909BA76433D /* unchecked@2x.png */; };
+		9E7E2D32E1A44087A770ADC4 /* unchecked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A31A1D5AFFB74A6DAD7056FC /* unchecked_white.png */; };
 		A1FD465D3F714D5DB417CC79 /* icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 013EFCDFE23F451781083DCB /* icon-76@3x.png */; };
+		A76ADD2B575146249BB298DF /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D49856A1B8C24339B1FAAC78 /* build.xcconfig */; };
+		AA4B8CB6EBE24C448ED75A43 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD3D908F78247F2A6A0EE4F /* icon-60@2x.png */; };
+		B1FAB2F935A242C085C1F846 /* bg_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFFED83072D4AC2BFAFF28B /* bg_login@3x.png */; };
+		B2597C75AE364A009AEBD57E /* bg_inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C798942F39749A4ACE9703F /* bg_inner.png */; };
+		B38D2EA7A38642B9A2CBDD67 /* checked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD6C8203FD14E6F92DD9DCD /* checked_white.png */; };
+		B535BC9994E94B12A1ADE4AC /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CC60D0D7394EE590E1A262 /* delete@3x.png */; };
+		B5B4E71A165C41AEA5CFC1C9 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE8AC5DF3A34CA4BD7C3B7B /* icon-40@2x.png */; };
+		B66DC7ACD2664235AE73DBDA /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 278FBB960F7341C4BDDCAE75 /* unchecked.png */; };
+		B6745903A63444078E3C5A63 /* unchecked_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C591C2F8A1324D7D97325641 /* unchecked_white@2x.png */; };
+		BFAF9A2C356C40A2B7F26EA9 /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B5BD252138407A835F0796 /* bg_login.png */; };
+		C6D2AF449E354DDE92569995 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6264163F749CF928F2905 /* icon-76@2x.png */; };
+		C9B08F0B4615407D881732B2 /* logo_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2E9C470C204B679495BA73 /* logo_login.png */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		CE56D1689A074132AFC68A5F /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A90E34ACCED41DBA1D41157 /* menu@3x.png */; };
+		D6B5729359F749E8B9F9CFBF /* nonselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CA38D8729449D6A853CE5C /* nonselected@3x.png */; };
 		E0036BD99C4C4A04855C3CD7 /* icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B86D0B3696B4E45B674DD99 /* icon-83.5@2x.png */; };
-		26B774BECBCE461DA7DF3E52 /* icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B01279C3DCD14C49A17F0EDC /* icon-Small.png */; };
 		E884023BE613423F87C2BDF9 /* icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BAA0670E704F1193FC8A30 /* icon-Small@2x.png */; };
-		25E677E55FBB4BCEBC8B48A9 /* icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B01CA8B10DB456AB6A42001 /* icon-Small@3x.png */; };
+		EA03B00889F6478E93B02871 /* recent.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C067A55A3EE4F4BA8C21C0D /* recent.png */; };
+		EB6687771F0F474093AE8D73 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C1C6CF2A7A4758A9262ED5 /* selected.png */; };
+		EF3C8C0426C14FDBB0386691 /* unchecked_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5240A5BC37214CA9AC316F4B /* unchecked_white@3x.png */; };
+		F36AE50B20984B03B19B3F2F /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9DC1FDA5914CA09B503C2A /* delete.png */; };
+		F594D9FC96AA4045B0A4CC6D /* recent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9206231215E407E86A6C8D9 /* recent@3x.png */; };
+		F5CAA593429D4C9F8DF4904C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = ED50836415364D4A98016E87 /* iTunesArtwork.png */; };
+		FD10AE10EBE34F5B8C9FFEF8 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FAA7EDC1284A93B508C133 /* add@2x.png */; };
+		FE825E46BDB422E22B44B8FB /* libPods-CarWashApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2581DC83C4D8D18ACA75928 /* libPods-CarWashApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,88 +100,89 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		013EFCDFE23F451781083DCB /* icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@3x.png"; path = "CarWashApp/Resources/icon-76@3x.png"; sourceTree = "<group>"; };
+		0A90E34ACCED41DBA1D41157 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@3x.png"; path = "CarWashApp/Resources/menu@3x.png"; sourceTree = "<group>"; };
+		0B6B93C9FBEA4D54BF05A259 /* bg_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_login@2x.png"; path = "CarWashApp/Resources/bg_login@2x.png"; sourceTree = "<group>"; };
+		0BFC22A8D934489AAC3F664E /* recent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recent@2x.png"; path = "CarWashApp/Resources/recent@2x.png"; sourceTree = "<group>"; };
+		0CE8AC5DF3A34CA4BD7C3B7B /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "CarWashApp/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		12A7880354274C49879E90FF /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = CarWashApp/Resources/menu.png; sourceTree = "<group>"; };
+		15AB8DB66811427B83321714 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "CarWashApp/Resources/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		1684B19BF85C47B09F401671 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "CarWashApp/Resources/icon-72.png"; sourceTree = "<group>"; };
+		1D86276FB552425A8FE0FCA3 /* logo_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@2x.png"; path = "CarWashApp/Resources/logo_login@2x.png"; sourceTree = "<group>"; };
+		1EFFED83072D4AC2BFAFF28B /* bg_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_login@3x.png"; path = "CarWashApp/Resources/bg_login@3x.png"; sourceTree = "<group>"; };
+		20BAA0670E704F1193FC8A30 /* icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-Small@2x.png"; path = "CarWashApp/Resources/icon-Small@2x.png"; sourceTree = "<group>"; };
+		245FC0035E8A46C5A474E7DD /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected@3x.png"; path = "CarWashApp/Resources/selected@3x.png"; sourceTree = "<group>"; };
+		24B432B16AD64288B7A41D1D /* nonselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nonselected.png; path = CarWashApp/Resources/nonselected.png; sourceTree = "<group>"; };
+		278FBB960F7341C4BDDCAE75 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = CarWashApp/Resources/unchecked.png; sourceTree = "<group>"; };
+		2978EC0C9CA84BA184EA113C /* icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29@3x.png"; path = "CarWashApp/Resources/icon-29@3x.png"; sourceTree = "<group>"; };
+		29A5C82EC0CF422FBB734C06 /* bg_inner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_inner@2x.png"; path = "CarWashApp/Resources/bg_inner@2x.png"; sourceTree = "<group>"; };
+		29BCD54AA0424026A69689D5 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = ../../lib/iOS/TNSWidgets.framework; sourceTree = "<group>"; };
+		2B01CA8B10DB456AB6A42001 /* icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-Small@3x.png"; path = "CarWashApp/Resources/icon-Small@3x.png"; sourceTree = "<group>"; };
+		2C798942F39749A4ACE9703F /* bg_inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_inner.png; path = CarWashApp/Resources/bg_inner.png; sourceTree = "<group>"; };
+		2CD498EAD250464BBA290CA9 /* logo_signup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_signup@2x.png"; path = "CarWashApp/Resources/logo_signup@2x.png"; sourceTree = "<group>"; };
+		3A92C64D30DC47B7B309F928 /* logo_signup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_signup@3x.png"; path = "CarWashApp/Resources/logo_signup@3x.png"; sourceTree = "<group>"; };
+		3B86D0B3696B4E45B674DD99 /* icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-83.5@2x.png"; path = "CarWashApp/Resources/icon-83.5@2x.png"; sourceTree = "<group>"; };
+		3D0658A2A51E42559D664745 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57.png"; path = "CarWashApp/Resources/icon-57.png"; sourceTree = "<group>"; };
+		47C1C6CF2A7A4758A9262ED5 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selected.png; path = CarWashApp/Resources/selected.png; sourceTree = "<group>"; };
+		4B35AD47691A442781636A84 /* icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@3x.png"; path = "CarWashApp/Resources/icon-40@3x.png"; sourceTree = "<group>"; };
+		4B8CED5DD743464ABFEC9D94 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected@2x.png"; path = "CarWashApp/Resources/selected@2x.png"; sourceTree = "<group>"; };
+		4EF7915B20E14909BA76433D /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@2x.png"; path = "CarWashApp/Resources/unchecked@2x.png"; sourceTree = "<group>"; };
+		5240A5BC37214CA9AC316F4B /* unchecked_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked_white@3x.png"; path = "CarWashApp/Resources/unchecked_white@3x.png"; sourceTree = "<group>"; };
+		58FAA7EDC1284A93B508C133 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@2x.png"; path = "CarWashApp/Resources/add@2x.png"; sourceTree = "<group>"; };
+		5C067A55A3EE4F4BA8C21C0D /* recent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recent.png; path = CarWashApp/Resources/recent.png; sourceTree = "<group>"; };
+		5C65ED0107384ADE8BFF6A17 /* checked_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked_white@2x.png"; path = "CarWashApp/Resources/checked_white@2x.png"; sourceTree = "<group>"; };
+		62A67E1F639549498F159553 /* icon-57@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57@3x.png"; path = "CarWashApp/Resources/icon-57@3x.png"; sourceTree = "<group>"; };
+		700AAEF55B024DB0AB3A6F8F /* icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57@2x.png"; path = "CarWashApp/Resources/icon-57@2x.png"; sourceTree = "<group>"; };
+		74E26ED8BA144CBF94873749 /* logo_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_signup.png; path = CarWashApp/Resources/logo_signup.png; sourceTree = "<group>"; };
+		74F387EF27884D06827248C1 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = CarWashApp/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		77FFBE7D18844EF08A02CB38 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "CarWashApp/Resources/icon-60.png"; sourceTree = "<group>"; };
+		7AD8FCE18CC04BD3B251EE24 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "CarWashApp/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		7DD3D908F78247F2A6A0EE4F /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "CarWashApp/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		7EBC86081EA247999CC1CAE6 /* nonselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nonselected@2x.png"; path = "CarWashApp/Resources/nonselected@2x.png"; sourceTree = "<group>"; };
 		858B832E18CA111C00AB12DE /* CarWashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* CarWashApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarWashApp-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* CarWashApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarWashApp-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* CarWashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8822B08480634A27BEC8D4A5 /* icon-72@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@3x.png"; path = "CarWashApp/Resources/icon-72@3x.png"; sourceTree = "<group>"; };
+		9521DB33660C41018B33D449 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = CarWashApp/Resources/add.png; sourceTree = "<group>"; };
+		9E6E27CF37C84B47BA248919 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29.png"; path = "CarWashApp/Resources/icon-29.png"; sourceTree = "<group>"; };
+		A064E4C3E467469C8C8C5262 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = CarWashApp/Resources/icon.png; sourceTree = "<group>"; };
+		A0BD4478DB9143859B935A6F /* checked_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked_white@3x.png"; path = "CarWashApp/Resources/checked_white@3x.png"; sourceTree = "<group>"; };
+		A31A1D5AFFB74A6DAD7056FC /* unchecked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked_white.png; path = CarWashApp/Resources/unchecked_white.png; sourceTree = "<group>"; };
+		A3A255B3D01C4B81BA8E2B4F /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@2x.png"; path = "CarWashApp/Resources/delete@2x.png"; sourceTree = "<group>"; };
+		A445A0E984014127A9BE0D1E /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@2x.png"; path = "CarWashApp/Resources/checked@2x.png"; sourceTree = "<group>"; };
+		A9206231215E407E86A6C8D9 /* recent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recent@3x.png"; path = "CarWashApp/Resources/recent@3x.png"; sourceTree = "<group>"; };
+		AB9294B5430E4E18B7E9460C /* unchecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@3x.png"; path = "CarWashApp/Resources/unchecked@3x.png"; sourceTree = "<group>"; };
+		AC9DC1FDA5914CA09B503C2A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = CarWashApp/Resources/delete.png; sourceTree = "<group>"; };
+		B01279C3DCD14C49A17F0EDC /* icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-Small.png"; path = "CarWashApp/Resources/icon-Small.png"; sourceTree = "<group>"; };
+		B79DC42071334B2CA92A2367 /* icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29@2x.png"; path = "CarWashApp/Resources/icon-29@2x.png"; sourceTree = "<group>"; };
+		BAB6F2819A224FF2A07E65B1 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@3x.png"; path = "CarWashApp/Resources/icon-60@3x.png"; sourceTree = "<group>"; };
+		BB5B41CE385C471EB15188EA /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "CarWashApp/Resources/menu@2x.png"; sourceTree = "<group>"; };
+		BC05EE154E014CED8E318655 /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@3x.png"; path = "CarWashApp/Resources/add@3x.png"; sourceTree = "<group>"; };
+		C2581DC83C4D8D18ACA75928 /* libPods-CarWashApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWashApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49014BAF7B74DC08C9F9B9B /* bg_inner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_inner@3x.png"; path = "CarWashApp/Resources/bg_inner@3x.png"; sourceTree = "<group>"; };
+		C591C2F8A1324D7D97325641 /* unchecked_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked_white@2x.png"; path = "CarWashApp/Resources/unchecked_white@2x.png"; sourceTree = "<group>"; };
+		CB26F5D70D6D4AA78A46F9E5 /* logo_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@3x.png"; path = "CarWashApp/Resources/logo_login@3x.png"; sourceTree = "<group>"; };
+		CB6035F199914894B7BF474E /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "CarWashApp/Resources/icon-40.png"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CD985E318C01493085FBC0A3 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "CarWashApp/Resources/icon-76.png"; sourceTree = "<group>"; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDD6C8203FD14E6F92DD9DCD /* checked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked_white.png; path = CarWashApp/Resources/checked_white.png; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		74F387EF27884D06827248C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "CarWashApp/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
-		E843F8E05DAD43F48636262E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "CarWashApp/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
-		D49856A1B8C24339B1FAAC78 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "CarWashApp/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
-		29BCD54AA0424026A69689D5 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "../../lib/iOS/TNSWidgets.framework"; sourceTree = "<group>"; };
-		9521DB33660C41018B33D449 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "CarWashApp/Resources/add.png"; sourceTree = "<group>"; };
-		58FAA7EDC1284A93B508C133 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@2x.png"; path = "CarWashApp/Resources/add@2x.png"; sourceTree = "<group>"; };
-		BC05EE154E014CED8E318655 /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@3x.png"; path = "CarWashApp/Resources/add@3x.png"; sourceTree = "<group>"; };
-		EACCEF8EBA964DF08C284A8C /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = "CarWashApp/Resources/checked.png"; sourceTree = "<group>"; };
-		A445A0E984014127A9BE0D1E /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@2x.png"; path = "CarWashApp/Resources/checked@2x.png"; sourceTree = "<group>"; };
-		DADFB65843C842C4B9C2854E /* checked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@3x.png"; path = "CarWashApp/Resources/checked@3x.png"; sourceTree = "<group>"; };
-		CDD6C8203FD14E6F92DD9DCD /* checked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked_white.png; path = "CarWashApp/Resources/checked_white.png"; sourceTree = "<group>"; };
-		5C65ED0107384ADE8BFF6A17 /* checked_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked_white@2x.png"; path = "CarWashApp/Resources/checked_white@2x.png"; sourceTree = "<group>"; };
-		A0BD4478DB9143859B935A6F /* checked_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked_white@3x.png"; path = "CarWashApp/Resources/checked_white@3x.png"; sourceTree = "<group>"; };
-		AC9DC1FDA5914CA09B503C2A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = "CarWashApp/Resources/delete.png"; sourceTree = "<group>"; };
-		A3A255B3D01C4B81BA8E2B4F /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@2x.png"; path = "CarWashApp/Resources/delete@2x.png"; sourceTree = "<group>"; };
+		CE2E9C470C204B679495BA73 /* logo_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_login.png; path = CarWashApp/Resources/logo_login.png; sourceTree = "<group>"; };
 		D0CC60D0D7394EE590E1A262 /* delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@3x.png"; path = "CarWashApp/Resources/delete@3x.png"; sourceTree = "<group>"; };
-		15AB8DB66811427B83321714 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "CarWashApp/Resources/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
-		77FFBE7D18844EF08A02CB38 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "CarWashApp/Resources/icon-60.png"; sourceTree = "<group>"; };
-		7DD3D908F78247F2A6A0EE4F /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "CarWashApp/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
-		1684B19BF85C47B09F401671 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "CarWashApp/Resources/icon-72.png"; sourceTree = "<group>"; };
-		7AD8FCE18CC04BD3B251EE24 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "CarWashApp/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
-		CD985E318C01493085FBC0A3 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "CarWashApp/Resources/icon-76.png"; sourceTree = "<group>"; };
+		D49856A1B8C24339B1FAAC78 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = CarWashApp/Resources/build.xcconfig; sourceTree = "<group>"; };
 		DAA6264163F749CF928F2905 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "CarWashApp/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
-		A064E4C3E467469C8C8C5262 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "CarWashApp/Resources/icon.png"; sourceTree = "<group>"; };
-		CE2E9C470C204B679495BA73 /* logo_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_login.png; path = "CarWashApp/Resources/logo_login.png"; sourceTree = "<group>"; };
-		1D86276FB552425A8FE0FCA3 /* logo_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@2x.png"; path = "CarWashApp/Resources/logo_login@2x.png"; sourceTree = "<group>"; };
-		CB26F5D70D6D4AA78A46F9E5 /* logo_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@3x.png"; path = "CarWashApp/Resources/logo_login@3x.png"; sourceTree = "<group>"; };
-		74E26ED8BA144CBF94873749 /* logo_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_signup.png; path = "CarWashApp/Resources/logo_signup.png"; sourceTree = "<group>"; };
-		2CD498EAD250464BBA290CA9 /* logo_signup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_signup@2x.png"; path = "CarWashApp/Resources/logo_signup@2x.png"; sourceTree = "<group>"; };
-		3A92C64D30DC47B7B309F928 /* logo_signup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_signup@3x.png"; path = "CarWashApp/Resources/logo_signup@3x.png"; sourceTree = "<group>"; };
-		12A7880354274C49879E90FF /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "CarWashApp/Resources/menu.png"; sourceTree = "<group>"; };
-		BB5B41CE385C471EB15188EA /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "CarWashApp/Resources/menu@2x.png"; sourceTree = "<group>"; };
-		0A90E34ACCED41DBA1D41157 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@3x.png"; path = "CarWashApp/Resources/menu@3x.png"; sourceTree = "<group>"; };
-		24B432B16AD64288B7A41D1D /* nonselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nonselected.png; path = "CarWashApp/Resources/nonselected.png"; sourceTree = "<group>"; };
-		7EBC86081EA247999CC1CAE6 /* nonselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nonselected@2x.png"; path = "CarWashApp/Resources/nonselected@2x.png"; sourceTree = "<group>"; };
+		DADFB65843C842C4B9C2854E /* checked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@3x.png"; path = "CarWashApp/Resources/checked@3x.png"; sourceTree = "<group>"; };
+		E4B5BD252138407A835F0796 /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_login.png; path = CarWashApp/Resources/bg_login.png; sourceTree = "<group>"; };
 		E4CA38D8729449D6A853CE5C /* nonselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nonselected@3x.png"; path = "CarWashApp/Resources/nonselected@3x.png"; sourceTree = "<group>"; };
-		5C067A55A3EE4F4BA8C21C0D /* recent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recent.png; path = "CarWashApp/Resources/recent.png"; sourceTree = "<group>"; };
-		0BFC22A8D934489AAC3F664E /* recent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recent@2x.png"; path = "CarWashApp/Resources/recent@2x.png"; sourceTree = "<group>"; };
-		A9206231215E407E86A6C8D9 /* recent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recent@3x.png"; path = "CarWashApp/Resources/recent@3x.png"; sourceTree = "<group>"; };
-		47C1C6CF2A7A4758A9262ED5 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selected.png; path = "CarWashApp/Resources/selected.png"; sourceTree = "<group>"; };
-		4B8CED5DD743464ABFEC9D94 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected@2x.png"; path = "CarWashApp/Resources/selected@2x.png"; sourceTree = "<group>"; };
-		245FC0035E8A46C5A474E7DD /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected@3x.png"; path = "CarWashApp/Resources/selected@3x.png"; sourceTree = "<group>"; };
-		278FBB960F7341C4BDDCAE75 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = "CarWashApp/Resources/unchecked.png"; sourceTree = "<group>"; };
-		4EF7915B20E14909BA76433D /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@2x.png"; path = "CarWashApp/Resources/unchecked@2x.png"; sourceTree = "<group>"; };
-		AB9294B5430E4E18B7E9460C /* unchecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@3x.png"; path = "CarWashApp/Resources/unchecked@3x.png"; sourceTree = "<group>"; };
-		A31A1D5AFFB74A6DAD7056FC /* unchecked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked_white.png; path = "CarWashApp/Resources/unchecked_white.png"; sourceTree = "<group>"; };
-		C591C2F8A1324D7D97325641 /* unchecked_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked_white@2x.png"; path = "CarWashApp/Resources/unchecked_white@2x.png"; sourceTree = "<group>"; };
-		5240A5BC37214CA9AC316F4B /* unchecked_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked_white@3x.png"; path = "CarWashApp/Resources/unchecked_white@3x.png"; sourceTree = "<group>"; };
-		2C798942F39749A4ACE9703F /* bg_inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_inner.png; path = "CarWashApp/Resources/bg_inner.png"; sourceTree = "<group>"; };
-		29A5C82EC0CF422FBB734C06 /* bg_inner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_inner@2x.png"; path = "CarWashApp/Resources/bg_inner@2x.png"; sourceTree = "<group>"; };
-		C49014BAF7B74DC08C9F9B9B /* bg_inner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_inner@3x.png"; path = "CarWashApp/Resources/bg_inner@3x.png"; sourceTree = "<group>"; };
-		E4B5BD252138407A835F0796 /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_login.png; path = "CarWashApp/Resources/bg_login.png"; sourceTree = "<group>"; };
-		0B6B93C9FBEA4D54BF05A259 /* bg_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_login@2x.png"; path = "CarWashApp/Resources/bg_login@2x.png"; sourceTree = "<group>"; };
-		1EFFED83072D4AC2BFAFF28B /* bg_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_login@3x.png"; path = "CarWashApp/Resources/bg_login@3x.png"; sourceTree = "<group>"; };
-		ED50836415364D4A98016E87 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "CarWashApp/Resources/iTunesArtwork.png"; sourceTree = "<group>"; };
+		E843F8E05DAD43F48636262E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = CarWashApp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EACCEF8EBA964DF08C284A8C /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = CarWashApp/Resources/checked.png; sourceTree = "<group>"; };
+		ED50836415364D4A98016E87 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = CarWashApp/Resources/iTunesArtwork.png; sourceTree = "<group>"; };
 		FA9A978956FB49AEA05D9D22 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-120.png"; path = "CarWashApp/Resources/icon-120.png"; sourceTree = "<group>"; };
-		9E6E27CF37C84B47BA248919 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29.png"; path = "CarWashApp/Resources/icon-29.png"; sourceTree = "<group>"; };
-		B79DC42071334B2CA92A2367 /* icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29@2x.png"; path = "CarWashApp/Resources/icon-29@2x.png"; sourceTree = "<group>"; };
-		2978EC0C9CA84BA184EA113C /* icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29@3x.png"; path = "CarWashApp/Resources/icon-29@3x.png"; sourceTree = "<group>"; };
-		CB6035F199914894B7BF474E /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "CarWashApp/Resources/icon-40.png"; sourceTree = "<group>"; };
-		0CE8AC5DF3A34CA4BD7C3B7B /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "CarWashApp/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
-		4B35AD47691A442781636A84 /* icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@3x.png"; path = "CarWashApp/Resources/icon-40@3x.png"; sourceTree = "<group>"; };
-		3D0658A2A51E42559D664745 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57.png"; path = "CarWashApp/Resources/icon-57.png"; sourceTree = "<group>"; };
-		700AAEF55B024DB0AB3A6F8F /* icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57@2x.png"; path = "CarWashApp/Resources/icon-57@2x.png"; sourceTree = "<group>"; };
-		62A67E1F639549498F159553 /* icon-57@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57@3x.png"; path = "CarWashApp/Resources/icon-57@3x.png"; sourceTree = "<group>"; };
-		BAB6F2819A224FF2A07E65B1 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@3x.png"; path = "CarWashApp/Resources/icon-60@3x.png"; sourceTree = "<group>"; };
-		8822B08480634A27BEC8D4A5 /* icon-72@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@3x.png"; path = "CarWashApp/Resources/icon-72@3x.png"; sourceTree = "<group>"; };
-		013EFCDFE23F451781083DCB /* icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@3x.png"; path = "CarWashApp/Resources/icon-76@3x.png"; sourceTree = "<group>"; };
-		3B86D0B3696B4E45B674DD99 /* icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-83.5@2x.png"; path = "CarWashApp/Resources/icon-83.5@2x.png"; sourceTree = "<group>"; };
-		B01279C3DCD14C49A17F0EDC /* icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-Small.png"; path = "CarWashApp/Resources/icon-Small.png"; sourceTree = "<group>"; };
-		20BAA0670E704F1193FC8A30 /* icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-Small@2x.png"; path = "CarWashApp/Resources/icon-Small@2x.png"; sourceTree = "<group>"; };
-		2B01CA8B10DB456AB6A42001 /* icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-Small@3x.png"; path = "CarWashApp/Resources/icon-Small@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,12 +191,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				975D4789358C458E81CF8B38 /* TNSWidgets.framework in Frameworks */,
+				FE825E46BDB422E22B44B8FB /* libPods-CarWashApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076FA45A711428FC26C38704 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +212,7 @@
 				858B833718CA111C00AB12DE /* CarWashApp */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
+				076FA45A711428FC26C38704 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				29BCD54AA0424026A69689D5 /* TNSWidgets.framework */,
+				C2581DC83C4D8D18ACA75928 /* libPods-CarWashApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -330,6 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "CarWashApp" */;
 			buildPhases = (
+				B54DD383BFB0B35D43A557B1 /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -337,6 +350,8 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				96210B3633015A7C03CA6B38 /* [CP] Embed Pods Frameworks */,
+				4F3EBD44B9DC4E2652A9EEF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -458,6 +473,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4F3EBD44B9DC4E2652A9EEF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarWashApp/Pods-CarWashApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96210B3633015A7C03CA6B38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarWashApp/Pods-CarWashApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54DD383BFB0B35D43A557B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -608,6 +668,10 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../lib/iOS\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarWashApp/CarWashApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -619,10 +683,6 @@
 				PRODUCT_NAME = CarWashApp;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"../../lib/iOS\"",
-				);
 			};
 			name = Debug;
 		};
@@ -634,6 +694,10 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../lib/iOS\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarWashApp/CarWashApp-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CarWashApp/CarWashApp-Info.plist";
@@ -641,10 +705,6 @@
 				PRODUCT_NAME = CarWashApp;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"../../lib/iOS\"",
-				);
 			};
 			name = Release;
 		};
