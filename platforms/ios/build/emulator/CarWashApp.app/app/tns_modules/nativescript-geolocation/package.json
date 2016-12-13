@@ -21,7 +21,7 @@
   "_id": "nativescript-geolocation@0.0.17",
   "_shasum": "1523457e96bb242c8760f499608bc0aafec29312",
   "_resolved": "https://registry.npmjs.org/nativescript-geolocation/-/nativescript-geolocation-0.0.17.tgz",
-  "_from": "nativescript-geolocation@latest",
+  "_from": "nativescript-geolocation@0.0.17",
   "scripts": {},
   "_npmVersion": "3.10.8",
   "_nodeVersion": "6.9.1",

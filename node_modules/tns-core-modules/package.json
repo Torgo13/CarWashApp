@@ -1,62 +1,11 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "tns-core-modules",
-        "scope": null,
-        "escapedName": "tns-core-modules",
-        "name": "tns-core-modules",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/Users/vmmac/Coding/CarWashApp"
-    ]
-  ],
-  "_from": "tns-core-modules@latest",
-  "_id": "tns-core-modules@2.4.1",
-  "_inCache": true,
-  "_location": "/tns-core-modules",
-  "_nodeVersion": "4.2.3",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/tns-core-modules-2.4.1.tgz_1480671047731_0.5745070320554078"
-  },
-  "_npmUser": {
-    "name": "tns-bot",
-    "email": "nativescript@telerik.com"
-  },
-  "_npmVersion": "2.14.7",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "tns-core-modules",
-    "scope": null,
-    "escapedName": "tns-core-modules",
-    "name": "tns-core-modules",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.4.1.tgz",
-  "_shasum": "da2a28dd7f9ff723dfb206aebfb2645e2087deb1",
-  "_shrinkwrap": null,
-  "_spec": "tns-core-modules",
-  "_where": "/Users/vmmac/Coding/CarWashApp",
-  "dependencies": {
-    "tns-core-modules-widgets": "2.4.0"
-  },
+  "name": "tns-core-modules",
   "description": "Telerik NativeScript Core Modules",
-  "devDependencies": {
-    "tns-platform-declarations": "*"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "da2a28dd7f9ff723dfb206aebfb2645e2087deb1",
-    "tarball": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.4.1.tgz"
+  "version": "2.4.2",
+  "homepage": "https://www.nativescript.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NativeScript/NativeScript/commit/61ca2972d68f1188fd7a40ab348ffc6e11b124d4"
   },
   "files": [
     "**/*.d.ts",
@@ -72,8 +21,35 @@
     "!gruntfile.js",
     "!org.nativescript.widgets.d.ts"
   ],
-  "homepage": "https://www.nativescript.org",
   "license": "Apache-2.0",
+  "typings": "tns-core-modules.d.ts",
+  "dependencies": {
+    "tns-core-modules-widgets": "2.4.0"
+  },
+  "devDependencies": {
+    "tns-platform-declarations": "*"
+  },
+  "nativescript": {
+    "platforms": {
+      "ios": "2.3.0",
+      "android": "2.3.0"
+    }
+  },
+  "_id": "tns-core-modules@2.4.2",
+  "_shasum": "00f83ee364028e668387a122f42c192d20481cc4",
+  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.4.2.tgz",
+  "_from": "tns-core-modules@latest",
+  "scripts": {},
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "tns-bot",
+    "email": "nativescript@telerik.com"
+  },
+  "dist": {
+    "shasum": "00f83ee364028e668387a122f42c192d20481cc4",
+    "tarball": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.4.2.tgz"
+  },
   "maintainers": [
     {
       "name": "enchev",
@@ -132,20 +108,10 @@
       "email": "valio.stoychev@gmail.com"
     }
   ],
-  "name": "tns-core-modules",
-  "nativescript": {
-    "platforms": {
-      "ios": "2.3.0",
-      "android": "2.3.0"
-    }
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/tns-core-modules-2.4.2.tgz_1481118269254_0.6824806097429246"
   },
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NativeScript/NativeScript/commit/74cf126e26f50e89fbc22126ab90f7cac83a0bdc"
-  },
-  "scripts": {},
-  "typings": "tns-core-modules.d.ts",
-  "version": "2.4.1"
+  "directories": {},
+  "readme": "ERROR: No README data found!"
 }

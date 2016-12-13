@@ -29,15 +29,15 @@ var LocationPermissionComponent = (function () {
     LocationPermissionComponent.prototype.continue = function () {
         this.router.navigate(["/selectwashlocation"]);
     };
-    LocationPermissionComponent = __decorate([
-        core_1.Component({
-            selector: "location-permission",
-            templateUrl: "pages/locationpermission/locationpermission.html",
-            styleUrls: ["pages/locationpermission/locationpermission-common.css", "pages/locationpermission/locationpermission.css"]
-        }), 
-        __metadata('design:paramtypes', [router_1.Router, page_1.Page])
-    ], LocationPermissionComponent);
     return LocationPermissionComponent;
 }());
+LocationPermissionComponent = __decorate([
+    core_1.Component({
+        selector: "location-permission",
+        templateUrl: "pages/locationpermission/locationpermission.html",
+        styleUrls: ["pages/locationpermission/locationpermission-common.css", "pages/locationpermission/locationpermission.css"]
+    }),
+    __metadata("design:paramtypes", [router_1.Router, page_1.Page])
+], LocationPermissionComponent);
 exports.LocationPermissionComponent = LocationPermissionComponent;
 //# sourceMappingURL=locationpermission.component.js.map

@@ -14,15 +14,15 @@ var StartComponent = (function () {
     StartComponent.prototype.gettingStarted = function () {
         this.router.navigate(["/locationpermission"]);
     };
-    StartComponent = __decorate([
-        core_1.Component({
-            selector: "start",
-            templateUrl: "pages/start/start.html",
-            styleUrls: ["pages/start/start-common.css", "pages/start/start.css"]
-        }), 
-        __metadata('design:paramtypes', [router_1.Router, page_1.Page])
-    ], StartComponent);
     return StartComponent;
 }());
+StartComponent = __decorate([
+    core_1.Component({
+        selector: "start",
+        templateUrl: "pages/start/start.html",
+        styleUrls: ["pages/start/start-common.css", "pages/start/start.css"]
+    }),
+    __metadata("design:paramtypes", [router_1.Router, page_1.Page])
+], StartComponent);
 exports.StartComponent = StartComponent;
 //# sourceMappingURL=start.component.js.map

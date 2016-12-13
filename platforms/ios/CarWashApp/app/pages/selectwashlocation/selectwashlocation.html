@@ -3,21 +3,17 @@
 <StackLayout>
   <Label class="h2 p-15" text="Search or move the map" horizontalAlignment="center"></Label>
 
-  <GridLayout rows="auto auto auto auto auto auto auto auto auto" class="m-y-5 form" columns="* *">
-    <Label class="p-15" row="1" col="0" text="Longitude: " textWrap="true"></Label>
+  <MapView (mapReady)="onMapReady($event)"></MapView>
 
-    <StackLayout row="1" col="1" class="input-field">
-      <TextField class="input input-border" hint="longitude" [(ngModel)]="startpointLongitude"></TextField>
-    </StackLayout>
+  <Label class="p-15" text="Longitude: " textWrap="true"></Label>
 
-    <Label class="p-15" row="2" col="0" text="Latitude: " textWrap="true"></Label>
+  <TextField class="input input-border" hint="longitude" [(ngModel)]="startpointLongitude"></TextField>
 
-    <StackLayout  row="2" col="1" class="input-field">
-      <TextField class="input input-border"hint="latitude" [(ngModel)]="startpointLatitude"></TextField>
-    </StackLayout>
+  <Label class="p-15" text="Latitude: " textWrap="true"></Label>
 
-    <Button class="btn btn-outline btn-active" row="3" col="0" colSpan="2" text="Get current location" (tap)="getLocationOnce()"></Button>
-  </GridLayout>
+  <TextField class="input input-border"hint="latitude" [(ngModel)]="startpointLatitude"></TextField>
 
+  <Button class="btn btn-outline btn-active" text="Use your current location" (tap)="getLocationOnce()"></Button>
+  
   <Button [text]="'Confirm'" (tap)="confirm()"></Button>
 </StackLayout>

@@ -1,0 +1,6 @@
+framework module Pods_CarWashApp {
+  umbrella header "Pods-CarWashApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

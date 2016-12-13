@@ -11,27 +11,27 @@ The navigatableComponents array exported in the app.routing.ts file is being add
 var AppModule = (function () {
     function AppModule() {
     }
-    AppModule = __decorate([
-        core_1.NgModule({
-            imports: [
-                platform_1.NativeScriptModule,
-                forms_1.NativeScriptFormsModule,
-                /* NativeScriptHttpModule is a NativeScript wrapper of Angular’s HttpModule,
-                which declares all of Angular’s HTTP-based services, including the Http service that UserService uses. */
-                http_1.NativeScriptHttpModule,
-                router_1.NativeScriptRouterModule,
-                router_1.NativeScriptRouterModule.forRoot(app_routing_1.routes)
-            ],
-            /* If a variable x is defined as let x = [2, 3], then JavaScript will interpret [1, ...x] as [1, 2, 3]. */
-            declarations: [
-                app_component_1.AppComponent
-            ].concat(app_routing_1.navigatableComponents),
-            /* The NgModule’s bootstrap property is set to AppComponent. This passes control to the AppComponent class in the app/app.component.ts file. */
-            bootstrap: [app_component_1.AppComponent]
-        }), 
-        __metadata('design:paramtypes', [])
-    ], AppModule);
     return AppModule;
 }());
+AppModule = __decorate([
+    core_1.NgModule({
+        imports: [
+            platform_1.NativeScriptModule,
+            forms_1.NativeScriptFormsModule,
+            /* NativeScriptHttpModule is a NativeScript wrapper of Angular’s HttpModule,
+            which declares all of Angular’s HTTP-based services, including the Http service that UserService uses. */
+            http_1.NativeScriptHttpModule,
+            router_1.NativeScriptRouterModule,
+            router_1.NativeScriptRouterModule.forRoot(app_routing_1.routes)
+        ],
+        /* If a variable x is defined as let x = [2, 3], then JavaScript will interpret [1, ...x] as [1, 2, 3]. */
+        declarations: [
+            app_component_1.AppComponent
+        ].concat(app_routing_1.navigatableComponents),
+        /* The NgModule’s bootstrap property is set to AppComponent. This passes control to the AppComponent class in the app/app.component.ts file. */
+        bootstrap: [app_component_1.AppComponent]
+    }),
+    __metadata("design:paramtypes", [])
+], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '98E3E38A9AA74ACB59FFD75BAB1F8DCD'
+               BlueprintIdentifier = '42E4CC99E7507E74E55FE14DA12D1979'
                BlueprintName = 'Pods-CarWashApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-CarWashApp.a'>
+               BuildableName = 'Pods-CarWashApp.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -50,19 +50,19 @@ var SelectWashLocationComponent = (function () {
     SelectWashLocationComponent.prototype.confirm = function () {
         this.router.navigate(["/login"]);
     };
-    __decorate([
-        core_1.ViewChild("MapView"), 
-        __metadata('design:type', core_1.ElementRef)
-    ], SelectWashLocationComponent.prototype, "mapView", void 0);
-    SelectWashLocationComponent = __decorate([
-        core_1.Component({
-            selector: "selectwashlocation",
-            templateUrl: "pages/selectwashlocation/selectwashlocation.html",
-            styleUrls: ["pages/selectwashlocation/selectwashlocation-common.css", "pages/selectwashlocation/selectwashlocation.css"]
-        }), 
-        __metadata('design:paramtypes', [router_1.Router, page_1.Page])
-    ], SelectWashLocationComponent);
     return SelectWashLocationComponent;
 }());
+__decorate([
+    core_1.ViewChild("MapView"),
+    __metadata("design:type", core_1.ElementRef)
+], SelectWashLocationComponent.prototype, "mapView", void 0);
+SelectWashLocationComponent = __decorate([
+    core_1.Component({
+        selector: "selectwashlocation",
+        templateUrl: "pages/selectwashlocation/selectwashlocation.html",
+        styleUrls: ["pages/selectwashlocation/selectwashlocation-common.css", "pages/selectwashlocation/selectwashlocation.css"]
+    }),
+    __metadata("design:paramtypes", [router_1.Router, page_1.Page])
+], SelectWashLocationComponent);
 exports.SelectWashLocationComponent = SelectWashLocationComponent;
 //# sourceMappingURL=selectwashlocation.component.js.map
