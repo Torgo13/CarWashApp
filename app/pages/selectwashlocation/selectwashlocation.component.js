@@ -20,6 +20,7 @@ var SelectWashLocationComponent = (function () {
         /* Map events */
         this.onMapReady = function (event) {
             console.log("Map Ready");
+            //let mapView = <View>this.mapView.nativeElement;
         };
         nativescript_geolocation_1.enableLocationRequest(true);
     }

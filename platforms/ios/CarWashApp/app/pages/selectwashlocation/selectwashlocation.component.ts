@@ -45,13 +45,6 @@ export class SelectWashLocationComponent implements OnInit {
         this.page.backgroundImage = "res://bg_login";
     }
 
-    /* Map events */
-    onMapReady = (event) => {
-        console.log("Map Ready");
-    };
-
-
-
     /* Check if the geolocation service is enabled. */
     /* public isLocationEnabled() {
         let isEnabledProperty = isEnabled();
@@ -76,4 +69,16 @@ export class SelectWashLocationComponent implements OnInit {
     confirm() {
         this.router.navigate(["/login"]);
     }
+
+    /* Map events */
+    onMapReady = (event) => {
+        console.log("Map Ready");
+
+        //let mapView = <View>this.mapView.nativeElement;
+        
+    };
+
+
+
+
 }
